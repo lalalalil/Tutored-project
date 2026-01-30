@@ -5,7 +5,7 @@ source_dir = "AllBiomodels.xml"
 output_file = "liste_modeles_infectieux.txt"
 
 # Mots-clés basés sur votre document (Hôte-pathogène, immunité, etc.)
-keywords = ["virus", "bacteria", "infection", "pathogen", "immune", "sars-cov-2", "hiv", "malaria"]
+keywords = ["virus", "bacteria", "infection",]
 
 print(f"Analyse des fichiers dans {source_dir}...")
 
