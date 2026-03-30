@@ -299,6 +299,7 @@ Example of metadata structure:
   "authors": "...",
   "year": 2020
 }
+```
 
 This standardized format enables efficient indexing, querying, and interoperability with external bioinformatics tools and databases.
 
