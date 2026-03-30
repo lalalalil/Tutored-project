@@ -95,9 +95,13 @@ This dual-ontology strategy is essential to maximize model retrieval coverage. I
 Example of extracted identifier files:
 
 /IDs/
+
 ├── dengue_DOID.txt
+
 ├── dengue_MONDO.txt
+
 ├── chikungunya_DOID.txt
+
 └── chikungunya_MONDO.txt
 
 ---
@@ -144,8 +148,11 @@ A dedicated Python script will be developed to automate the retrieval process. T
 Example of generated output structure:
 
 /models/dengue/
+
 ├── BIOMDxxxx.xml
+
 ├── metadata_dengue.json
+
 └── model_list.txt
 
 This automated workflow ensures scalability, reproducibility, and consistency in data acquisition.
