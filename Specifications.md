@@ -79,8 +79,6 @@ A Python-based scoring algorithm is to be developed to rank diseases based on:
 
 ## Model Retrieval, Filtering, and Metadata Standardization Pipeline
 
-## Model Retrieval, Filtering, and Metadata Standardization Pipeline
-
 To ensure the construction of a robust, comprehensive, and reusable repository, the InfectioGIT project will implement a structured pipeline dedicated to the retrieval, filtering, and standardization of computational models and their associated metadata.
 
 ### Ontology-Based Data Extraction
@@ -97,56 +95,10 @@ This dual-ontology strategy is essential to maximize model retrieval coverage. I
 Example of extracted identifier files:
 
 /IDs/
-
-dengue_DOID.txt
-dengue_MONDO.txt
-chikungunya_DOID.txt
-chikungunya_MONDO.txt
-
-
----
-
-### Definition of Search Keywords
-
-For each disease, a standardized list of search terms will be defined to improve retrieval sensitivity and account for annotation variability within BioModels.
-
-This list will include:
-
-- Synonyms (e.g., alternative disease names)  
-- Scientific names of pathogens  
-- Alternative spellings  
-- Acronyms and abbreviations  
-
-This step is critical because model annotations are not uniformly standardized, and relevant models may only be discoverable through textual queries rather than ontology identifiers.
-
----
-
-### Retrieval of Models from BioModels
-
-#### Data Access
-
-Models will be retrieved programmatically using:
-
-- The **BioModels REST API**  
-- The **Python Bioservices package**, which provides a convenient interface for querying biological databases  
-
-#### Retrieval Pipeline
-
-A dedicated Python script will be developed to automate the retrieval process. The pipeline will:
-
-- Query BioModels using:
-  - DOID identifiers  
-  - MONDO identifiers  
-  - keyword lists  
-
-- Aggregate and deduplicate results obtained from multiple query strategies  
-
-- Filter models based on initial relevance criteria (e.g., presence of associated publication)  
-
-- Download corresponding **SBML files**  
-
-Example of generated output structure:
-
+├── dengue_DOID.txt
+├── dengue_MONDO.txt
+├── chikungunya_DOID.txt
+└── chikungunya_MONDO.txt
 
 ---
 
@@ -192,11 +144,9 @@ A dedicated Python script will be developed to automate the retrieval process. T
 Example of generated output structure:
 
 /models/dengue/
-
-BIOMDxxxx.xml
-metadata_dengue.json
-model_list.txt
-
+├── BIOMDxxxx.xml
+├── metadata_dengue.json
+└── model_list.txt
 
 This automated workflow ensures scalability, reproducibility, and consistency in data acquisition.
 
@@ -303,15 +253,18 @@ Example of metadata structure:
 
 This standardized format enables efficient indexing, querying, and interoperability with external bioinformatics tools and databases.
 
-### Automated Metadata Enrichment
+#### Automated Metadata Enrichment
 
 To address inconsistencies and missing annotations in non-curated models, an automated metadata enrichment pipeline will be implemented.
 
-#### Enrichment Process
+##### Enrichment Process
 
 - **Gap Identification**
+  
   A Python script will detect models with missing or incomplete ontology links (DOID/MONDO)
+
 - **Automated Injection**
+  
   The script will parse ontology source files to retrieve:
     - Synonyms
     - Parent terms
