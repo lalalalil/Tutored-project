@@ -1,0 +1,21 @@
+[
+  {
+    "LinkSetDbHistory": [],
+    "ERROR": [],
+    "LinkSetDb": [
+      {
+        "Link": [
+          {
+            "Id": "6620235"
+          }
+        ],
+        "DbTo": "pmc",
+        "LinkName": "pubmed_pmc"
+      }
+    ],
+    "DbFrom": "pubmed",
+    "IdList": [
+      "31333719"
+    ]
+  }
+]
