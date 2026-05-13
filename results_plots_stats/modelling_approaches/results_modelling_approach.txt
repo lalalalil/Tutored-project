@@ -1,0 +1,132 @@
+DISEASE              | MODEL ID        | MODELLING APPROACH
+----------------------------------------------------------------------
+hiv_files            | MODEL1302180001 | ordinary differential equation model
+hiv_files            | BIOMD0000000874 | ordinary differential equation model
+hiv_files            | MODEL1006230035 | ordinary differential equation model
+hiv_files            | MODEL1006230075 | ordinary differential equation model
+hiv_files            | BIOMD0000000683 | ordinary differential equation model
+hiv_files            | MODEL1006230081 | ordinary differential equation model
+hiv_files            | BIOMD0000000967 | ordinary differential equation model
+hiv_files            | BIOMD0000000573 | ordinary differential equation model
+hiv_files            | MODEL1006230093 | ordinary differential equation model
+hiv_files            | BIOMD0000000876 | ordinary differential equation model
+hiv_files            | BIOMD0000000663 | ordinary differential equation model
+hiv_files            | MODEL1006230033 | ordinary differential equation model
+hiv_files            | BIOMD0000000872 | ordinary differential equation model
+hiv_files            | MODEL1812040004 | ordinary differential equation model
+hiv_files            | MODEL1812040002 | ordinary differential equation model
+hiv_files            | MODEL1805230001 | Not specified
+hiv_files            | MODEL1006230050 | ordinary differential equation model
+hiv_files            | BIOMD0000000875 | ordinary differential equation model
+hiv_files            | MODEL2503040001 | differential equation model
+hiv_files            | MODEL1302180002 | ordinary differential equation model
+hiv_files            | MODEL1006230055 | ordinary differential equation model
+hiv_files            | MODEL4028801312 | ordinary differential equation model
+hiv_files            | MODEL8102792069 | ordinary differential equation model
+hiv_files            | BIOMD0000000707 | ordinary differential equation model
+dengue_files         | MODEL2003160002 | ordinary differential equation model
+dengue_files         | MODEL2311070004 | constraint-based model
+dengue_files         | MODEL2003190001 | ordinary differential equation model
+dengue_files         | MODEL2311070003 | constraint-based model
+dengue_files         | MODEL2311070005 | constraint-based model
+dengue_files         | MODEL2311070007 | constraint-based model
+dengue_files         | MODEL2311070002 | constraint-based model
+dengue_files         | MODEL2311070006 | constraint-based model
+dengue_files         | MODEL2311070001 | constraint-based model
+tuberculosis_files   | BIOMD0000000222 | ordinary differential equation model
+tuberculosis_files   | MODEL1911120004 | ordinary differential equation model
+tuberculosis_files   | MODEL2203300001 | constraint-based model
+tuberculosis_files   | BIOMD0000001095 | constraint-based model
+tuberculosis_files   | BIOMD0000000608 | ordinary differential equation model
+tuberculosis_files   | MODEL1507180021 | constraint-based model
+tuberculosis_files   | BIOMD0000000221 | ordinary differential equation model
+tuberculosis_files   | BIOMD0000000219 | ordinary differential equation model
+tuberculosis_files   | MODEL2203300002 | constraint-based model
+tuberculosis_files   | MODEL1507180018 | constraint-based model
+tuberculosis_files   | BIOMD0000001046 | constraint-based model
+tuberculosis_files   | MODEL1011090002 | Not specified
+tuberculosis_files   | BIOMD0000000462 | ordinary differential equation model
+tuberculosis_files   | MODEL1411110000 | Not specified
+tuberculosis_files   | BIOMD0000000582 | ordinary differential equation model
+tuberculosis_files   | BIOMD0000000287 | ordinary differential equation model
+tuberculosis_files   | BIOMD0000000218 | ordinary differential equation model
+tuberculosis_files   | MODEL1011090001 | Not specified
+tuberculosis_files   | BIOMD0000001034 | ordinary differential equation model
+tuberculosis_files   | BIOMD0000000581 | ordinary differential equation model
+tuberculosis_files   | BIOMD0000000091 | ordinary differential equation model
+covid_files          | BIOMD0000000962 | population model
+covid_files          | MODEL2109130003 | differential equation model
+covid_files          | BIOMD0000000972 | population model
+covid_files          | BIOMD0000000979 | ordinary differential equation model
+covid_files          | MODEL2203300001 | constraint-based model
+covid_files          | MODEL2202240001 | constraint-based model
+covid_files          | MODEL2003020001 | constraint-based model
+covid_files          | MODEL2010280002 | constraint-based model
+covid_files          | BIOMD0000000957 | population model
+covid_files          | MODEL2311070004 | constraint-based model
+covid_files          | MODEL2203300002 | constraint-based model
+covid_files          | BIOMD0000000978 | population model
+covid_files          | MODEL2311070003 | constraint-based model
+covid_files          | MODEL2311070005 | constraint-based model
+covid_files          | MODEL2311070007 | constraint-based model
+covid_files          | BIOMD0000000956 | population model
+covid_files          | BIOMD0000000958 | population model
+covid_files          | BIOMD0000000963 | population model
+covid_files          | BIOMD0000000988 | population model
+covid_files          | MODEL2007210001 | constraint-based model
+covid_files          | BIOMD0000000960 | population model
+covid_files          | BIOMD0000000977 | population model
+covid_files          | MODEL2503040001 | differential equation model
+covid_files          | MODEL2502220001 | ordinary differential equation model
+covid_files          | BIOMD0000000982 | population model
+covid_files          | BIOMD0000000971 | population model
+covid_files          | BIOMD0000000976 | population model
+covid_files          | MODEL2311070002 | constraint-based model
+covid_files          | MODEL2209020001 | Other
+covid_files          | BIOMD0000000974 | population model
+covid_files          | BIOMD0000000955 | population model
+covid_files          | BIOMD0000000984 | population model
+covid_files          | BIOMD0000000981 | population model
+covid_files          | MODEL2212160001 | cellular Potts model
+covid_files          | MODEL2212310001 | population model
+covid_files          | BIOMD0000000969 | population model
+covid_files          | MODEL2504120001 | population model
+covid_files          | MODEL2311070006 | constraint-based model
+covid_files          | BIOMD0000000964 | population model
+covid_files          | BIOMD0000000980 | population model
+covid_files          | MODEL2402280001 | mathematical model
+covid_files          | MODEL2111170001 | ordinary differential equation model
+covid_files          | MODEL2401170001 | finite element spatial model
+covid_files          | BIOMD0000000983 | population model
+covid_files          | MODEL2202230002 | ordinary differential equation model
+covid_files          | BIOMD0000000991 | population model
+covid_files          | MODEL2311070001 | constraint-based model
+covid_files          | BIOMD0000000970 | population model
+influenza_files      | BIOMD0000000717 | ordinary differential equation model
+influenza_files      | MODEL1504160000 | ordinary differential equation model
+influenza_files      | BIOMD0000000529 | ordinary differential equation model
+influenza_files      | BIOMD0000000851 | ordinary differential equation model
+influenza_files      | BIOMD0000000710 | ordinary differential equation model
+influenza_files      | MODEL2311070004 | constraint-based model
+influenza_files      | BIOMD0000000708 | ordinary differential equation model
+influenza_files      | MODEL2311070003 | constraint-based model
+influenza_files      | BIOMD0000000528 | ordinary differential equation model
+influenza_files      | MODEL2311070005 | constraint-based model
+influenza_files      | MODEL2311070007 | constraint-based model
+influenza_files      | MODEL1812040006 | ordinary differential equation model
+influenza_files      | BIOMD0000000709 | ordinary differential equation model
+influenza_files      | BIOMD0000000889 | ordinary differential equation model
+influenza_files      | BIOMD0000000546 | ordinary differential equation model
+influenza_files      | BIOMD0000000463 | ordinary differential equation model
+influenza_files      | MODEL1411130000 | ordinary differential equation model
+influenza_files      | MODEL2311070002 | constraint-based model
+influenza_files      | BIOMD0000000712 | ordinary differential equation model
+influenza_files      | BIOMD0000000716 | ordinary differential equation model
+influenza_files      | BIOMD0000000865 | ordinary differential equation model
+influenza_files      | BIOMD0000000711 | ordinary differential equation model
+influenza_files      | MODEL1812040005 | ordinary differential equation model
+influenza_files      | MODEL2311070006 | constraint-based model
+influenza_files      | MODEL1406230000 | ordinary differential equation model
+influenza_files      | MODEL2311070001 | constraint-based model
+influenza_files      | BIOMD0000001045 | population model
+mpox_files           | MODEL2208040001 | Other

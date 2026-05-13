@@ -1,0 +1,11 @@
+Global Distribution of Modelling Approaches:
+
+modelling_approach                       n percentage
+  <chr>                                <int>      <dbl>
+1 ordinary differential equation model    59     47.6  
+2 constraint-based model                  33     26.6  
+3 population model                        26     21.0  
+4 differential equation model              3      2.42 
+5 cellular Potts model                     1      0.806
+6 finite element spatial model             1      0.806
+7 mathematical model                       1      0.806

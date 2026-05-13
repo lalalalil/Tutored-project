@@ -1,0 +1,233 @@
+# =============================================================================
+# BIOMODELS - COMPLETE ANALYSIS OF INFECTIOUS DISEASES
+# Output: 8 plots exported as PNG files
+# =============================================================================
+
+library(tidyverse)
+library(janitor)
+library(RColorBrewer)
+
+# -----------------------------------------------------------------------------
+# GLOBAL SETTINGS
+# -----------------------------------------------------------------------------
+
+output_dir <- "outputs"
+dir.create(output_dir, showWarnings = FALSE)
+
+theme_bio <- theme_minimal(base_size = 12) +
+  theme(
+    plot.title    = element_text(face = "bold", size = 13),
+    plot.subtitle = element_text(color = "grey50", size = 10),
+    legend.position = "bottom",
+    axis.text.x   = element_text(angle = 45, hjust = 1)
+  )
+
+save_plot <- function(plot, filename, width = 9, height = 6) {
+  ggsave(file.path(output_dir, filename), plot,
+         width = width, height = height, dpi = 150, bg = "white")
+  message("Saved: ", filename)
+}
+
+# =============================================================================
+# BLOCK 1 — PUBLICATION DATES (publication_dates_summary.csv)
+# =============================================================================
+
+df_pub <- read.csv("publication_dates_summary.csv") %>%
+  as_tibble() %>%
+  mutate(publication_year = as.numeric(as.character(publication_year))) %>%
+  filter(!is.na(publication_year), publication_year > 1990)
+
+# --- Plot 1: Global timeline ---
+stats_year <- df_pub %>% count(publication_year)
+
+p1 <- ggplot(stats_year, aes(x = publication_year, y = n)) +
+  geom_line(color = "#2E86C1", linewidth = 1) +
+  geom_point(color = "#1B4F72", size = 2) +
+  scale_x_continuous(breaks = seq(min(df_pub$publication_year), 2025, by = 2)) +
+  labs(
+    title    = "Evolution of BioModels Publications (Global)",
+    subtitle = "Number of infectious disease models published per year",
+    x        = "Year of Publication",
+    y        = "Number of Models"
+  ) +
+  theme_bio
+
+save_plot(p1, "01_publications_global.png")
+
+# --- Plot 2: Trends by disease category ---
+stats_disease_year <- df_pub %>%
+  group_by(publication_year, disease_category) %>%
+  summarise(count = n(), .groups = "drop")
+
+p2 <- ggplot(stats_disease_year,
+             aes(x = publication_year, y = count, color = disease_category)) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 1.5) +
+  scale_x_continuous(breaks = seq(min(df_pub$publication_year), 2025, by = 2)) +
+  labs(
+    title    = "Publication Trends by Disease Category",
+    subtitle = "Comparative growth of modelling research over time",
+    x        = "Year",
+    y        = "Number of Models",
+    color    = "Disease"
+  ) +
+  theme_bio
+
+save_plot(p2, "02_publications_by_disease.png", width = 11, height = 6)
+
+# --- Plot 3: Top 10 journals ---
+p3 <- df_pub %>%
+  count(journal) %>%
+  filter(!journal %in% c("N/A", "")) %>%
+  slice_max(n, n = 10) %>%
+  ggplot(aes(x = reorder(journal, n), y = n)) +
+  geom_col(fill = "#82E0AA") +
+  coord_flip() +
+  labs(
+    title = "Top 10 Journals Publishing These Models",
+    x     = "Journal",
+    y     = "Number of Models"
+  ) +
+  theme_bio +
+  theme(axis.text.x = element_text(angle = 0, hjust = 0.5))
+
+save_plot(p3, "03_top_journals.png", width = 10, height = 6)
+
+# =============================================================================
+# BLOCK 2 — MODELLING APPROACHES (modelling_approaches_summary.csv)
+# =============================================================================
+
+df_approach <- read.csv("modelling_approaches_summary.csv") %>%
+  as_tibble() %>%
+  filter(!modelling_approach %in% c("Not specified", "Other", "Unknown", "N/A"))
+
+# --- Plot 4: Global distribution ---
+stats_global <- df_approach %>%
+  count(modelling_approach) %>%
+  arrange(desc(n))
+
+p4 <- ggplot(stats_global, aes(x = reorder(modelling_approach, n), y = n)) +
+  geom_col(fill = "#5DADE2") +
+  coord_flip() +
+  labs(
+    title    = "Overall Distribution of Modelling Approaches",
+    subtitle = "Aggregated data from all infectious disease categories",
+    x        = "Modelling Approach",
+    y        = "Number of Models"
+  ) +
+  theme_bio +
+  theme(axis.text.x = element_text(angle = 0, hjust = 0.5))
+
+save_plot(p4, "04_approaches_global.png")
+
+# --- Plot 5: Proportion by disease (normalised stacked bars) ---
+stats_by_disease <- df_approach %>%
+  group_by(disease_category, modelling_approach) %>%
+  summarise(count = n(), .groups = "drop")
+
+p5 <- ggplot(stats_by_disease,
+             aes(x = disease_category, y = count, fill = modelling_approach)) +
+  geom_bar(stat = "identity", position = "fill") +
+  scale_y_continuous(labels = scales::percent) +
+  coord_flip() +
+  labs(
+    title    = "Modelling Approaches Proportion by Disease",
+    subtitle = "Relative comparison of mathematical methods used",
+    x        = "Disease Category",
+    y        = "Percentage of Models (%)",
+    fill     = "Approach Type"
+  ) +
+  theme_bw(base_size = 12) +
+  theme(
+    plot.title      = element_text(face = "bold"),
+    legend.position = "bottom",
+    legend.text     = element_text(size = 8),
+    axis.text.x     = element_text(angle = 0)
+  ) +
+  guides(fill = guide_legend(ncol = 2))
+
+save_plot(p5, "05_approaches_by_disease.png", width = 11, height = 7)
+
+# =============================================================================
+# BLOCK 3 — FILE FORMATS (statistiques_modeles_nettoyes.csv)
+# =============================================================================
+
+df_files <- read.csv("statistiques_modeles_nettoyes.csv", check.names = FALSE)
+df_files[is.na(df_files)] <- 0
+
+df_long <- df_files %>%
+  pivot_longer(
+    cols      = -c(category, model_id),
+    names_to  = "extension",
+    values_to = "count"
+  ) %>%
+  filter(count > 0)
+
+# --- Plot 6: Most frequent file extensions with counts ---
+stats_ext <- df_long %>%
+  group_by(extension) %>%
+  summarise(total = sum(count)) %>%
+  arrange(desc(total))
+
+p6 <- ggplot(stats_ext, aes(x = reorder(extension, -total), y = total)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  geom_text(aes(label = total), vjust = -0.5, size = 3.5) +
+  labs(
+    title = "Total Number of Files by Extension Type",
+    x     = "File Extensions",
+    y     = "Total Count"
+  ) +
+  theme_bio
+
+save_plot(p6, "06_file_extensions.png", width = 10, height = 6)
+
+# --- Plot 7: Heatmap file formats x disease category ---
+stats_heatmap <- df_long %>%
+  group_by(category, extension) %>%
+  summarise(total = sum(count), .groups = "drop")
+
+p7 <- ggplot(stats_heatmap, aes(x = category, y = extension, fill = total)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient(low = "white", high = "#1B4F72") +
+  labs(
+    title = "File Format Density by Disease Category",
+    x     = "Disease",
+    y     = "Extension",
+    fill  = "Count"
+  ) +
+  theme_bio
+
+save_plot(p7, "07_heatmap_formats.png", width = 10, height = 7)
+
+# --- Plot 8: Number of unique models per category ---
+p8 <- df_files %>%
+  count(category) %>%
+  ggplot(aes(x = reorder(category, -n), y = n)) +
+  geom_bar(stat = "identity", fill = "lightblue") +
+  coord_flip() +
+  labs(
+    title = "Number of Unique Models per Category",
+    x     = "Category",
+    y     = "Number of Models"
+  ) +
+  theme_bio +
+  theme(axis.text.x = element_text(angle = 0))
+
+save_plot(p8, "08_models_per_category.png")
+
+# =============================================================================
+# EXPORT SUMMARY CSV
+# =============================================================================
+
+summary_avg <- df_long %>%
+  group_by(category, model_id) %>%
+  summarise(total_files = sum(count), .groups = "drop") %>%
+  group_by(category) %>%
+  summarise(avg_files_per_model = round(mean(total_files), 2))
+
+write.csv(summary_avg,
+          file.path(output_dir, "summary_avg_per_category.csv"),
+          row.names = FALSE)
+
+message("\nAnalysis complete — ", nrow(summary_avg),
+        " categories · 8 plots saved in '", output_dir, "/'")

@@ -1,0 +1,18 @@
+Début du nettoyage et de l'analyse...
+[-] Suppression de MODEL2207110001 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2405080005 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2405130001 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2405080006 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2405080004 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2404080001 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2405210004 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2403270001 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2404080003 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2405130004 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2205010001 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2405080006 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2405080005 : Aucun fichier de modélisation trouvé.
+[-] Suppression de MODEL2405130001 : Aucun fichier de modélisation trouvé.
+
+Terminé !
+Statistiques générées dans : BioModels_Data_cleaned_redirection_metadata_json_dico_/statistiques_modeles_nettoyes.csv

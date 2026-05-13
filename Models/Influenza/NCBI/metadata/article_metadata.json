@@ -1,0 +1,60 @@
+[
+  {
+    "Item": [],
+    "Id": "31333719",
+    "PubDate": "2019",
+    "EPubDate": "2019 Jul 4",
+    "Source": "Front Genet",
+    "AuthorList": [
+      "Merigueti TC",
+      "Carneiro MW",
+      "Carvalho-Assef APD",
+      "Silva-Jr FP",
+      "da Silva FAB"
+    ],
+    "LastAuthor": "da Silva FAB",
+    "Title": "FindTargetsWEB: A User-Friendly Tool for Identification of Potential Therapeutic Targets in Metabolic Networks of Bacteria.",
+    "Volume": "10",
+    "Issue": "",
+    "Pages": "633",
+    "LangList": [
+      "English"
+    ],
+    "NlmUniqueID": "101560621",
+    "ISSN": "1664-8021",
+    "ESSN": "1664-8021",
+    "PubTypeList": [
+      "Journal Article"
+    ],
+    "RecordStatus": "PubMed",
+    "PubStatus": "",
+    "ArticleIds": {
+      "medline": [],
+      "pubmed": [
+        "31333719"
+      ],
+      "pmc": "PMC6620235",
+      "pmcid": "pmc-id: PMC6620235;",
+      "doi": "10.3389/fgene.2019.00633"
+    },
+    "DOI": "10.3389/fgene.2019.00633",
+    "History": {
+      "medline": [
+        "2019/07/25 06:01"
+      ],
+      "pubmed": [
+        "2019/07/25 06:00"
+      ],
+      "received": "2019/03/27 00:00",
+      "accepted": "2019/06/17 00:00",
+      "entrez": "2019/07/24 06:00",
+      "pmc-release": "2019/07/04 00:00"
+    },
+    "References": [],
+    "HasAbstract": 1,
+    "PmcRefCount": 52,
+    "FullJournalName": "Frontiers in genetics",
+    "ELocationID": "doi: 10.3389/fgene.2019.00633",
+    "SO": "2019;10:633"
+  }
+]
