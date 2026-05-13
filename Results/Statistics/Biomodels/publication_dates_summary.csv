@@ -1,0 +1,131 @@
+disease_category,model_id,publication_year,publication_month,journal
+hiv_files,MODEL1302180001,2013,0,PLoS biology
+hiv_files,BIOMD0000000874,1993,3,Mathematical biosciences
+hiv_files,MODEL1006230035,1993,3,Mathematical biosciences
+hiv_files,MODEL1006230075,1993,3,Mathematical biosciences
+hiv_files,BIOMD0000000683,1999,12,Proceedings of the National Academy of Sciences of the United States of America
+hiv_files,MODEL1006230081,1995,2,Mathematical biosciences
+hiv_files,BIOMD0000000967,1991,5,"AIDS (London, England)"
+hiv_files,BIOMD0000000573,2014,11,Journal of theoretical biology
+hiv_files,MODEL1006230093,1993,3,Mathematical biosciences
+hiv_files,BIOMD0000000876,2019,11,Applied Mathematical Modelling
+hiv_files,BIOMD0000000663,2007,9,Mathematical biosciences
+hiv_files,MODEL1006230033,1995,2,Mathematical biosciences
+hiv_files,BIOMD0000000872,2019,10,PLoS ONE
+hiv_files,MODEL1812040004,2011,1,Bio Systems
+hiv_files,MODEL1812040002,2013,3,Mathematical biosciences
+hiv_files,MODEL1805230001,2009,4,Mathematical biosciences and engineering : MBE
+hiv_files,MODEL1006230050,1996,4,"Science (New York, N.Y.)"
+hiv_files,BIOMD0000000875,2000,2,Mathematical biosciences
+hiv_files,MODEL2503040001,2025,4,Viruses
+hiv_files,MODEL1302180002,2013,0,PLoS biology
+hiv_files,MODEL1006230055,1998,9,Mathematical biosciences
+hiv_files,MODEL4028801312,2007,5,PLoS medicine
+hiv_files,MODEL8102792069,2000,2,Mathematical biosciences
+hiv_files,BIOMD0000000707,2003,10,Mathematical biosciences
+dengue_files,MODEL2003160002,2015,4,Mathematical biosciences
+dengue_files,MODEL2311070004,2022,10,Preprints
+dengue_files,MODEL2003190001,2014,1,Mathematical biosciences
+dengue_files,MODEL2311070003,2022,10,Preprints
+dengue_files,MODEL2311070005,2022,10,Preprints
+dengue_files,MODEL2311070007,2022,10,Preprints
+dengue_files,MODEL2311070002,2022,10,Preprints
+dengue_files,MODEL2311070006,2022,10,Preprints
+dengue_files,MODEL2311070001,2022,10,Preprints
+tuberculosis_files,BIOMD0000000222,2006,8,Theoretical biology & medical modelling
+tuberculosis_files,MODEL1911120004,2019,7,Journal of theoretical biology
+tuberculosis_files,MODEL2203300001,2023,1,"GigaByte (Hong Kong, China)"
+tuberculosis_files,BIOMD0000001095,2007,6,BMC systems biology
+tuberculosis_files,BIOMD0000000608,2013,9,BMC systems biology
+tuberculosis_files,MODEL1507180021,2007,0,Genome biology
+tuberculosis_files,BIOMD0000000221,2006,8,Theoretical biology & medical modelling
+tuberculosis_files,BIOMD0000000219,2006,8,Theoretical biology & medical modelling
+tuberculosis_files,MODEL2203300002,2023,0,"GigaByte (Hong Kong, China)"
+tuberculosis_files,MODEL1507180018,2010,11,BMC systems biology
+tuberculosis_files,BIOMD0000001046,2005,10,PLoS computational biology
+tuberculosis_files,MODEL1011090002,2010,10,Molecular systems biology
+tuberculosis_files,BIOMD0000000462,2012,7,Molecular neurodegeneration
+tuberculosis_files,MODEL1411110000,2014,N/A,Semin. Immunol. 2014 Dec; 26(6): 610-622
+tuberculosis_files,BIOMD0000000582,2014,8,PLoS computational biology
+tuberculosis_files,BIOMD0000000287,2010,0,Molecular systems biology
+tuberculosis_files,BIOMD0000000218,2006,8,Theoretical biology & medical modelling
+tuberculosis_files,MODEL1011090001,2010,10,Molecular systems biology
+tuberculosis_files,BIOMD0000001034,2007,8,Bulletin of mathematical biology
+tuberculosis_files,BIOMD0000000581,2012,3,Science signaling
+tuberculosis_files,BIOMD0000000091,2005,1,Mechanisms of ageing and development
+covid_files,BIOMD0000000962,2020,0,"Quantitative biology (Beijing, China)"
+covid_files,MODEL2109130003,N/A,N/A,N/A
+covid_files,BIOMD0000000972,2020,0,Infectious Disease Modelling
+covid_files,BIOMD0000000979,2020,10,"Chaos, solitons, and fractals"
+covid_files,MODEL2203300001,2023,1,"GigaByte (Hong Kong, China)"
+covid_files,MODEL2202240001,2023,3,PLoS computational biology
+covid_files,MODEL2003020001,2020,12,Bioinformatics
+covid_files,MODEL2010280002,2020,11,Life Science Alliance
+covid_files,BIOMD0000000957,2020,0,Infectious Disease Modelling
+covid_files,MODEL2311070004,2022,10,Preprints
+covid_files,MODEL2203300002,2023,0,"GigaByte (Hong Kong, China)"
+covid_files,BIOMD0000000978,2020,0,PloS one
+covid_files,MODEL2311070003,2022,10,Preprints
+covid_files,MODEL2311070005,2022,10,Preprints
+covid_files,MODEL2311070007,2022,10,Preprints
+covid_files,BIOMD0000000956,2020,7,Proceedings of the National Academy of Sciences of the United States of America
+covid_files,BIOMD0000000958,2020,6,"Chaos, solitons, and fractals"
+covid_files,BIOMD0000000963,2020,6,Nature medicine
+covid_files,BIOMD0000000988,2020,6,NPJ systems biology and applications
+covid_files,MODEL2007210001,2021,8,Life Science Alliance
+covid_files,BIOMD0000000960,2020,0,PloS one
+covid_files,BIOMD0000000977,2020,10,"Chaos, solitons, and fractals"
+covid_files,MODEL2503040001,2025,4,Viruses
+covid_files,MODEL2502220001,2026,1,PLOS ONE
+covid_files,BIOMD0000000982,2020,12,Scientific reports
+covid_files,BIOMD0000000971,2020,2,Journal of clinical medicine
+covid_files,BIOMD0000000976,2020,11,"Chaos, solitons, and fractals"
+covid_files,MODEL2311070002,2022,10,Preprints
+covid_files,MODEL2209020001,N/A,N/A,N/A
+covid_files,BIOMD0000000974,2020,0,Frontiers in public health
+covid_files,BIOMD0000000955,2020,6,Nature medicine
+covid_files,BIOMD0000000984,2020,6,Journal of medical virology
+covid_files,BIOMD0000000981,2020,8,Infectious diseases of poverty
+covid_files,MODEL2212160001,2022,3,Viruses
+covid_files,MODEL2212310001,2021,11,The Lancet Global Health
+covid_files,BIOMD0000000969,2020,7,Health & place
+covid_files,MODEL2504120001,2024,4,Nature communications
+covid_files,MODEL2311070006,2022,10,Preprints
+covid_files,BIOMD0000000964,2020,7,BMC research notes
+covid_files,BIOMD0000000980,2020,10,"Chaos, solitons, and fractals"
+covid_files,MODEL2402280001,2022,5,Viruses
+covid_files,MODEL2111170001,2021,8,Royal Society open science
+covid_files,MODEL2401170001,2024,1,Biophysical journal
+covid_files,BIOMD0000000983,2020,9,Epidemiology and infection
+covid_files,MODEL2202230002,2022,1,Preprint
+covid_files,BIOMD0000000991,2020,10,"Chaos, solitons, and fractals"
+covid_files,MODEL2311070001,2022,10,Preprints
+covid_files,BIOMD0000000970,2020,7,Journal of medical virology
+influenza_files,BIOMD0000000717,2018,3,Elsevier BV
+influenza_files,MODEL1504160000,2011,11,"Journal of immunology (Baltimore, Md. : 1950)"
+influenza_files,BIOMD0000000529,2014,6,Journal of theoretical biology
+influenza_files,BIOMD0000000851,2019,9,Journal of theoretical biology
+influenza_files,BIOMD0000000710,2012,8,Elsevier BV
+influenza_files,MODEL2311070004,2022,10,Preprints
+influenza_files,BIOMD0000000708,2017,1,Mathematical biosciences
+influenza_files,MODEL2311070003,2022,10,Preprints
+influenza_files,BIOMD0000000528,2014,6,Journal of theoretical biology
+influenza_files,MODEL2311070005,2022,10,Preprints
+influenza_files,MODEL2311070007,2022,10,Preprints
+influenza_files,MODEL1812040006,2016,0,PloS one
+influenza_files,BIOMD0000000709,2017,1,Mathematical biosciences
+influenza_files,BIOMD0000000889,2014,6,Journal of theoretical biology
+influenza_files,BIOMD0000000546,2010,7,Journal of virology
+influenza_files,BIOMD0000000463,2012,8,Journal of virology
+influenza_files,MODEL1411130000,2014,0,PloS one
+influenza_files,MODEL2311070002,2022,10,Preprints
+influenza_files,BIOMD0000000712,2014,4,Bio Systems
+influenza_files,BIOMD0000000716,2018,3,Elsevier BV
+influenza_files,BIOMD0000000865,2019,0,Frontiers in immunology
+influenza_files,BIOMD0000000711,2007,5,Journal of theoretical biology
+influenza_files,MODEL1812040005,2017,4,Journal of pharmacokinetics and pharmacodynamics
+influenza_files,MODEL2311070006,2022,10,Preprints
+influenza_files,MODEL1406230000,2009,7,Journal of virology
+influenza_files,MODEL2311070001,2022,10,Preprints
+influenza_files,BIOMD0000001045,2022,1,"Loci/JOMA, Periodicals,  MAA Publications"
+mpox_files,MODEL2208040001,2023,4,Bioinformatics Advances
