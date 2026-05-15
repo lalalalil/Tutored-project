@@ -4,13 +4,13 @@ Download open access articles from PubMed Central, extract SBML models and execu
 
 ## Features
 
-- 🔍 **Search PubMed** for articles by disease keyword
-- 📥 **Download OA packages** from PMC
-- 📦 **Extract files** (ZIP, TAR.GZ) including nested archives
-- 🧬 **Identify SBML models** and executable code (.py, .r, .m, etc.)
-- 🔗 **Extract repository links** (GitHub, GitLab, DOI)
-- 📁 **Organize files** into data/ and metadata/ folders
-- 🧹 **Cleanup script** to keep only SBML and JSON files
+-  **Search PubMed** for articles by disease keyword
+-  **Download OA packages** from PMC
+-  **Extract files** (ZIP, TAR.GZ) including nested archives
+-  **Identify SBML models** and executable code (.py, .r, .m, etc.)
+-  **Extract repository links** (GitHub, GitLab, DOI)
+-  **Organize files** into data/ and metadata/ folders
+-  **Cleanup script** to keep only SBML and JSON files
 
 ## Installation
 
