@@ -215,6 +215,109 @@ p8 <- df_files %>%
 
 save_plot(p8, "08_models_per_category.png")
 
+
+
+# =============================================================================
+# BLOCK 4 — CURATION STATUS (stats_BEFORE_2015_filter.csv)
+# =============================================================================
+ 
+df_status <- read.csv("stats_BEFORE_2015_filter.csv") %>%
+  as_tibble() %>%
+  filter(!is.na(year)) %>%
+  mutate(
+    period = if_else(year >= 2015, "2015 to Present", "Before 2015"),
+    status_label = case_when(
+      grepl("BIOMD|curated", status, ignore.case = TRUE) &
+        !grepl("non", status, ignore.case = TRUE) ~ "Curated",
+      TRUE ~ "Non-Curated"
+    )
+  )
+ 
+COLORS_CURATION <- c("Curated" = "#2ECC71", "Non-Curated" = "#E67E22")
+ 
+# --- Plot 9: Number of models by period (2015 pivot) ---
+stats_period <- df_status %>%
+  count(period) %>%
+  mutate(
+    pct   = round(n / sum(n) * 100, 1),
+    label = paste0(n, " models\n(", pct, "%)")
+  )
+ 
+p9 <- ggplot(stats_period, aes(x = period, y = n, fill = period)) +
+  geom_col(width = 0.55, show.legend = FALSE) +
+  geom_text(aes(label = label), vjust = -0.4, fontface = "bold", size = 4.5) +
+  scale_fill_manual(values = c("2015 to Present" = "#2C6E8A", "Before 2015" = "#A8B8BE")) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.18))) +
+  labs(
+    title    = "Comparison of Model Publications by Period",
+    subtitle = "Analyzing the growth before and after the 2015 pivot",
+    x        = "Publication Period",
+    y        = "Number of Models"
+  ) +
+  theme_bio +
+  theme(axis.text.x = element_text(angle = 0, hjust = 0.5))
+ 
+save_plot(p9, "09_models_by_period.png")
+ 
+# --- Plot 10: Curation quality evolution by period (stacked bars) ---
+stats_curation_period <- df_status %>%
+  count(period, status_label) %>%
+  group_by(period) %>%
+  mutate(pct = round(n / sum(n) * 100, 1)) %>%
+  ungroup()
+ 
+p10 <- ggplot(stats_curation_period,
+              aes(x = period, y = n, fill = status_label)) +
+  geom_col(width = 0.55, position = "stack") +
+  geom_text(
+    aes(label = paste0(pct, "%")),
+    position = position_stack(vjust = 0.5),
+    color = "white", fontface = "bold", size = 4.5
+  ) +
+  scale_fill_manual(values = COLORS_CURATION) +
+  labs(
+    title    = "Curation Quality Evolution",
+    subtitle = "Proportion of verified (BIOMD) vs. unverified (MODEL) entries",
+    x        = "Period",
+    y        = "Total Models",
+    fill     = "Status"
+  ) +
+  theme_bio +
+  theme(
+    axis.text.x     = element_text(angle = 0, hjust = 0.5),
+    legend.position = "right"
+  )
+ 
+save_plot(p10, "10_curation_quality_by_period.png")
+ 
+# --- Plot 11: Curation reliability by disease (100% stacked horizontal bars) ---
+stats_curation_disease <- df_status %>%
+  count(category, status_label) %>%
+  group_by(category) %>%
+  mutate(pct = n / sum(n)) %>%
+  ungroup()
+ 
+p11 <- ggplot(stats_curation_disease,
+              aes(x = pct, y = category, fill = status_label)) +
+  geom_col(position = "fill") +
+  scale_x_continuous(labels = scales::percent, breaks = c(0, .25, .50, .75, 1)) +
+  scale_fill_manual(values = COLORS_CURATION) +
+  labs(
+    title = "Curation Reliability by Disease",
+    x     = "Percentage of Models (%)",
+    y     = "Disease Category",
+    fill  = "Status"
+  ) +
+  theme_bw(base_size = 12) +
+  theme(
+    plot.title      = element_text(face = "bold"),
+    legend.position = "right",
+    axis.text.x     = element_text(angle = 0)
+  )
+ 
+save_plot(p11, "11_curation_by_disease.png", width = 10, height = 6)
+ 
+
 # =============================================================================
 # EXPORT SUMMARY CSV
 # =============================================================================
