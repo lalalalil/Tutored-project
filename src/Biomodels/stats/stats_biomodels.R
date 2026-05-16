@@ -2,6 +2,7 @@
 # BIOMODELS - COMPLETE ANALYSIS OF INFECTIOUS DISEASES
 # Output: 8 plots exported as PNG files
 # =============================================================================
+install.packages("tidyverse", repos = "https://cloud.r-project.org")
 
 library(tidyverse)
 library(janitor)
@@ -14,15 +15,17 @@ library(RColorBrewer)
 output_dir <- "outputs"
 dir.create(output_dir, showWarnings = FALSE)
 
-theme_bio <- theme_minimal(base_size = 12) +
+theme_bio <- theme_minimal(base_size = 15) +
   theme(
     plot.title    = element_text(face = "bold", size = 13),
     plot.subtitle = element_text(color = "grey50", size = 10),
     legend.position = "bottom",
+    legend.text   = element_text(size = 12, face = "bold"),
+    legend.title  = element_text(size = 13, face = "bold"),
     axis.text.x   = element_text(angle = 45, hjust = 1)
   )
 
-save_plot <- function(plot, filename, width = 9, height = 6) {
+save_plot <- function(plot, filename, width = 13, height = 6) {
   ggsave(file.path(output_dir, filename), plot,
          width = width, height = height, dpi = 150, bg = "white")
   message("Saved: ", filename)
@@ -32,7 +35,7 @@ save_plot <- function(plot, filename, width = 9, height = 6) {
 # BLOCK 1 — PUBLICATION DATES (publication_dates_summary.csv)
 # =============================================================================
 
-df_pub <- read.csv("publication_dates_summary.csv") %>%
+df_pub <- read.csv("BioModels_Stats/publication_dates_summary.csv") %>%
   as_tibble() %>%
   mutate(publication_year = as.numeric(as.character(publication_year))) %>%
   filter(!is.na(publication_year), publication_year > 1990)
@@ -73,7 +76,7 @@ p2 <- ggplot(stats_disease_year,
   ) +
   theme_bio
 
-save_plot(p2, "02_publications_by_disease.png", width = 11, height = 6)
+save_plot(p2, "02_publications_by_disease.png")
 
 # --- Plot 3: Top 10 journals ---
 p3 <- df_pub %>%
@@ -91,13 +94,13 @@ p3 <- df_pub %>%
   theme_bio +
   theme(axis.text.x = element_text(angle = 0, hjust = 0.5))
 
-save_plot(p3, "03_top_journals.png", width = 10, height = 6)
+save_plot(p3, "03_top_journals.png")
 
 # =============================================================================
 # BLOCK 2 — MODELLING APPROACHES (modelling_approaches_summary.csv)
 # =============================================================================
 
-df_approach <- read.csv("modelling_approaches_summary.csv") %>%
+df_approach <- read.csv("BioModels_Stats/modelling_approaches_summary.csv") %>%
   as_tibble() %>%
   filter(!modelling_approach %in% c("Not specified", "Other", "Unknown", "N/A"))
 
@@ -137,22 +140,23 @@ p5 <- ggplot(stats_by_disease,
     y        = "Percentage of Models (%)",
     fill     = "Approach Type"
   ) +
-  theme_bw(base_size = 12) +
+  theme_bw(base_size = 15) +
   theme(
     plot.title      = element_text(face = "bold"),
     legend.position = "bottom",
-    legend.text     = element_text(size = 8),
+    legend.text     = element_text(size = 12, face = "bold"),
+    legend.title    = element_text(size = 13, face = "bold"), 
     axis.text.x     = element_text(angle = 0)
   ) +
-  guides(fill = guide_legend(ncol = 2))
+  guides(fill = guide_legend(ncol = 3))
 
-save_plot(p5, "05_approaches_by_disease.png", width = 11, height = 7)
+save_plot(p5, "05_approaches_by_disease.png")
 
 # =============================================================================
 # BLOCK 3 — FILE FORMATS (statistiques_modeles_nettoyes.csv)
 # =============================================================================
 
-df_files <- read.csv("statistiques_modeles_nettoyes.csv", check.names = FALSE)
+df_files <- read.csv("BioModels_Stats/statistiques_modeles_nettoyes.csv", check.names = FALSE)
 df_files[is.na(df_files)] <- 0
 
 df_long <- df_files %>%
@@ -179,7 +183,7 @@ p6 <- ggplot(stats_ext, aes(x = reorder(extension, -total), y = total)) +
   ) +
   theme_bio
 
-save_plot(p6, "06_file_extensions.png", width = 10, height = 6)
+save_plot(p6, "06_file_extensions.png")
 
 # --- Plot 7: Heatmap file formats x disease category ---
 stats_heatmap <- df_long %>%
@@ -195,9 +199,13 @@ p7 <- ggplot(stats_heatmap, aes(x = category, y = extension, fill = total)) +
     y     = "Extension",
     fill  = "Count"
   ) +
-  theme_bio
+  theme_bio +
+  theme(
+    legend.text  = element_text(size = 12, face = "bold"),
+    legend.title = element_text(size = 13, face = "bold")
+  )
 
-save_plot(p7, "07_heatmap_formats.png", width = 10, height = 7)
+save_plot(p7, "07_heatmap_formats.png")
 
 # --- Plot 8: Number of unique models per category ---
 p8 <- df_files %>%
@@ -220,8 +228,8 @@ save_plot(p8, "08_models_per_category.png")
 # =============================================================================
 # BLOCK 4 — CURATION STATUS (stats_BEFORE_2015_filter.csv)
 # =============================================================================
- 
-df_status <- read.csv("stats_BEFORE_2015_filter.csv") %>%
+
+df_status <- read.csv("BioModels_Stats/stats_BEFORE_2015_filter.csv") %>%
   as_tibble() %>%
   filter(!is.na(year)) %>%
   mutate(
@@ -232,9 +240,9 @@ df_status <- read.csv("stats_BEFORE_2015_filter.csv") %>%
       TRUE ~ "Non-Curated"
     )
   )
- 
+
 COLORS_CURATION <- c("Curated" = "#2ECC71", "Non-Curated" = "#E67E22")
- 
+
 # --- Plot 9: Number of models by period (2015 pivot) ---
 stats_period <- df_status %>%
   count(period) %>%
@@ -242,7 +250,7 @@ stats_period <- df_status %>%
     pct   = round(n / sum(n) * 100, 1),
     label = paste0(n, " models\n(", pct, "%)")
   )
- 
+
 p9 <- ggplot(stats_period, aes(x = period, y = n, fill = period)) +
   geom_col(width = 0.55, show.legend = FALSE) +
   geom_text(aes(label = label), vjust = -0.4, fontface = "bold", size = 4.5) +
@@ -256,16 +264,16 @@ p9 <- ggplot(stats_period, aes(x = period, y = n, fill = period)) +
   ) +
   theme_bio +
   theme(axis.text.x = element_text(angle = 0, hjust = 0.5))
- 
+
 save_plot(p9, "09_models_by_period.png")
- 
+
 # --- Plot 10: Curation quality evolution by period (stacked bars) ---
 stats_curation_period <- df_status %>%
   count(period, status_label) %>%
   group_by(period) %>%
   mutate(pct = round(n / sum(n) * 100, 1)) %>%
   ungroup()
- 
+
 p10 <- ggplot(stats_curation_period,
               aes(x = period, y = n, fill = status_label)) +
   geom_col(width = 0.55, position = "stack") +
@@ -285,18 +293,20 @@ p10 <- ggplot(stats_curation_period,
   theme_bio +
   theme(
     axis.text.x     = element_text(angle = 0, hjust = 0.5),
-    legend.position = "right"
+    legend.position = "bottom",
+    legend.text     = element_text(size = 12, face = "bold"),
+    legend.title    = element_text(size = 13, face = "bold")
   )
- 
+
 save_plot(p10, "10_curation_quality_by_period.png")
- 
+
 # --- Plot 11: Curation reliability by disease (100% stacked horizontal bars) ---
 stats_curation_disease <- df_status %>%
   count(category, status_label) %>%
   group_by(category) %>%
   mutate(pct = n / sum(n)) %>%
   ungroup()
- 
+
 p11 <- ggplot(stats_curation_disease,
               aes(x = pct, y = category, fill = status_label)) +
   geom_col(position = "fill") +
@@ -308,15 +318,17 @@ p11 <- ggplot(stats_curation_disease,
     y     = "Disease Category",
     fill  = "Status"
   ) +
-  theme_bw(base_size = 12) +
+  theme_bw(base_size = 15) +
   theme(
     plot.title      = element_text(face = "bold"),
-    legend.position = "right",
+    legend.position = "bottom",
+    legend.text     = element_text(size = 12, face = "bold"),
+    legend.title    = element_text(size = 13, face = "bold"),
     axis.text.x     = element_text(angle = 0)
   )
- 
-save_plot(p11, "11_curation_by_disease.png", width = 10, height = 6)
- 
+
+save_plot(p11, "11_curation_by_disease.png")
+
 
 # =============================================================================
 # EXPORT SUMMARY CSV
