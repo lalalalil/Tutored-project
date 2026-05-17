@@ -19,65 +19,65 @@
 
 # Table of Content
 
-[**Table of Content	1**](#table-of-content)
+[**Table of Content**](#table-of-content)
 
-[**I. Project Context	2**](#project-context)
+[**I. Project Context**](#project-context)
 
-[**II. General Objective	3**](#general-objective)
+[**II. General Objective**](#general-objective)
 
-[**III. Key Steps	4**](#key-steps)
+[**III. Key Steps**](#key-steps)
 
-[1\. Development of a curated catalogue of infectious diseases	4](#development-of-a-curated-catalogue-of-infectious-diseases)
+[1\. Development of a curated catalogue of infectious diseases](#development-of-a-curated-catalogue-of-infectious-diseases)
 
-[A. Selection Criteria	4](#selection-criteria)
+[A. Selection Criteria](#selection-criteria)
 
-[a. Public health priority selection	4](#public-health-priority-selection)
+[a. Public health priority selection](#public-health-priority-selection)
 
-[b. Algorithmic prioritization	4](#algorithmic-prioritization)
+[b. Algorithmic prioritization](#algorithmic-prioritization)
 
-[B. Selected Diseases (initial panel)	4](#selected-diseases-\(initial-panel\))
+[B. Selected Diseases (initial panel)](#selected-diseases-\(initial-panel\))
 
-[2\. Model Retrieval, Filtering, and Metadata Standardization Pipeline	5](#model-retrieval,-filtering,-and-metadata-standardization-pipeline)
+[2\. Model Retrieval, Filtering, and Metadata Standardization Pipeline](#model-retrieval,-filtering,-and-metadata-standardization-pipeline)
 
-[A. Definition of Search Keywords	6](#definition-of-search-keywords)
+[A. Definition of Search Keywords](#definition-of-search-keywords)
 
-[B. Retrieval of Models from BioModels	6](#retrieval-of-models-from-biomodels)
+[B. Retrieval of Models from BioModels](#retrieval-of-models-from-biomodels)
 
-[C. State of the Art: Disease-Specific Model Landscape	7](#state-of-the-art:-disease-specific-model-landscape)
+[C. State of the Art: Disease-Specific Model Landscap](#state-of-the-art:-disease-specific-model-landscape)
 
-[a. Quantitative Assessment (Model Volume)	7](#quantitative-assessment-\(model-volume\))
+[a. Quantitative Assessment (Model Volume)](#quantitative-assessment-\(model-volume\))
 
-[b. Model Filtering and Selection	7](#model-filtering-and-selection)
+[b. Model Filtering and Selection](#model-filtering-and-selection)
 
-[c. Identification of Knowledge Gaps	7](#identification-of-knowledge-gaps)
+[c. Identification of Knowledge Gaps](#identification-of-knowledge-gaps)
 
-[D. Metadata Acquisition Structuring and Standardization	8](#metadata-acquisition-structuring-and-standardization)
+[D. Metadata Acquisition Structuring and Standardization](#metadata-acquisition-structuring-and-standardization)
 
-[E. Automated Metadata Enrichment	8](#automated-metadata-enrichment)
+[E. Automated Metadata Enrichment](#automated-metadata-enrichment)
 
-[**IV. Technical Materials and Architecture	9**](#technical-materials-and-architecture)
+[**IV. Technical Materials and Architecture**](#technical-materials-and-architecture)
 
-[1\. Data Architecture and Repository Structure	9](#data-architecture-and-repository-structure)
+[1\. Data Architecture and Repository Structure](#data-architecture-and-repository-structure)
 
-[A. Materials	9](#materials)
+[A. Materials](#materials)
 
-[B. InfectioGIT GitHub Repository Organization	9](#infectiogit-github-repository-organization)
+[B. InfectioGIT GitHub Repository Organization](#infectiogit-github-repository-organization)
 
-[C. Technical Components and Material	10](#technical-components-and-material)
+[C. Technical Components and Material](#technical-components-and-material)
 
-[**V. Constraints and Risks	10**](#constraints-and-risks)
+[**V. Constraints and Risks**](#constraints-and-risks)
 
-[1\. Functional Constraints	10](#functional-constraints)
+[1\. Functional Constraints](#functional-constraints)
 
-[2\. Organizational Constraints	10](#organizational-constraints)
+[2\. Organizational Constraints](#organizational-constraints)
 
-[3\. Technical and Data Constraints	11](#technical-and-data-constraints)
+[3\. Technical and Data Constraints](#technical-and-data-constraints)
 
-[**VI. Final Deliverables	11**](#final-deliverables)
+[**VI. Final Deliverables**](#final-deliverables)
 
-[**Bibliography	12**](#bibliography)
+[**Bibliography**](#bibliography)
 
-[**Annexes	14**](#annexes)
+[**Annexes**](#annexes)
 
 ## 
 
