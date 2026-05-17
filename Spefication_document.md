@@ -198,7 +198,7 @@ This step is essential because BioModels annotations may vary in naming conventi
 
 Figure 2 : Example of output files for each disease
 
-3. ### **State of the Art: Disease-Specific Model Landscape** {#state-of-the-art:-disease-specific-model-landscape}
+3. ### **State of the Art: Disease-Specific Model Landscape**
 
 A systematic state-of-the-art review will be performed to refine the selection of **30 to 60 models**. This phase will evaluate the modeling landscape based on three pillars :
 
@@ -241,7 +241,8 @@ A key goal will be to identify and document **Modeling Gaps** The project will s
 - MONDO ontology
 
 **Metadata Standard** : 
-### A unified metadata schema will be developed based on :
+
+A unified metadata schema will be developed based on :
 
 - COMBINE Archive metadata standards  
 - JSON[^12]  structured format  
