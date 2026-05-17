@@ -162,8 +162,10 @@ Integration into InfectioGIT Repository
 ```text id="8fww8z"
 InfectioGIT/
 ├── Results/
-│   ├── COVID-19/
+│   ├── COVID/
 │   │   ├── BioModels/
+│   │       ├── metadata
+│   │       └── model
 │   │   ├── Zenodo/
 │   │   └── NCBI/
 │   │
@@ -182,7 +184,6 @@ InfectioGIT/
 │   ├── Python/
 │   └── R/
 │
-├── metadata/
 ├── docker/
 ├── docs/
 └── README.md
@@ -318,8 +319,9 @@ This project is distributed under the MIT License.
 
 ## Students
 
-* Thalia Cadroy
-* Diana
+* Aya Sebbah
+* Diana Bravais
+* Thalie Holmiere
 * [Additional contributors]
 
 ---
