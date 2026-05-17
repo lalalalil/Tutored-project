@@ -1,0 +1,6 @@
+# Core dependencies for NCBI/BioModels extraction pipeline
+biopython>=1.79
+requests>=2.28.0
+bioservices>=1.11.0
+biomodels>=0.3.2
+numpy>=1.21.0

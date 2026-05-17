@@ -1,0 +1,16 @@
+services:
+  infectio:
+    build: .
+    container_name: infectio-pipeline
+    working_dir: /app
+    volumes:
+      # Mount your local ptut directory to /app
+      - .:/app
+      # Mount Desktop for output
+      - ~/Desktop:/home/user/Desktop
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+    # Override with: docker-compose run infectio python ncbi_extraction.py
+    command: python -i
