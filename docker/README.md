@@ -49,10 +49,10 @@ Container outputs go to:
 
 ## Included Modules
 
-- ✅ **NCBI extraction** — `ncbi_extraction.py`
-- ✅ **Zenodo extraction** — `InfectioGIT/src/Zenodo/zenodo_extraction.py`
-- ✅ **BioModels extraction** — `InfectioGIT/src/Biomodels/biomodels_pipeline.py`
-- ✅ **File cleanup** — `cleanup_files.py`
+-  **NCBI extraction** — `ncbi_extraction.py`
+-  **Zenodo extraction** — `InfectioGIT/src/Zenodo/zenodo_extraction.py`
+-  **BioModels extraction** — `InfectioGIT/src/Biomodels/biomodels_pipeline.py`
+-  **File cleanup** — `cleanup_files.py`
 
 ## Notes
 
