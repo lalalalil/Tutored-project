@@ -185,7 +185,7 @@ This step is essential because BioModels annotations may vary in naming conventi
 
 **Retrieval Pipeline** : A Python script will be developed to perform  the following:
 
-1. Querie BioModels using:  
+1. Queries BioModels using:  
 - DOID identifiers  
 - MONDO identifiers  
 - keyword list  
@@ -241,7 +241,6 @@ A key goal will be to identify and document **Modeling Gaps** The project will s
 - MONDO ontology
 
 **Metadata Standard** : 
-{}
 ### A unified metadata schema will be developed based on :
 
 - COMBINE Archive metadata standards  
@@ -280,9 +279,9 @@ This will ensure that all models, regardless of their original curation status, 
 
 The primary goal will be to establish a centralized, open-source **InfectioGIT GitHub repository**. This infrastructure will be designed to host a standardized collection of infectious disease models, ensuring they are logically organized, machine-readable, and fully compliant with **FAIR data principles**. By partitioning models, metadata, and ontologies, the repository will provide a scalable environment for automated biological research.
 
-1. ### **Materials** 
+1. ### **Technical Stack & Components** 
 
-- **Python 3.14.3**, **Bioservices** and **BioPython:** Core language and specialized bioinformatics library.  
+- **Python 3.13**, **Bioservices** and **BioPython:** Core language and specialized bioinformatics library.  
 - **SQLite:** Lightweight SQL database.  
 - **AI Assistants (GPT-4o & Gemini 2.0 Flash/Pro):** Used for code optimization and technical drafting.
 
@@ -291,6 +290,16 @@ The primary goal will be to establish a centralized, open-source **InfectioGIT G
 **Programming Language:** The entire data pipeline will be developed in **Python 3.14.3**.
 
 Python was selected as the core language due to the team’s advanced proficiency and its offers of an extensive ecosystem of specialized **bioinformatics packages** (e.g., *Biopython*, *Bioservices*) that are essential for interfacing with biological databases and processing XML/SBML formats.
+
+- **SBML Models** (.xml) : The scientific core of the project. These machine-readable files provide the mechanistic and mathematical descriptions (ODEs, reaction networks) of infectious processes, ensuring simulation compatibility and reproducibility.
+
+- **Metadata Files** (.json) : Descriptive files that facilitate efficient indexing, searching, and filtering. They are essential for FAIR compliance, allowing the repository to interact with external bioinformatics services without parsing complex XML code.
+
+- **Ontology Files** (.obo / .owl) : Semantic resources from DOID and MONDO. They provide a standardized vocabulary to resolve naming ambiguities, support hierarchical classification, and enable precise disease mapping across global databases.
+
+- **Python Scripts** (.py) : Automation tools used to manage the data lifecycle. These scripts handle model retrieval from BioModels, metadata enrichment, and structural quality control, ensuring the scalability of the curation workflow.
+
+- **SQLite Database** : A lightweight, portable RDBMS used to index metadata. It was selected for its low deployment overhead, providing a fast and queryable index of the entire model collection.
 
 2. ### **InfectioGIT GitHub Repository Organization** 
 
@@ -309,19 +318,7 @@ JSON files (indexing, searchability, and interoperability)
    /docs/ Technical documentation and user guides.  
 Figure 4 : Organizational structure of the InfectioGIT repository
 
-3. ### **Technical Components and Material** 
-
-- **SBML Models** (.xml) : The scientific core of the project. These machine-readable files provide the mechanistic and mathematical descriptions (ODEs, reaction networks) of infectious processes, ensuring simulation compatibility and reproducibility.
-
-- **Metadata Files** (.json) : Descriptive files that facilitate efficient indexing, searching, and filtering. They are essential for FAIR compliance, allowing the repository to interact with external bioinformatics services without parsing complex XML code.
-
-- **Ontology Files** (.obo / .owl) : Semantic resources from DOID and MONDO. They provide a standardized vocabulary to resolve naming ambiguities, support hierarchical classification, and enable precise disease mapping across global databases.
-
-- **Python Scripts** (.py) : Automation tools used to manage the data lifecycle. These scripts handle model retrieval from BioModels, metadata enrichment, and structural quality control, ensuring the scalability of the curation workflow.
-
-- **SQLite Database** : A lightweight, portable RDBMS used to index metadata. It was selected for its low deployment overhead, providing a fast and queryable index of the entire model collection.
-
-5. # Constraints and Risks 
+4. # Constraints and Risks 
 
 1. ##  **Functional Constraints**  
 
