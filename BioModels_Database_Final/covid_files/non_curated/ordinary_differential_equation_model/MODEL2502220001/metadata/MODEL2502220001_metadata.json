@@ -1,0 +1,150 @@
+{
+    "model_id": "MODEL2502220001",
+    "doi": "",
+    "year": 2026,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Pin2025 - COVID-19 Epidemiological Model in Immunocompromised subjects in the UK during 2021-2022",
+        "description": "We developed a mathematical model that recapitulated the available data of COVID-19 infection in the UK general population and in severely immunocompromised subjects during 2021 and 2022 and used it to perform simulations under alternative scenarios to retrospectively quantify the impact of interventions during the study period.",
+        "format": {
+            "name": "MATLAB (Octave)",
+            "identifier": "matlab",
+            "version": "*"
+        },
+        "publication": {
+            "type": "PubMed ID",
+            "accession": "41729838",
+            "journal": "PloS one",
+            "title": "A dynamic model of COVID-19 infection quantifies the impact of preventive interventions on the infection of severely immunocompromised subjects in the United Kingdom.",
+            "affiliation": "Systems Medicine, Clinical Pharmacology and Quantitative Pharmacology, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, Cambridge, United Kingdom.",
+            "synopsis": "The disproportional risk of microbial infections affecting immunocompromised individuals underlines the critical need to develop effective infection preventive strategies. Using the COVID-19 pandemic as an example, we developed a mathematical model to evaluate interventions to protect severely immunocompromised (SIC) subjects against COVID-19. Predictions were well-aligned with UK available data for 2021 and 2022, and the model was used to retrospectively quantify the impact of preventive interventions in alternative scenarios during that period. Model simulations indicated that while the UK vaccination program reduced hospitalizations and deaths in the general population, SIC subjects remained at high risk of severe COVID-19. Simulated protective strategies, such as passive immunization, during seasonal SARS-CoV-2 peaks, showed potential to significantly reduce infection rates in this vulnerable group. We demonstrated the application of mathematical models to describe complex interactions among multiple dynamic processes and assess interventions to prevent disease transmission in both immunocompetent and immunosuppressed individuals.",
+            "year": 2026,
+            "volume": "21",
+            "issue": "2",
+            "pages": "e0341331",
+            "link": "http://identifiers.org/pubmed/41729838",
+            "authors": [
+                {
+                    "name": "Carmen Pin",
+                    "orcid": "0000-0001-8734-6167"
+                },
+                {
+                    "name": "Sylvia Taylor",
+                    "institution": "Medical and Scientific Affairs, Vaccines & Immune Therapies, Biopharmaceuticals, AstraZeneca, Cambridge, United Kingdom."
+                },
+                {
+                    "name": "Catia Ferreira",
+                    "institution": "Medical and Scientific Affairs, Vaccines & Immune Therapies, Biopharmaceuticals, Wilmington, United States of America."
+                },
+                {
+                    "name": "Sofie Arnetorp",
+                    "institution": "Health Economics, BioPharmaceuticals, AstraZeneca, Gothenburg, Sweden."
+                },
+                {
+                    "name": "Holly Kimko",
+                    "institution": "Systems Medicine, Clinical Pharmacology and Quantitative Pharmacology, Clinical Pharmacology and Safety Sciences, R&D, AstraZeneca, Gaithersburg, Maryland, United States of America."
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Covid_ImmComprom_ODEs.m",
+                    "description": "ODEs Matlab file",
+                    "fileSize": "26251",
+                    "mimeType": "text/x-matlab",
+                    "md5sum": "522128ca9b57fb8fdf37131095c7effc",
+                    "sha1sum": "7079a199fe8265348742887c81751ca94181f016",
+                    "sha256sum": "633cb8771e621bc9d9f2b93d6d8878041fb4f9d0de637678688826691a027c8a"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "Covid_ImmComprom_Integration.m",
+                    "description": "Simulation Matlab file",
+                    "fileSize": "20584",
+                    "mimeType": "text/x-matlab",
+                    "md5sum": "26536ef67e2675545b67f31867098067",
+                    "sha1sum": "76b2815596167a3d4a9edbd5952919e4e4f5c78a",
+                    "sha256sum": "fa5280986b634937ecdd7ee1707353cdb0c1843016725c2ce3522fe166deec87"
+                },
+                {
+                    "name": "DoseDay.mat",
+                    "description": "Data Matlab file",
+                    "fileSize": "4966",
+                    "mimeType": "application/x-matlab-data",
+                    "md5sum": "140e3b91351cfaa8f060e17d326403d9",
+                    "sha1sum": "cfc9121260e19f1972e2c96782de55af61a48a73",
+                    "sha256sum": "22a2d4c5b3cbd6aaeb9c6399835d65affe26c9730b9e3f26216f3f2620d11e74"
+                },
+                {
+                    "name": "dataTemp20_22.mat",
+                    "description": "Data Matlab file",
+                    "fileSize": "1381",
+                    "mimeType": "application/x-matlab-data",
+                    "md5sum": "d41bf33cd38e475c15eb6f1f0c5f1d8f",
+                    "sha1sum": "d29a96c755a537da8950d2507d1901305cc7da7a",
+                    "sha256sum": "d890e35a1bd2b7fbebe751ca9a776bd64707d5dbb23ebbd7018bf22bf26a47dd"
+                },
+                {
+                    "name": "dataUKmatlab.mat",
+                    "description": "Data Matlab file",
+                    "fileSize": "7901",
+                    "mimeType": "application/x-matlab-data",
+                    "md5sum": "8d6309a04aa58e21df139c33ad3d94b0",
+                    "sha1sum": "e39c99993b30ad403980a67ba0c7aa246619aae3",
+                    "sha256sum": "a8e14657bfc06bc2f462e3cab25bf10a19f334f1151f253012af7c60b6ceee76"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 3,
+                    "submitted": 1769504486,
+                    "submitter": "Carmen Pin",
+                    "comment": "Manuscript is accepted and journal is requesting a link to the model"
+                }
+            ]
+        },
+        "firstPublished": 1770413375,
+        "submissionId": "MODEL2502220001",
+        "modellingApproach": {
+            "accession": "MAMO_0000046",
+            "name": "ordinary differential equation model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "Manuscript Accepted"
+        ],
+        "contributors": {
+            "AnnotationCurator": [
+                {
+                    "name": "Carmen Pin",
+                    "email": "carmenpinster@gmail.com",
+                    "orcid": "0000-0001-8734-6167",
+                    "external": false
+                }
+            ],
+            "Modeller": [
+                {
+                    "name": "Carmen Pin",
+                    "email": "carmenpinster@gmail.com",
+                    "orcid": "0000-0001-8734-6167",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2502220001",
+                "resource": "BioModels",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2502220001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2502220001' files=[File(name='Covid_ImmComprom_ODEs.m', description='ODEs Matlab file', size=26251), File(name='Covid_ImmComprom_Integration.m', description='Simulation Matlab file', size=20584), File(name='DoseDay.mat', description='Data Matlab file', size=4966), File(name='dataTemp20_22.mat', description='Data Matlab file', size=1381), File(name='dataUKmatlab.mat', description='Data Matlab file', size=7901)]"
+}

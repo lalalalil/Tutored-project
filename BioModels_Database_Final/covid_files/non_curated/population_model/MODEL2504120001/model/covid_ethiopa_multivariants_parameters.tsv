@@ -1,0 +1,25 @@
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	initializationPriorType	initializationPriorParameters	objectivePriorType	objectivePriorParameters
+beta	beta	log10	0.01	1	0.08	1	parameterScaleNormal	-1.10;0.06	parameterScaleNormal	-1.10;0.06
+kappa_inv	kappa_inv	log	0.1	100	5.0	1	parameterScaleNormal	1.63;0.50	parameterScaleNormal	1.63;0.50
+gamma_inv	gamma_inv	lin	0.1	100	16.7	1	parameterScaleNormal	15.7;6.7	parameterScaleNormal	15.7;6.7
+beta_2	beta_2	lin	1.0	10	1.0	1	parameterScaleNormal	1.82;0.22	parameterScaleNormal	1.82;0.22
+beta_3	beta_3	lin	1.0	10	1.0	1	parameterScaleNormal	1.50;0.24	parameterScaleNormal	1.50;0.24
+beta_5	beta_5	lin	1.0	10	1.0	1	parameterScaleNormal	1.99;0.04	parameterScaleNormal	1.99;0.04
+beta_6	beta_6	lin	1.0	10	1.0	1	parameterScaleNormal	1.1;0.05	parameterScaleNormal	1.1;0.05
+s0	s0	log10	0.001	1	0.5	1				
+s	s	log10	0.001	1	0.9	1				
+seas_shift	seas_shift	lin	0.0	365	0.0	1				
+seas_frac	seas_frac	lin	0.0	1	0.0	1				
+beta_0	beta_0	lin	1.0	10	1.0	1				
+t0_0	t0_0	lin	1.0	216	1.0	1				
+beta_1	beta_1	lin	1.0	10	1.0	1				
+t0_1	t0_1	lin	82.0	216	1.0	1				
+t0_2	t0_2	lin	144.0	311	1.0	1				
+t0_3	t0_3	lin	142.0	311	1.0	1				
+beta_4	beta_4	lin	1.0	10	1.0	1				
+t0_4	t0_4	lin	1.0	403	1.0	1				
+t0_5	t0_5	lin	323.0	426	1.0	1				
+t0_6	t0_6	lin	508.0	610	1.0	1				
+beta_7	beta_7	lin	1.0	10	1.0	1				
+t0_7	t0_7	lin	560.0	817	1.0	1				
+scaling_infc_rel_nat_Ethiopia	scaling_infc_rel_nat_Ethiopia	log10	1.0	10	1.0	1				

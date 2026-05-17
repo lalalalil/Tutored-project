@@ -1,0 +1,131 @@
+{
+    "model_id": "MODEL2003020001",
+    "doi": "",
+    "year": 2020,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Renz2020 - GEM of Human alveolar macrophage with SARS-CoV-2",
+        "description": "Background: The novel coronavirus (SARS-CoV-2) currently spreads worldwide, causing the disease COVID-19. The number of infections increases daily, without any approved antiviral therapy. The recently released viral nucleotide sequence enables the identification of therapeutic targets, e.g., by analyzing integrated human-virus metabolic models. Investigations of changed metabolic processes after virus infections and the effect of knock-outs on the host and the virus can reveal new potential targets.Results: We generated an integrated host-virus genome-scale metabolic model of human alveolar macrophages and SARS-CoV-2. Analyses of stoichiometric and metabolic changes between uninfected and infected host cells using flux balance analysis (FBA) highlighted the different requirements of host and virus.Conclusion: Consequently, alterations in the metabolism can have different effects on host and virus, leading to potential antiviral targets. One of these potential targets is guanylate kinase (GK1). In FBA analyses, the knock-out of the guanylate kinase decreased the growth of the virus to zero, while not affecting the host. As GK1 inhibitors are described in the literature, its potential therapeutic effect for SARS-CoV-2 infections needs to be verified in in-vitro experiments.",
+        "format": {
+            "name": "COMBINE archive",
+            "identifier": "OMEX",
+            "version": "1.0"
+        },
+        "publication": {
+            "type": "PubMed ID",
+            "accession": "33381848",
+            "journal": "Bioinformatics",
+            "title": "FBA reveals guanylate kinase as a potential target for antiviral therapies against SARS-CoV-2",
+            "affiliation": "Computational Systems Biology of Infections and Antimicrobial-Resistant Pathogens, Institute for Bioinformatics and Medical Informatics (IBMI), University of T\u00fcbingen, 72076 T\u00fcbingen, Germany",
+            "synopsis": "Motivation\nThe novel coronavirus (SARS-CoV-2) currently spreads worldwide, causing the disease COVID-19. The number of infections increases daily, without any approved antiviral therapy. The recently released viral nucleotide sequence enables the identification of therapeutic targets, e.g. by analyzing integrated human-virus metabolic models. Investigations of changed metabolic processes after virus infections and the effect of knock-outs on the host and the virus can reveal new potential targets.\n\nResults\nWe generated an integrated host\u2013virus genome-scale metabolic model of human alveolar macrophages and SARS-CoV-2. Analyses of stoichiometric and metabolic changes between uninfected and infected host cells using flux balance analysis (FBA) highlighted the different requirements of host and virus. Consequently, alterations in the metabolism can have different effects on host and virus, leading to potential antiviral targets. One of these potential targets is guanylate kinase (GK1). In FBA analyses, the knock-out of the GK1 decreased the growth of the virus to zero, while not affecting the host. As GK1 inhibitors are described in the literature, its potential therapeutic effect for SARS-CoV-2 infections needs to be verified in in-vitro experiments.\n\nAvailability and implementation\nThe computational model is accessible at https://identifiers.org/biomodels.db/MODEL2003020001.",
+            "year": 2020,
+            "month": "12",
+            "volume": "36",
+            "issue": "Supplement_2",
+            "pages": "i813-i821",
+            "link": "http://identifiers.org/pubmed/33381848",
+            "authors": [
+                {
+                    "name": "Alina Renz",
+                    "institution": "Department of Computer Science, University of T\u00fcbingen, 72076, T\u00fcbingen, Germany.Computational Systems Biology of Infection and Antimicrobial-Resistant Pathogens, Institute for Bioinformatics and Medical Informatics (IBMI), University of T\u00fcbingen, 72076, T\u00fcbingen, Germany.",
+                    "orcid": "0000-0003-3851-9978"
+                },
+                {
+                    "name": "Lina Widerspick",
+                    "institution": "Bernhard-Nocht-Institute for Tropical Medicine",
+                    "orcid": "0000-0001-6666-7770"
+                },
+                {
+                    "name": "Andreas Dr\u00e4ger",
+                    "institution": "Martin Luther University Halle-Wittenberg",
+                    "orcid": "0000-0002-1240-5553"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "iAB_AMO1410_SARS-CoV-2.omex",
+                    "description": "OMEX Version 1",
+                    "fileSize": "456694",
+                    "mimeType": "application/zip",
+                    "md5sum": "d831a0e163c4eae0cb1ec4b931f79e78",
+                    "sha1sum": "56b2c061a35983bf33b2f49bb05ce4df840bf901",
+                    "sha256sum": "f630c74246caaec800b35ec3d06cd780dd1477a960eaf65d4416a89753edf21d"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "iAB_AMO1410_SARS-CoV-2.xml",
+                    "description": "SBML L3V1",
+                    "fileSize": "7935052",
+                    "mimeType": "application/xml",
+                    "md5sum": "e38ffaca8ae5ffb39130ae7d097716ff",
+                    "sha1sum": "ccbbf861e51e075df0efdf7bd1a15106cea41259",
+                    "sha256sum": "f092ab848a6643a5052afd1f87b3497a322b66b49f573bfcf6640207f1662bcd"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 8,
+                    "submitted": 1584462150,
+                    "submitter": "Rahuman S Malik-Sheriff",
+                    "comment": "Edited model metadata online."
+                },
+                {
+                    "version": 9,
+                    "submitted": 1619712437,
+                    "submitter": "Andreas Dr\u00e4ger",
+                    "comment": "Refinement of the structural proteins in the viral biomass objective function based on new data."
+                }
+            ]
+        },
+        "firstPublished": 1619781644,
+        "submissionId": "MODEL2003020001",
+        "modellingApproach": {
+            "accession": "MAMO_0000009",
+            "name": "constraint-based model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000009"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "COVID-19"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Rahuman S Malik-Sheriff",
+                    "email": "sheriff@ebi.ac.uk",
+                    "affiliation": "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+                    "orcid": "0000-0003-0705-9809",
+                    "external": false
+                },
+                {
+                    "name": "Andreas Dr\u00e4ger",
+                    "email": "andreas.draeger@informatik.uni-halle.de",
+                    "affiliation": "Martin Luther University Halle-Wittenberg",
+                    "orcid": "0000-0002-1240-5553",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aai",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "33381848",
+                "resource": "PubMed",
+                "uri": "https://identifiers.org/pubmed:33381848"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2003020001",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2003020001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2003020001' files=[File(name='iAB_AMO1410_SARS-CoV-2.omex', description='OMEX Version 1', size=456694), File(name='iAB_AMO1410_SARS-CoV-2.xml', description='SBML L3V1', size=7935052)]"
+}

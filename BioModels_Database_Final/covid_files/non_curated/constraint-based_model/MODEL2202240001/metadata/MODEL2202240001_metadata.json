@@ -1,0 +1,118 @@
+{
+    "model_id": "MODEL2202240001",
+    "doi": "10.1371/journal.pcbi.1010903",
+    "year": 2023,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "New workflow predicts drug targets against SARS-CoV-2 via metabolic changes in infected cells",
+        "description": "COVID-19 is one of the deadliest respiratory diseases, and its emergence caught the pharmaceutical industry off guard. While vaccines have been rapidly developed, treatment options for infected people remain scarce, and COVID-19 poses a substantial global threat. This study presents a novel workflow to predict robust druggable targets against emerging RNA viruses using metabolic networks and information of the viral structure and its genome sequence. For this purpose, we implemented pymCADRE and PREDICATE to create tissue-specific metabolic models, construct viral biomass functions and predict host-based antiviral targets from more than one genome. We observed that pymCADRE reduces the computational time of flux variability analysis for internal optimizations. We applied these tools to create a new metabolic network of primary bronchial epithelial cells infected with SARS-CoV-2 and identified enzymatic reactions with inhibitory effects. The most promising reported targets were from the purine metabolism, while targeting the pyrimidine and carbohydrate metabolisms seemed to be promising approaches to enhance viral inhibition. Finally, we computationally tested the robustness of our targets in all known variants of concern, verifying our targets\u2019 inhibitory effects. Since laboratory tests are time-consuming and involve complex readouts to track processes, our workflow focuses on metabolic fluxes within infected cells and is applicable for rapid hypothesis-driven identification of potentially exploitable antivirals concerning various viruses and host cell types.Availability: https://github.com/draeger-lab/pymCADRE/.",
+        "format": {
+            "name": "COMBINE archive",
+            "identifier": "OMEX",
+            "version": "1.0"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.1371/journal.pcbi.1010903",
+            "journal": "PLoS computational biology",
+            "title": "New workflow predicts drug targets against SARS-CoV-2 via metabolic changes in infected cells.",
+            "affiliation": "Computational Systems Biology of Infections and Antimicrobial-Resistant Pathogens, Institute for Bioinformatics and Medical Informatics (IBMI), Eberhard Karl University of T\u00fcbingen, T\u00fcbingen, Germany.",
+            "synopsis": "COVID-19 is one of the deadliest respiratory diseases, and its emergence caught the pharmaceutical industry off guard. While vaccines have been rapidly developed, treatment options for infected people remain scarce, and COVID-19 poses a substantial global threat. This study presents a novel workflow to predict robust druggable targets against emerging RNA viruses using metabolic networks and information of the viral structure and its genome sequence. For this purpose, we implemented pymCADRE and PREDICATE to create tissue-specific metabolic models, construct viral biomass functions and predict host-based antiviral targets from more than one genome. We observed that pymCADRE reduces the computational time of flux variability analysis for internal optimizations. We applied these tools to create a new metabolic network of primary bronchial epithelial cells infected with SARS-CoV-2 and identified enzymatic reactions with inhibitory effects. The most promising reported targets were from the purine metabolism, while targeting the pyrimidine and carbohydrate metabolisms seemed to be promising approaches to enhance viral inhibition. Finally, we computationally tested the robustness of our targets in all known variants of concern, verifying our targets' inhibitory effects. Since laboratory tests are time-consuming and involve complex readouts to track processes, our workflow focuses on metabolic fluxes within infected cells and is applicable for rapid hypothesis-driven identification of potentially exploitable antivirals concerning various viruses and host cell types.",
+            "year": 2023,
+            "month": "3",
+            "volume": "19",
+            "issue": "3",
+            "pages": "e1010903",
+            "link": "http://identifiers.org/doi/10.1371/journal.pcbi.1010903",
+            "authors": [
+                {
+                    "name": "Nantia Leonidou",
+                    "institution": "Eberhard Karl University of T\u00fcbingen",
+                    "orcid": "0000-0002-0248-6679"
+                },
+                {
+                    "name": "Alina Renz",
+                    "institution": "Department of Computer Science, University of T\u00fcbingen, 72076, T\u00fcbingen, Germany.Computational Systems Biology of Infection and Antimicrobial-Resistant Pathogens, Institute for Bioinformatics and Medical Informatics (IBMI), University of T\u00fcbingen, 72076, T\u00fcbingen, Germany.",
+                    "orcid": "0000-0003-3851-9978"
+                },
+                {
+                    "name": "Reihaneh Mostolizadeh",
+                    "institution": "Justus Liebig University Giessen",
+                    "orcid": "0000-0003-2479-6851"
+                },
+                {
+                    "name": "Andreas Dr\u00e4ger",
+                    "institution": "Martin Luther University Halle-Wittenberg",
+                    "orcid": "0000-0002-1240-5553"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "iHBEC-BOFVBOF-2023.omex",
+                    "description": "A genome-scale metabolic model of human bronchial epithelial cells (HBECs) that was automatically derived from Recon 1 with the biomass objective function of SARS-CoV-2 (coronavirus 2019-nCoV) using the software pymCADRE",
+                    "fileSize": "646102",
+                    "mimeType": "application/zip",
+                    "md5sum": "abefeb91062f70660e4e8337c4171c90",
+                    "sha1sum": "8bf59295a9008b3cfde16286f706a46d4ad00f36",
+                    "sha256sum": "d2668577d9144e3fed7b07ea6aa0b341e1ad76b7a6bd7d42e9b682ca663ab11e"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1674038750,
+                    "submitter": "Andreas Dr\u00e4ger",
+                    "comment": "Deleted an outdated file to avoid confusion."
+                },
+                {
+                    "version": 2,
+                    "submitted": 1688376196,
+                    "submitter": "Andreas Dr\u00e4ger",
+                    "comment": "Updated DOI after peer review."
+                }
+            ]
+        },
+        "firstPublished": 1713441258,
+        "submissionId": "MODEL2202240001",
+        "modellingApproach": {
+            "accession": "MAMO_0000009",
+            "name": "constraint-based model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000009"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "FROG"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Andreas Dr\u00e4ger",
+                    "email": "andreas.draeger@informatik.uni-halle.de",
+                    "affiliation": "Martin Luther University Halle-Wittenberg",
+                    "orcid": "0000-0002-1240-5553",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.1371/journal.pcbi.1010903",
+                "resource": "DOI",
+                "uri": "https://identifiers.org/doi:10.1371/journal.pcbi.1010903"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2202240001",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2202240001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2202240001' files=[File(name='iHBEC-BOFVBOF-2023.omex', description='A genome-scale metabolic model of human bronchial epithelial cells (HBECs) that was automatically derived from Recon 1 with the biomass objective function of SARS-CoV-2 (coronavirus 2019-nCoV) using the software pymCADRE', size=646102)]"
+}

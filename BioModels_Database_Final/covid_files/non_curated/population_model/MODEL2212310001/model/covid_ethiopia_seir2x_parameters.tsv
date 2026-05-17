@@ -1,0 +1,7 @@
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	initializationPriorType	initializationPriorParameters	objectivePriorType	objectivePriorParameters
+beta_0	beta_0	log10	1e-05	10	0.08306453612293833	1				
+kappa_inverse	kappa_inverse	log	0.1	1000	5.67499609915529	1	parameterScaleNormal	1.63;0.50	parameterScaleNormal	1.63;0.50
+gamma_inverse	gamma_inverse	lin	0.1	100	18.519797970863117	1	parameterScaleNormal	15.7;6.7	parameterScaleNormal	15.7;6.7
+alpha_0	alpha_0	log10	0.1	1000	1.4510838244731192	1				
+I_0_J	I_0_J	log10	0.1	1000	121.8863612587224	1				
+I_0_A	I_0_A	log10	0.1	1000	189.9237888585749	1				

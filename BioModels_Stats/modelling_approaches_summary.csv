@@ -1,0 +1,131 @@
+disease_category,model_id,modelling_approach,doi,year,year_source
+covid_files,MODEL2203300002,constraint-based model,,2023,publication_block
+covid_files,MODEL2003020001,constraint-based model,,2020,publication_block
+covid_files,MODEL2109130003,differential equation model,,2022,firstPublished
+covid_files,MODEL2010280002,constraint-based model,10.26508/LSA.202000869,2020,publication_block
+covid_files,MODEL2212310001,population model,,2021,publication_block
+covid_files,MODEL2502220001,ordinary differential equation model,,2026,publication_block
+covid_files,MODEL2311070005,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+covid_files,MODEL2311070002,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+covid_files,MODEL2202230002,ordinary differential equation model,,2022,publication_block
+covid_files,MODEL2311070003,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+covid_files,MODEL2311070004,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+covid_files,MODEL2402280001,mathematical model,10.3390/v14051103,2022,publication_block
+covid_files,MODEL2203300001,constraint-based model,10.46471/gigabyte.80,2023,publication_block
+covid_files,MODEL2212160001,cellular Potts model,10.3390/v14030605,2022,publication_block
+covid_files,MODEL2504120001,population model,10.1038/s41467-024-47556-2,2024,publication_block
+covid_files,MODEL2111170001,ordinary differential equation model,,2021,publication_block
+covid_files,MODEL2209020001,Other,,2022,firstPublished
+covid_files,MODEL2401170001,finite element spatial model,10.1016/j.bpj.2023.12.026,2024,publication_block
+covid_files,MODEL2503040001,differential equation model,10.1101/2024.08.19.608570,2025,publication_block
+covid_files,MODEL2202240001,constraint-based model,10.1371/journal.pcbi.1010903,2023,publication_block
+covid_files,MODEL2311070001,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+covid_files,MODEL2311070006,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+covid_files,MODEL2007210001,constraint-based model,10.26508/lsa.202000954,2021,publication_block
+covid_files,MODEL2311070007,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+covid_files,BIOMD0000000962,population model,,2020,publication_block
+covid_files,BIOMD0000000991,population model,,2020,publication_block
+covid_files,BIOMD0000000955,population model,,2020,publication_block
+covid_files,BIOMD0000000964,population model,,2020,publication_block
+covid_files,BIOMD0000000963,population model,,2020,publication_block
+covid_files,BIOMD0000000979,ordinary differential equation model,,2020,publication_block
+covid_files,BIOMD0000000970,population model,,2020,publication_block
+covid_files,BIOMD0000000984,population model,,2020,publication_block
+covid_files,BIOMD0000000983,population model,,2020,publication_block
+covid_files,BIOMD0000000977,population model,,2020,publication_block
+covid_files,BIOMD0000000976,population model,,2020,publication_block
+covid_files,BIOMD0000000982,population model,,2020,publication_block
+covid_files,BIOMD0000000971,population model,,2020,publication_block
+covid_files,BIOMD0000000978,population model,,2020,publication_block
+covid_files,BIOMD0000000957,population model,,2020,publication_block
+covid_files,BIOMD0000000969,population model,,2020,publication_block
+covid_files,BIOMD0000000956,population model,,2020,publication_block
+covid_files,BIOMD0000000960,population model,,2020,publication_block
+covid_files,BIOMD0000000958,population model,,2020,publication_block
+covid_files,BIOMD0000000980,population model,,2020,publication_block
+covid_files,BIOMD0000000974,population model,,2020,publication_block
+covid_files,BIOMD0000000972,population model,,2020,publication_block
+covid_files,BIOMD0000000981,population model,,2020,publication_block
+covid_files,BIOMD0000000988,population model,,2020,publication_block
+mpox_files,MODEL2208040001,Other,10.1093/bioadv/vbad045,2023,publication_block
+tuberculosis_files,MODEL2203300002,constraint-based model,,2023,publication_block
+tuberculosis_files,MODEL1011090002,Not_specified,,2010,publication_block
+tuberculosis_files,MODEL1507180018,constraint-based model,,2010,publication_block
+tuberculosis_files,MODEL1507180021,constraint-based model,,2007,publication_block
+tuberculosis_files,MODEL1911120004,ordinary differential equation model,,2019,publication_block
+tuberculosis_files,MODEL2203300001,constraint-based model,10.46471/gigabyte.80,2023,publication_block
+tuberculosis_files,MODEL1411110000,Not_specified,,2014,publication_block
+tuberculosis_files,MODEL1011090001,Not_specified,,2010,publication_block
+tuberculosis_files,BIOMD0000001046,constraint-based model,,2005,publication_block
+tuberculosis_files,BIOMD0000000287,ordinary differential equation model,,2010,publication_block
+tuberculosis_files,BIOMD0000000218,ordinary differential equation model,,2006,publication_block
+tuberculosis_files,BIOMD0000000219,ordinary differential equation model,,2006,publication_block
+tuberculosis_files,BIOMD0000000221,ordinary differential equation model,,2006,publication_block
+tuberculosis_files,BIOMD0000000091,ordinary differential equation model,,2005,publication_block
+tuberculosis_files,BIOMD0000000462,ordinary differential equation model,,2012,publication_block
+tuberculosis_files,BIOMD0000000581,ordinary differential equation model,,2012,publication_block
+tuberculosis_files,BIOMD0000000222,ordinary differential equation model,,2006,publication_block
+tuberculosis_files,BIOMD0000000608,ordinary differential equation model,,2013,publication_block
+tuberculosis_files,BIOMD0000000582,ordinary differential equation model,,2014,publication_block
+tuberculosis_files,BIOMD0000001034,ordinary differential equation model,,2007,publication_block
+tuberculosis_files,BIOMD0000001095,constraint-based model,,2007,publication_block
+dengue_files,MODEL2311070005,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+dengue_files,MODEL2311070002,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+dengue_files,MODEL2311070003,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+dengue_files,MODEL2311070004,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+dengue_files,MODEL2003160002,ordinary differential equation model,,2015,publication_block
+dengue_files,MODEL2003190001,ordinary differential equation model,,2014,publication_block
+dengue_files,MODEL2311070001,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+dengue_files,MODEL2311070006,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+dengue_files,MODEL2311070007,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+hiv_files,MODEL1006230055,ordinary differential equation model,,1998,publication_block
+hiv_files,MODEL4028801312,ordinary differential equation model,,2007,publication_block
+hiv_files,MODEL1302180001,ordinary differential equation model,,2013,publication_block
+hiv_files,MODEL1805230001,Not_specified,,2009,publication_block
+hiv_files,MODEL1006230035,ordinary differential equation model,,1993,publication_block
+hiv_files,MODEL1006230050,ordinary differential equation model,,1996,publication_block
+hiv_files,MODEL1006230033,ordinary differential equation model,,1995,publication_block
+hiv_files,MODEL8102792069,ordinary differential equation model,,2000,publication_block
+hiv_files,MODEL1006230093,ordinary differential equation model,,1993,publication_block
+hiv_files,MODEL1302180002,ordinary differential equation model,,2013,publication_block
+hiv_files,MODEL2503040001,differential equation model,10.1101/2024.08.19.608570,2025,publication_block
+hiv_files,MODEL1812040004,ordinary differential equation model,,2011,publication_block
+hiv_files,MODEL1006230075,ordinary differential equation model,,1993,publication_block
+hiv_files,MODEL1006230081,ordinary differential equation model,,1995,publication_block
+hiv_files,MODEL1812040002,ordinary differential equation model,,2013,publication_block
+hiv_files,BIOMD0000000707,ordinary differential equation model,,2003,publication_block
+hiv_files,BIOMD0000000874,ordinary differential equation model,,1993,publication_block
+hiv_files,BIOMD0000000875,ordinary differential equation model,,2000,publication_block
+hiv_files,BIOMD0000000872,ordinary differential equation model,,2019,publication_block
+hiv_files,BIOMD0000000573,ordinary differential equation model,,2014,publication_block
+hiv_files,BIOMD0000000967,ordinary differential equation model,,1991,publication_block
+hiv_files,BIOMD0000000683,ordinary differential equation model,,1999,publication_block
+hiv_files,BIOMD0000000876,ordinary differential equation model,10.1016/j.apm.2019.05.028,2019,publication_block
+hiv_files,BIOMD0000000663,ordinary differential equation model,,2007,publication_block
+influenza_files,MODEL1504160000,ordinary differential equation model,,2011,publication_block
+influenza_files,MODEL2311070005,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+influenza_files,MODEL2311070002,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+influenza_files,MODEL1812040006,ordinary differential equation model,,2016,publication_block
+influenza_files,MODEL2311070003,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+influenza_files,MODEL2311070004,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+influenza_files,MODEL1406230000,ordinary differential equation model,,2009,publication_block
+influenza_files,MODEL1411130000,ordinary differential equation model,,2014,publication_block
+influenza_files,MODEL2311070001,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+influenza_files,MODEL2311070006,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+influenza_files,MODEL1812040005,ordinary differential equation model,,2017,publication_block
+influenza_files,MODEL2311070007,constraint-based model,10.20944/preprints202210.0223.v1,2022,publication_block
+influenza_files,BIOMD0000000708,ordinary differential equation model,,2017,publication_block
+influenza_files,BIOMD0000000709,ordinary differential equation model,,2017,publication_block
+influenza_files,BIOMD0000000889,ordinary differential equation model,,2014,publication_block
+influenza_files,BIOMD0000000463,ordinary differential equation model,,2012,publication_block
+influenza_files,BIOMD0000000851,ordinary differential equation model,,2019,publication_block
+influenza_files,BIOMD0000000528,ordinary differential equation model,,2014,publication_block
+influenza_files,BIOMD0000000529,ordinary differential equation model,,2014,publication_block
+influenza_files,BIOMD0000000712,ordinary differential equation model,,2014,publication_block
+influenza_files,BIOMD0000001045,population model,,2022,publication_block
+influenza_files,BIOMD0000000865,ordinary differential equation model,,2019,publication_block
+influenza_files,BIOMD0000000710,ordinary differential equation model,10.3182/20120829-3-hu-2029.00029,2012,publication_block
+influenza_files,BIOMD0000000717,ordinary differential equation model,10.1016/j.idm.2018.03.004,2018,publication_block
+influenza_files,BIOMD0000000716,ordinary differential equation model,10.1016/j.idm.2018.03.004,2018,publication_block
+influenza_files,BIOMD0000000711,ordinary differential equation model,,2007,publication_block
+influenza_files,BIOMD0000000546,ordinary differential equation model,,2010,publication_block

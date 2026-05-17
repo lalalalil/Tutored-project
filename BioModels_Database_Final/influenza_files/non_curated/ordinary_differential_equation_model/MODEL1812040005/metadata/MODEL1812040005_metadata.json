@@ -1,0 +1,184 @@
+{
+    "model_id": "MODEL1812040005",
+    "doi": "",
+    "year": 2017,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Smith2016-Combination therapy to prevent bacterial coinfection during influenza.",
+        "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Secondary bacterial infections (SBIs) exacerbate influenza-associated disease and mortality. Antimicrobial agents can reduce the severity of SBIs, but many have limited efficacy or cause adverse effects. Thus, new treatment strategies are needed. Kinetic models describing the infection process can help determine optimal therapeutic targets, the time scale on which a drug will be most effective, and how infection dynamics will change under therapy. To understand how different therapies perturb the dynamics of influenza infection and bacterial coinfection and to quantify the benefit of increasing a drug\u2019s efficacy or targeting a different infection process, I analyzed data from mice treated with an antiviral, an antibiotic, or an immune modulatory agent with kinetic models. The results suggest that antivirals targeting the viral life cycle are most efficacious in the first 2 days of infection, potentially because of an improved immune response, and that increasing the clearance of infected cells is important for treatment later in the infection. For a coinfection, immunotherapy could control low bacterial loads with as little as 20 % efficacy, but more effective drugs would be necessary for high bacterial loads. Antibiotics targeting bacterial replication and administered 10 h after infection would require 100 % efficacy, which could be reduced to 40 % with prophylaxis. Combining immunotherapy with antibiotics could substantially increase treatment success. Taken together, the results suggest when and why some therapies fail, determine the efficacy needed for successful treatment, identify potential immune effects, and show how the regulation of underlying mechanisms can be used to design new therapeutic strategies.Model is encoded by Ruby and submitted to BioModels by Ahmad Zyoud</pre>      </body>    </notes>",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L2V4"
+        },
+        "publication": {
+            "type": "PubMed ID",
+            "accession": "27679506",
+            "journal": "Journal of pharmacokinetics and pharmacodynamics",
+            "title": "Quantifying the therapeutic requirements and potential for combination therapy to prevent bacterial coinfection during influenza.",
+            "affiliation": "Department of Infectious Diseases, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA. amber.smith@stjude.org.",
+            "synopsis": "Secondary bacterial infections (SBIs) exacerbate influenza-associated disease and mortality. Antimicrobial agents can reduce the severity of SBIs, but many have limited efficacy or cause adverse effects. Thus, new treatment strategies are needed. Kinetic models describing the infection process can help determine optimal therapeutic targets, the time scale on which a drug will be most effective, and how infection dynamics will change under therapy. To understand how different therapies perturb the dynamics of influenza infection and bacterial coinfection and to quantify the benefit of increasing a drug's efficacy or targeting a different infection process, I analyzed data from mice treated with an antiviral, an antibiotic, or an immune modulatory agent with kinetic models. The results suggest that antivirals targeting the viral life cycle are most efficacious in the first 2 days of infection, potentially because of an improved immune response, and that increasing the clearance of infected cells is important for treatment later in the infection. For a coinfection, immunotherapy could control low bacterial loads with as little as 20\u00a0% efficacy, but more effective drugs would be necessary for high bacterial loads. Antibiotics targeting bacterial replication and administered 10\u00a0h after infection would require 100\u00a0% efficacy, which could be reduced to 40\u00a0% with prophylaxis. Combining immunotherapy with antibiotics could substantially increase treatment success. Taken together, the results suggest when and why some therapies fail, determine the efficacy needed for successful treatment, identify potential immune effects, and show how the regulation of underlying mechanisms can be used to design new therapeutic strategies.",
+            "year": 2017,
+            "month": "4",
+            "volume": "44",
+            "issue": "2",
+            "pages": "81-93",
+            "link": "http://identifiers.org/pubmed/27679506",
+            "authors": [
+                {
+                    "name": "Amber M Smith",
+                    "institution": "Department of Infectious Diseases, St. Jude Children's Research Hospital, Memphis, TN, 38105, USA. amber.smith@stjude.org.",
+                    "orcid": "0000-0002-7092-6904"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Smith2016.xml",
+                    "description": "SBML L2V4 Smith2016-Combination therapy to prevent bacterial coinfection during influenza.",
+                    "fileSize": "35765",
+                    "mimeType": "application/xml",
+                    "md5sum": "7477cee957ca71bad28e920bdc100ddf",
+                    "sha1sum": "0fab021c717bccca8d2cc169f029bbd982fa9cca",
+                    "sha256sum": "c8128aefa8e6552533aa5fe174441731d5920826db33c014ec39ae7cff985244"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "Model.xml",
+                    "description": "SBML L2V4 Smith2016-Combination therapy to prevent bacterial coinfection during influenza_Orignal",
+                    "fileSize": "16001",
+                    "mimeType": "application/xml",
+                    "md5sum": "93a57e688390951c44f4e585818baf97",
+                    "sha1sum": "ee71b1fdeef7ef37fee2c49b62081b8bf7cd235c",
+                    "sha256sum": "9937883ee4b14defd108d00470eda4367f64f360befe7c715f604463dff92614"
+                },
+                {
+                    "name": "Smith2016.cps",
+                    "description": "COPASI version 4.27 (Build 217) Smith2016-Combination therapy to prevent bacterial coinfection during influenza.",
+                    "fileSize": "80188",
+                    "mimeType": "application/xml",
+                    "md5sum": "c7ff09ce228ce54b1b118c8e76b98f5b",
+                    "sha1sum": "f47a1a6ec5430ded16cd830d9e9dbd122017fb43",
+                    "sha256sum": "978726afd9e18b730b8eae99685759c8333772a7f917746daf30c565314c6ea7"
+                },
+                {
+                    "name": "V3.cps",
+                    "description": "Copasi file for the model",
+                    "fileSize": "54205",
+                    "mimeType": "application/xml",
+                    "md5sum": "694cccb0c67c38df410cd3265efd8ea7",
+                    "sha1sum": "e6751dc1d8d1b9ed34959746c53b83178223f47e",
+                    "sha256sum": "3ca9690e67eaa73eacc51abe820e0ae5acebd0acfd7df2f827f1afb359ac089d"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 3,
+                    "submitted": 1585849010,
+                    "submitter": "Ahmad Zyoud",
+                    "comment": "Model revised without commit message"
+                }
+            ]
+        },
+        "firstPublished": 1585849029,
+        "submissionId": "MODEL1812040005",
+        "modellingApproach": {
+            "accession": "MAMO_0000046",
+            "name": "ordinary differential equation model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Sarubini Kananathan",
+                    "email": "skananathan@ebi.ac.uk",
+                    "affiliation": "EMBL-EBI",
+                    "external": false
+                },
+                {
+                    "name": "Ahmad Zyoud",
+                    "email": "azyoud@ebi.ac.uk",
+                    "affiliation": "EMBL-EBI",
+                    "orcid": "0000-0002-5937-8564",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aag",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqbiol:hasTaxon",
+                "accession": "9606",
+                "name": "Homo sapiens",
+                "resource": "Taxonomy",
+                "uri": "http://identifiers.org/taxonomy/9606"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "MAMO_0000046",
+                "name": "Ordinary differential equation model",
+                "resource": "Mathematical Modelling Ontology",
+                "uri": "http://identifiers.org/mamo/MAMO_0000046"
+            },
+            {
+                "qualifier": "bqbiol:occursIn",
+                "accession": "BTO:0005810",
+                "name": "immune system",
+                "resource": "Brenda Tissue Ontology",
+                "uri": "https://identifiers.org/bto/BTO:0005810"
+            },
+            {
+                "qualifier": "bqbiol:is",
+                "accession": "MODEL1812040005",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db/MODEL1812040005"
+            },
+            {
+                "qualifier": "bqbiol:isDescribedBy",
+                "accession": "27679506",
+                "resource": "PubMed",
+                "uri": "https://identifiers.org/pubmed/27679506"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "0027719",
+                "resource": "OMIT",
+                "uri": "https://identifiers.org/omit/0027719"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "C281",
+                "name": "Antiviral Agent",
+                "resource": "NCIt",
+                "uri": "https://identifiers.org/ncit/C281"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "C53482",
+                "name": "Influenza",
+                "resource": "NCIt",
+                "uri": "https://identifiers.org/ncit/C53482"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "C15262",
+                "name": "Immunotherapy",
+                "resource": "NCIt",
+                "uri": "http://identifiers.org/ncit/C15262"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "C258",
+                "name": "Antibiotic",
+                "resource": "NCIt",
+                "uri": "https://identifiers.org/ncit/C258"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL1812040005' files=[File(name='Smith2016.xml', description='SBML L2V4 Smith2016-Combination therapy to prevent bacterial coinfection during influenza.', size=35765), File(name='Model.xml', description='SBML L2V4 Smith2016-Combination therapy to prevent bacterial coinfection during influenza_Orignal', size=16001), File(name='Smith2016.cps', description='COPASI version 4.27 (Build 217) Smith2016-Combination therapy to prevent bacterial coinfection during influenza.', size=80188), File(name='V3.cps', description='Copasi file for the model', size=54205)]"
+}

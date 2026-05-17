@@ -1,0 +1,167 @@
+{
+    "model_id": "MODEL2503040001",
+    "doi": "10.1101/2024.08.19.608570",
+    "year": 2025,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Miroshnichenko2025 - A modular model of immune response to SARS-CoV-2 infection",
+        "description": "A multicompartmental model consisting of four submodules: the lungs, the upper airways, and the corresponding lymph nodes for both submodules. The model is made up of 35 differential equations (including ODEs and DDEs) and 112 parameters.",
+        "format": {
+            "name": "COMBINE archive",
+            "identifier": "OMEX",
+            "version": "0.1"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.3390/v17050589",
+            "journal": "Viruses",
+            "title": "A Modular Mathematical Model of the Immune Response for Investigating the Pathogenesis of Infectious Diseases.",
+            "affiliation": "Department of Computational Biology, Scientific Center for Genetics and Life Sciences, Sirius University of Science and Technology, 354340 Sochi, Russia.",
+            "synopsis": "The COVID-19 pandemic highlighted the importance of mathematical modeling for understanding viral infection dynamics and accelerated its application into immunological research. Collaborative efforts among international research groups yielded a wealth of experimental data, which facilitated model development and validation. This study focuses on developing a modular mathematical model of the immune response, capturing the interactions between innate and adaptive immunity, with an application to SARS-CoV-2 infection. The model was validated using experimental data from middle-aged individuals with moderate COVID-19 progression, including measurements of viral load in the upper and lower airways, serum antibodies, CD4+ and CD8+ T cells, and interleukin-6 levels. Parameter optimization and sensitivity analysis were performed to improve the model accuracy. Additionally, identifiability analysis was conducted to assess whether the data were sufficient for reliable parameter estimation. The verified model simulates the dynamics of moderate, severe, and critical COVID-19 progressions using measured data on lung epithelium damage, viral load, and IL-6 levels as key indicators of disease severity. We also performed a series of validation scenarios to assess whether the model correctly reproduces biologically relevant behaviors under various conditions, such as immunity hyperactivation, co-infection with HIV, and interferon administration as a therapeutic strategy. The model was developed as a component of the Digital Twin project and represents a general immune module that integrates both innate and adaptive immunity. It can be utilized for further COVID-19 research or serve as a foundation for studying other infectious diseases, provided sufficient data are available.",
+            "year": 2025,
+            "month": "4",
+            "volume": "17",
+            "issue": "5",
+            "pages": "589",
+            "link": "http://identifiers.org/doi/10.3390/v17050589",
+            "authors": [
+                {
+                    "name": "Maxim I Miroshnichenko",
+                    "institution": "Department of Computational Biology, Scientific Center for Genetics and Life Sciences, Sirius University of Science and Technology, 354340 Sochi, Russia.",
+                    "orcid": "0009-0008-0843-6083"
+                },
+                {
+                    "name": "Fedor A Kolpakov",
+                    "institution": "Department of Computational Biology, Scientific Center for Genetics and Life Sciences, Sirius University of Science and Technology, 354340 Sochi, Russia."
+                },
+                {
+                    "name": "Ilya R Akberdin",
+                    "institution": "Biosoft.ru, 630058 Novosibirsk, Russia.Department of Natural Sciences, Novosibirsk State University, 630090 Novosibirsk, Russia.Department of Molecular Biotechnology, Institute of Cytology and Genetics SB RAS, 630090 Novosibirsk, Russia.",
+                    "orcid": "0000-0003-0010-8620"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "SC2_modular_model.omex",
+                    "description": "OMEX archive containing a composite model made up of submodels and experimental data for simulations",
+                    "fileSize": "49842",
+                    "mimeType": "application/zip",
+                    "md5sum": "b094614b45dfff3fa9ffe87433a7d82c",
+                    "sha1sum": "3f4f89fafaf692f5064ad95db8ef6260f25a6b78",
+                    "sha256sum": "36174d932188fde9c757a6dc5f0fee6b87735f8b683b3e3fb0a4aad23317cc57"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "Baseline.png",
+                    "description": "Baseline model simulation",
+                    "fileSize": "1885867",
+                    "mimeType": "image/png",
+                    "md5sum": "efabc752626d4f6c7a97d759c47ada67",
+                    "sha1sum": "a31ab8624ad17c69620ad76ecaf66afd7e84a5eb",
+                    "sha256sum": "961bcca2e740a866e46e64917806be09a528d2f39fd7790a2f7d5a052e493b90"
+                },
+                {
+                    "name": "data.zip",
+                    "description": "Experimental data",
+                    "fileSize": "15603",
+                    "mimeType": "application/zip",
+                    "md5sum": "40a1fbbc12a47d9cd1a505aee67904d4",
+                    "sha1sum": "f620ea4fa4b314862bb16226d44adda2235fa473",
+                    "sha256sum": "03fc73074451539d8cf305bef112b311bf427df7ef4e765e1eb4bdbbf335cd2e"
+                },
+                {
+                    "name": "lungs_submodule.xml",
+                    "description": "Submodel in SBML l3v2 format",
+                    "fileSize": "95205",
+                    "mimeType": "application/xml",
+                    "md5sum": "4016280b8b0e9736c59d241f5638bc83",
+                    "sha1sum": "9f621624bd1a41ba31e16957f3f19db53b14d81f",
+                    "sha256sum": "6afe1db473e613b04a48713d3ebee92dd0014d674f6bdbc2640292d388b14bd5"
+                },
+                {
+                    "name": "lymph_nodes_lungs_submodule.xml",
+                    "description": "Submodel in SBML l3v2 format",
+                    "fileSize": "137089",
+                    "mimeType": "application/xml",
+                    "md5sum": "e36d7d7e04e13a1da75723f2b06dfdb0",
+                    "sha1sum": "4614aa40492075ebacf296ec81584e100775ea44",
+                    "sha256sum": "e602df6d01d41d3488b71e015a84b6d531885c3ceaec2ebc6661e89122d09a81"
+                },
+                {
+                    "name": "lymph_nodes_ua_submodule.xml",
+                    "description": "Submodel in SBML l3v2 format",
+                    "fileSize": "51122",
+                    "mimeType": "application/xml",
+                    "md5sum": "0d05521fd92888573f1e64675a5f2f49",
+                    "sha1sum": "026fe08e64112a14f08cfe64aca3d0a601199814",
+                    "sha256sum": "de04f80b5dc15549d03115e29d0a573ada6f93ab9f6e6507041af45178bc066b"
+                },
+                {
+                    "name": "ua_submodule.xml",
+                    "description": "Submodel in SBML l3v2 format",
+                    "fileSize": "54805",
+                    "mimeType": "application/xml",
+                    "md5sum": "654f6f51a28497eb3567a7d619fc6028",
+                    "sha1sum": "81ddde7ad92cb048cb45de758afa995dbd68b805",
+                    "sha256sum": "e00c1baee577f02dcfaeeeae2a160d5940016e3f87190cc0a67756da5739861d"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 2,
+                    "submitted": 1741084669,
+                    "submitter": "Max",
+                    "comment": "Import of Miroshnichenko2025 - A modular model of immune response to SARS-CoV-2 infection"
+                }
+            ]
+        },
+        "firstPublished": 1741359287,
+        "submissionId": "MODEL2503040001",
+        "modellingApproach": {
+            "accession": "MAMO_0000045",
+            "name": "differential equation model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000045"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "Not Peer Reviewed"
+        ],
+        "contributors": {
+            "AnnotationCurator": [
+                {
+                    "name": "Max",
+                    "email": "Elloquse@gmail.com",
+                    "external": false
+                }
+            ],
+            "Modeller": [
+                {
+                    "name": "Max",
+                    "email": "Elloquse@gmail.com",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.1101/2024.08.19.608570",
+                "resource": "DOI",
+                "uri": "https://identifiers.org/doi:10.1101/2024.08.19.608570"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2503040001",
+                "resource": "BioModels",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2503040001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2503040001' files=[File(name='SC2_modular_model.omex', description='OMEX archive containing a composite model made up of submodels and experimental data for simulations', size=49842), File(name='Baseline.png', description='Baseline model simulation', size=1885867), File(name='data.zip', description='Experimental data', size=15603), File(name='lungs_submodule.xml', description='Submodel in SBML l3v2 format', size=95205), File(name='lymph_nodes_lungs_submodule.xml', description='Submodel in SBML l3v2 format', size=137089), File(name='lymph_nodes_ua_submodule.xml', description='Submodel in SBML l3v2 format', size=51122), File(name='ua_submodule.xml', description='Submodel in SBML l3v2 format', size=54805)]"
+}

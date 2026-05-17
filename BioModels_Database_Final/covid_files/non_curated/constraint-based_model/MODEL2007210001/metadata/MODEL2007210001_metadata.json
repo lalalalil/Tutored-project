@@ -1,0 +1,165 @@
+{
+    "model_id": "MODEL2007210001",
+    "doi": "10.26508/lsa.202000954",
+    "year": 2021,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Bannerman2020 - Integrated model of the human airway epithelial cell and the SARS-CoV-2 virus",
+        "description": "We have developed a new model of the human airway epithelial cell by deriving the cell-specific metabolic reactions identified from (i) a draft automated model by Wang et al. 2017 (ii) gene expression datasets of the human airway epithelial cell (Deprez et al., 2020; Braga et al., 2020). (iii) We obtained additional reactions, gene-to-reaction associations and pathways (that were not in the automated model) from HumanCyc (Trupp et al., 2010) and (iv) performed stochastic and dynamic simulations on the model generated including manual curations from primary literature and Recon3D (Brunk et al., 2018). (v) We added the viral biomass maintenance function into the model, previously developed for the macrophage cell (Renz et al. 2020) to develop the new integrated model of the human airway epithelial cell and the SARS-CoV-2 virus, (iBBEC4660).",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L3V1"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.26508/lsa.202000954",
+            "journal": "Life Science Alliance",
+            "title": "Integrated human/SARS-CoV-2 metabolic models present novel treatment strategies against COVID-19",
+            "affiliation": "Multidisciplinary Researcher, University of Cambridge and MRC Laboratory of Molecular Biology",
+            "synopsis": "The coronavirus disease 2019 (COVID-19) pandemic caused by the new coronavirus (SARS-CoV-2) is currently responsible for more than 3 million deaths in 219 countries across the world and with more than 140 million cases. The absence of FDA-approved drugs against SARS-CoV-2 has highlighted an urgent need to design new drugs. We developed an integrated model of the human cell and SARS-CoV-2 to provide insight into the virus\u2019 pathogenic mechanism and support current therapeutic strategies. We show the biochemical reactions required for the growth and general maintenance of the human cell, first, in its healthy state. We then demonstrate how the entry of SARS-CoV-2 into the human cell causes biochemical and structural changes, leading to a change of cell functions or cell death. A new computational method that predicts 20 unique reactions as drug targets from our models and provides a platform for future studies on viral entry inhibition, immune regulation, and drug optimisation strategies. The model is available in BioModels (https://www.ebi.ac.uk/biomodels/MODEL2007210001) and the software tool, findCPcli, that implements the computational method is available at https://github.com/findCP/findCPcli.",
+            "year": 2021,
+            "month": "8",
+            "link": "http://identifiers.org/doi/10.26508/lsa.202000954",
+            "authors": [
+                {
+                    "name": "Bridget Bannerman"
+                },
+                {
+                    "name": "Jorge Julvez"
+                },
+                {
+                    "name": "Alexandru Oarga"
+                },
+                {
+                    "name": "Tom Blundell"
+                },
+                {
+                    "name": "Pablo Moreno"
+                },
+                {
+                    "name": "Andres Floto"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "iHsaEC21.xml",
+                    "description": "Integrated human airway epithelial cell and the SARS-CoV-2 virus",
+                    "fileSize": "18208484",
+                    "mimeType": "application/xml",
+                    "md5sum": "64b96e3a7b36fae5cdca496ae74d98ce",
+                    "sha1sum": "a97f8175c06f061367e25e2002ceda026488943f",
+                    "sha256sum": "26e557ec1d429d18275a31d0c392e8d4ea93ecc7b75393f849dc52ef279069f2"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "iBBEC4660.json",
+                    "description": "COBRAPy json export of the model",
+                    "fileSize": "2252243",
+                    "mimeType": "text/plain",
+                    "md5sum": "bbe4a64d0de8d1d1af525751678e8d7d",
+                    "sha1sum": "7bc047017edbcc0fc575edf244e3d00e80ee3aa2",
+                    "sha256sum": "4c397540c6e976901a11abc812387654087e7e591290058ed8bbf899c9696a87"
+                },
+                {
+                    "name": "iBBEC4660_amended_v6.xml",
+                    "description": "Integrated human airway epithelial cell and the SARS-CoV-2 virus, initial version",
+                    "fileSize": "15500192",
+                    "mimeType": "application/xml",
+                    "md5sum": "13adb178fde47eb2fedfd84d0ee336ef",
+                    "sha1sum": "bab7d178ad1d8ac0c479cceaa301f74e05f14fe1",
+                    "sha256sum": "2585b21be3a167a6c5dd83042a7f9efc44153f049aa1415a546dc6dcdf1f2ffa"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 8,
+                    "submitted": 1604069860,
+                    "submitter": "Krishna Kumar Tiwari",
+                    "comment": "Edited model metadata online."
+                },
+                {
+                    "version": 15,
+                    "submitted": 1605274581,
+                    "submitter": "Tung Nguyen",
+                    "comment": "Edited model metadata online."
+                },
+                {
+                    "version": 16,
+                    "submitted": 1624527122,
+                    "submitter": "Bridget Bannerman",
+                    "comment": "I have corrected the Meta-data for the model, iHsaEC21.xml, initially called iBBEC4660"
+                },
+                {
+                    "version": 17,
+                    "submitted": 1624903007,
+                    "submitter": "Bridget Bannerman",
+                    "comment": "We have updated the meta-data of the revised model, iHsaEC21.xml"
+                }
+            ]
+        },
+        "firstPublished": 1625151200,
+        "submissionId": "MODEL2007210001",
+        "modellingApproach": {
+            "accession": "MAMO_0000009",
+            "name": "constraint-based model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000009"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "Not Peer Reviewed"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Tung Nguyen",
+                    "email": "tnguyen@ebi.ac.uk",
+                    "affiliation": "EMBL-EBI",
+                    "orcid": "0000-0002-2876-6046",
+                    "external": false
+                },
+                {
+                    "name": "Bridget Bannerman",
+                    "email": "bpc28@cam.ac.uk",
+                    "affiliation": "University of Cambridge",
+                    "external": false
+                },
+                {
+                    "name": "Pablo Moreno",
+                    "email": "pmoreno@ebi.ac.uk",
+                    "affiliation": "EMBL-EBI",
+                    "orcid": "0000-0002-9856-1679",
+                    "external": false
+                },
+                {
+                    "name": "Krishna Kumar Tiwari",
+                    "email": "ktiwari@ebi.ac.uk",
+                    "affiliation": "EMBL-EBI",
+                    "orcid": "0000-0002-3699-0937",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.26508/lsa.202000954",
+                "resource": "DOI",
+                "uri": "https://identifiers.org/doi:10.26508/lsa.202000954"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2007210001",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2007210001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2007210001' files=[File(name='iHsaEC21.xml', description='Integrated human airway epithelial cell and the SARS-CoV-2 virus', size=18208484), File(name='iBBEC4660.json', description='COBRAPy json export of the model', size=2252243), File(name='iBBEC4660_amended_v6.xml', description='Integrated human airway epithelial cell and the SARS-CoV-2 virus, initial version', size=15500192)]"
+}

@@ -1,0 +1,172 @@
+{
+    "model_id": "MODEL2208040001",
+    "doi": "10.1093/bioadv/vbad045",
+    "year": 2023,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Monkeypox Knowledge Graph: A comprehensive representation embedding chemical entities and associated biology of Monkeypox",
+        "description": "We collected and rationally assembled several biological study results, assays, drug candidates, and preclinical evidence to form a dynamic and comprehensive network. In this process, we used active chemicals from PubChem and ChEMBL. The proteins were fetched from Uniprot (MPXV) and DISEASES (Humans). The KG is compliant with FAIR annotations allowing seamless transformation and integration to/with other formats and infrastructures. Please check the github for more details: https://github.com/Fraunhofer-ITMP/mpox-kg",
+        "format": {
+            "name": "Other",
+            "identifier": "UNKNOWN",
+            "version": "*"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.1093/bioadv/vbad045",
+            "journal": "Bioinformatics Advances",
+            "title": "Mpox Knowledge Graph: A comprehensive representation embedding chemical entities and associated biology of Mpox",
+            "affiliation": "1. Discovery Research ScreeningPort, Fraunhofer Institute for Translational Medicine and Pharmacology (ITMP), Schnackenburgallee 114, 22525 Hamburg, Germany\n2.  Fraunhofer Cluster of Excellence for Immune-Mediated Diseases (CIMD), Theodor Stern Kai 7, 60590 Frankfurt, Germany",
+            "synopsis": "The outbreak of Mpox virus (MPXV) infection in May 2022 is declared a global health emergency by WHO. A total\nof 84330 cases have been confirmed as of 5th January, 2023 and the numbers are on the rise. The MPXV\npathophysiology and its underlying mechanisms are unfortunately not yet understood. Likewise, the knowledge of\nbiochemicals and drugs used against MPXV and their downstream effects is sparse. In this work, using Knowledge\nGraph (KG) representations we have depicted chemical and biological aspects of MPXV. To achieve this, we have\ncollected and rationally assembled several biological study results, assays, drug candidates, and pre-clinical\nevidence to form a dynamic and comprehensive network. The KG is compliant with FAIR annotations allowing\nseamless transformation and integration to/with other formats and infrastructures.",
+            "year": 2023,
+            "month": "4",
+            "link": "http://identifiers.org/doi/10.1093/bioadv/vbad045",
+            "authors": [
+                {
+                    "name": "Reagon Karki"
+                },
+                {
+                    "name": "Yojana Gadiya"
+                },
+                {
+                    "name": "Andrea Zaliani"
+                },
+                {
+                    "name": "Philip Gribbon"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Monkeypox_KG_2ndSep.pkl",
+                    "description": "Mpox KG V2",
+                    "fileSize": "7994693",
+                    "mimeType": "application/octet-stream",
+                    "md5sum": "78d774d1b1ea1365612d8b0fe8561afd",
+                    "sha1sum": "700521cfa7e2db55af2d2bcc703410de25565e54",
+                    "sha256sum": "e5abc7229f08a115038725c9a227ed6e0c7944eeefa8c3551f6eb28103ab6621"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "Monkeypox_KG.csv",
+                    "description": "Monkeypox KG exported as triples in csv format V1",
+                    "fileSize": "8286760",
+                    "mimeType": "text/plain",
+                    "md5sum": "2e5683513dd1d51bdede97ed48ccda1b",
+                    "sha1sum": "517a2df0c2052860f2a420ff131149a008075555",
+                    "sha256sum": "8f1613f16278783af3d8346907298002c2eecedb19633eb0edeacddb6806f1af"
+                },
+                {
+                    "name": "Monkeypox_KG.graphml",
+                    "description": "Monkeypox KG file for cytoscape visualization V1",
+                    "fileSize": "11543624",
+                    "mimeType": "application/xml",
+                    "md5sum": "66230cc84c2dbe5d4f619820f76ff8ae",
+                    "sha1sum": "e1255037a5f9bb4e088c1f4d5d2fad42ae27e252",
+                    "sha256sum": "e8b5ba10094649bb1c479393223f4b09fc66e2b580b40910055c298c25716fe6"
+                },
+                {
+                    "name": "Monkeypox_KG.pkl",
+                    "description": "Monkeypox KG created with pybel framework V1",
+                    "fileSize": "6487098",
+                    "mimeType": "application/octet-stream",
+                    "md5sum": "290031237c3048caca0f22b3d70d84b6",
+                    "sha1sum": "72e69254f1a651c91cbe37cf66c714577e97eed7",
+                    "sha256sum": "3877729316bbc71e27b274d3be5748510c890a9fc57916356cbd2ef14e04fab4"
+                },
+                {
+                    "name": "Monkeypox_KG.sif",
+                    "description": "Monkeypox KG exported as triples in sif format V1",
+                    "fileSize": "2857496",
+                    "mimeType": "text/plain",
+                    "md5sum": "86456747b1d073f1b7424fccc85829ea",
+                    "sha1sum": "85091245db6bcc8cac5dc3f24b9112f12b9889e4",
+                    "sha256sum": "59154e676294aa47767855f07312c75e7be972eebd583fdcd53654c028bbed3d"
+                },
+                {
+                    "name": "Monkeypox_KG_2ndSep.csv",
+                    "description": "Mpox KG V2",
+                    "fileSize": "9235568",
+                    "mimeType": "text/plain",
+                    "md5sum": "209a83f7f9adcda6cca242d42edb6608",
+                    "sha1sum": "82967eebb5943905b76f3ec9d465c34427454e25",
+                    "sha256sum": "668bf88c059dd523ea0e7ab7843616f48f218440e933920c15c20e7fe9e9250f"
+                },
+                {
+                    "name": "Monkeypox_KG_2ndSep.graphml",
+                    "description": "Mpox KG V2",
+                    "fileSize": "12620131",
+                    "mimeType": "application/xml",
+                    "md5sum": "e1a73ac955670db0d908d0c9febedb37",
+                    "sha1sum": "c76db9bfbf05a6bf143164cee7409ff7d7db01b8",
+                    "sha256sum": "4a37ebcba951195f247ec1ceead4072ac695ab7b35c968130a972dd66cac1748"
+                },
+                {
+                    "name": "Monkeypox_KG_2ndSep.sif",
+                    "description": "Mpox KG V2",
+                    "fileSize": "3106600",
+                    "mimeType": "text/plain",
+                    "md5sum": "bc16ebe69c71dafca7b22387b44ee5c3",
+                    "sha1sum": "8c399188bf5165e96541abc3d07b33b8eccfb6aa",
+                    "sha256sum": "bb8854298041ba4765b0c47f7775a3cf4fe740c1f72f13412a65749d46c73fff"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1659608914,
+                    "submitter": "Reagon Karki",
+                    "comment": "Import of Monkeypox Knowledge Graph: A comprehensive representation embedding chemical entities and associated biology of Monkeypox"
+                },
+                {
+                    "version": 2,
+                    "submitted": 1662118485,
+                    "submitter": "Reagon Karki",
+                    "comment": "Model revised without commit message"
+                }
+            ]
+        },
+        "firstPublished": 1666024170,
+        "submissionId": "MODEL2208040001",
+        "modellingApproach": {
+            "accession": "OTHER",
+            "name": "Other",
+            "resource": "Unknown"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "Not Peer Reviewed"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Reagon Karki",
+                    "email": "reagon.karki@itmp.fraunhofer.de",
+                    "affiliation": "Fraunhofer ITMP",
+                    "orcid": "0000-0002-1815-0037",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.1093/bioadv/vbad045",
+                "resource": "DOI",
+                "uri": "http://identifiers.org/doi/10.1093/bioadv/vbad045"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2208040001",
+                "resource": "BioModels Database",
+                "uri": "http://identifiers.org/biomodels.db/MODEL2208040001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2208040001' files=[File(name='Monkeypox_KG_2ndSep.pkl', description='Mpox KG V2', size=7994693), File(name='Monkeypox_KG.csv', description='Monkeypox KG exported as triples in csv format V1', size=8286760), File(name='Monkeypox_KG.graphml', description='Monkeypox KG file for cytoscape visualization V1', size=11543624), File(name='Monkeypox_KG.pkl', description='Monkeypox KG created with pybel framework V1', size=6487098), File(name='Monkeypox_KG.sif', description='Monkeypox KG exported as triples in sif format V1', size=2857496), File(name='Monkeypox_KG_2ndSep.csv', description='Mpox KG V2', size=9235568), File(name='Monkeypox_KG_2ndSep.graphml', description='Mpox KG V2', size=12620131), File(name='Monkeypox_KG_2ndSep.sif', description='Mpox KG V2', size=3106600)]"
+}

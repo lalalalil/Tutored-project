@@ -1,0 +1,153 @@
+{
+    "model_id": "MODEL2111170001",
+    "doi": "",
+    "year": 2021,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Leander2021 - innate immune response to SARS-CoV-2 in the alveolar epithelium",
+        "description": "A mathematical ODE based model of the innate immune response to SARS-CoV-2 in the alveolar epithelium.",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L2V4"
+        },
+        "publication": {
+            "type": "PubMed ID",
+            "accession": "34430043",
+            "journal": "Royal Society open science",
+            "title": "A model of the innate immune response to SARS-CoV-2 in the alveolar epithelium.",
+            "affiliation": "Department of Mathematical Sciences, Middle Tennessee State University, Murfreesboro 37132-0002, USA.",
+            "synopsis": "We present a differential equation model of the innate immune response to SARS-CoV-2 within the alveolar epithelium. Critical determinants of the viral dynamics and host response, including type I and type II alveolar epithelial cells, interferons, chemokines, toxins and innate immune cells, are included. We estimate model parameters, compute the within-host basic reproductive number, and study the impacts of therapies, prophylactics, and host/pathogen variability on the course of the infection. Model simulations indicate that the innate immune response suppresses the infection and enables the alveolar epithelium to partially recover. While very robust antiviral therapy controls the infection and enables the epithelium to heal, moderate therapy is of limited benefit. Meanwhile interferon therapy is predicted to reduce viral load but exacerbate tissue damage. The deleterious effects of interferon therapy are especially apparent late in the infection. Individual variation in ACE2 expression, epithelial cell interferon production, and SARS-CoV-2 spike protein binding affinity are predicted to significantly impact prognosis.",
+            "year": 2021,
+            "month": "8",
+            "volume": "8",
+            "issue": "8",
+            "pages": "210090",
+            "link": "http://identifiers.org/pubmed/34430043",
+            "authors": [
+                {
+                    "name": "R N Leander",
+                    "institution": "Department of Mathematical Sciences, Middle Tennessee State University, Murfreesboro 37132-0002, USA.",
+                    "orcid": "0000-0002-1392-9754"
+                },
+                {
+                    "name": "Y Wu",
+                    "institution": "Department of Mathematical Sciences, Middle Tennessee State University, Murfreesboro 37132-0002, USA."
+                },
+                {
+                    "name": "W Ding",
+                    "institution": "Department of Mathematical Sciences, Middle Tennessee State University, Murfreesboro 37132-0002, USA."
+                },
+                {
+                    "name": "D E Nelson",
+                    "institution": "Department of Biology, Middle Tennessee State University, Murfreesboro 37132-0002, USA.",
+                    "orcid": "0000-0002-5034-0885"
+                },
+                {
+                    "name": "Z Sinkala",
+                    "institution": "Department of Mathematical Sciences, Middle Tennessee State University, Murfreesboro 37132-0002, USA."
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Leander2021.xml",
+                    "description": "SBML L2V4 file for the model",
+                    "fileSize": "94013",
+                    "mimeType": "application/xml",
+                    "md5sum": "36f051e9708670850aee192bd48dbe15",
+                    "sha1sum": "5892a5ddc2781d0401114a777d8c84f628c8b96b",
+                    "sha256sum": "117ab68ff3283f616ddb40c9794b5f2baf10e4c62a7ba5a3ede3161fd295d06e"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "Leander2021.cps",
+                    "description": "COPASI 4.34(Build251) file for the model",
+                    "fileSize": "210484",
+                    "mimeType": "application/xml",
+                    "md5sum": "7041552847a0fecbb22ebe506c80613c",
+                    "sha1sum": "e03e3c214a79a0a8781382d0ce8db28fbf5e59af",
+                    "sha256sum": "fa7582cdc74d1fe56f7a31b3ea8594353aec5bc890e8818006eda47cac98c033"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1637147570,
+                    "submitter": "Krishna Kumar Tiwari",
+                    "comment": "Import of Leander2021 - innate immune response to SARS-CoV-2 in the alveolar epithelium"
+                }
+            ]
+        },
+        "firstPublished": 1637147595,
+        "submissionId": "MODEL2111170001",
+        "modellingApproach": {
+            "accession": "MAMO_0000046",
+            "name": "ordinary differential equation model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "COVID-19"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Krishna Kumar Tiwari",
+                    "email": "ktiwari@ebi.ac.uk",
+                    "affiliation": "EMBL-EBI",
+                    "orcid": "0000-0002-3699-0937",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqbiol:hasTaxon",
+                "accession": "9606",
+                "name": "Homo sapiens",
+                "resource": "Taxonomy",
+                "uri": "http://identifiers.org/taxonomy/9606"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "MAMO_0000046",
+                "name": "Ordinary differential equation model",
+                "resource": "Mathematical Modelling Ontology",
+                "uri": "http://identifiers.org/mamo/MAMO_0000046"
+            },
+            {
+                "qualifier": "bqbiol:occursIn",
+                "accession": "BTO:0003511",
+                "name": "alveolar epithelium",
+                "resource": "Brenda Tissue Ontology",
+                "uri": "https://identifiers.org/bto/BTO:0003511"
+            },
+            {
+                "qualifier": "bqbiol:isDescribedBy",
+                "accession": "34430043",
+                "resource": "PubMed",
+                "uri": "https://identifiers.org/pubmed/34430043"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "EFO:0007224",
+                "resource": "Experimental Factor Ontology",
+                "uri": "https://identifiers.org/efo/EFO:0007224"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "C3439",
+                "name": "Viral Infection",
+                "resource": "NCIt",
+                "uri": "http://identifiers.org/ncit/C3439"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2111170001' files=[File(name='Leander2021.xml', description='SBML L2V4 file for the model', size=94013), File(name='Leander2021.cps', description='COPASI 4.34(Build251) file for the model', size=210484)]"
+}

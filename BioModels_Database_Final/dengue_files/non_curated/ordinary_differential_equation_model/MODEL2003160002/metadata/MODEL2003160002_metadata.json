@@ -1,0 +1,151 @@
+{
+    "model_id": "MODEL2003160002",
+    "doi": "",
+    "year": 2015,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Ndii2015-transmission dynamics of dengue in the presence of Wolbachia.",
+        "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>Use of the bacterium Wolbachia is an innovative new strategy designed to break the cycle of dengue transmission. There are two main mechanisms by which Wolbachia could achieve this: by reducing the level of dengue virus in the mosquito and/or by shortening the host mosquito's lifespan. However, although Wolbachia shortens the lifespan, it also gives a breeding advantage which results in complex population dynamics. This study focuses on the development of a mathematical model to quantify the effect on human dengue cases of introducing Wolbachia into the mosquito population. The model consists of a compartment-based system of first-order differential equations; seasonal forcing in the mosquito population is introduced through the adult mosquito death rate. The analysis focuses on a single dengue outbreak typical of a region with a strong seasonally-varying mosquito population. We found that a significant reduction in human dengue cases can be obtained provided that Wolbachia-carrying mosquitoes persist when competing with mosquitoes without Wolbachia. Furthermore, using the Wolbachia strain WMel reduces the mosquito lifespan by at most 10% and allows them to persist in competition with non-Wolbachia-carrying mosquitoes. Mosquitoes carrying the WMelPop strain, however, are not likely to persist as it reduces the mosquito lifespan by up to 50%. When all other effects of Wolbachia on the mosquito physiology are ignored, cytoplasmic incompatibility alone results in a reduction in the number of human dengue cases. A sensitivity analysis of the parameters in the model shows that the transmission probability, the biting rate and the average adult mosquito death rate are the most important parameters for the outcome of the cumulative proportion of human individuals infected with dengue.</pre>      </body>    </notes>",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L2V4"
+        },
+        "publication": {
+            "type": "PubMed ID",
+            "accession": "25645184",
+            "journal": "Mathematical biosciences",
+            "title": "Modelling the transmission dynamics of dengue in the presence of Wolbachia.",
+            "affiliation": "School of Mathematical and Physical Sciences, The University of Newcastle, Australia; Department of Mathematics, The University of Nusa Cendana, Kupang-NTT, Indonesia. Electronic address: meksianis.ndii@alumni.anu.edu.au.",
+            "synopsis": "Use of the bacterium Wolbachia is an innovative new strategy designed to break the cycle of dengue transmission. There are two main mechanisms by which Wolbachia could achieve this: by reducing the level of dengue virus in the mosquito and/or by shortening the host mosquito's lifespan. However, although Wolbachia shortens the lifespan, it also gives a breeding advantage which results in complex population dynamics. This study focuses on the development of a mathematical model to quantify the effect on human dengue cases of introducing Wolbachia into the mosquito population. The model consists of a compartment-based system of first-order differential equations; seasonal forcing in the mosquito population is introduced through the adult mosquito death rate. The analysis focuses on a single dengue outbreak typical of a region with a strong seasonally-varying mosquito population. We found that a significant reduction in human dengue cases can be obtained provided that Wolbachia-carrying mosquitoes persist when competing with mosquitoes without Wolbachia. Furthermore, using the Wolbachia strain WMel reduces the mosquito lifespan by at most 10% and allows them to persist in competition with non-Wolbachia-carrying mosquitoes. Mosquitoes carrying the WMelPop strain, however, are not likely to persist as it reduces the mosquito lifespan by up to 50%. When all other effects of Wolbachia on the mosquito physiology are ignored, cytoplasmic incompatibility alone results in a reduction in the number of human dengue cases. A sensitivity analysis of the parameters in the model shows that the transmission probability, the biting rate and the average adult mosquito death rate are the most important parameters for the outcome of the cumulative proportion of human individuals infected with dengue.",
+            "year": 2015,
+            "month": "4",
+            "volume": "262",
+            "pages": "157-166",
+            "link": "http://identifiers.org/pubmed/25645184",
+            "authors": [
+                {
+                    "name": "Meksianis Z Ndii",
+                    "institution": "School of Mathematical and Physical Sciences, The University of Newcastle, Australia; Department of Mathematics, The University of Nusa Cendana, Kupang-NTT, Indonesia. Electronic address: meksianis.ndii@alumni.anu.edu.au.",
+                    "orcid": "0000-0002-9457-0703"
+                },
+                {
+                    "name": "R I Hickson",
+                    "institution": "School of Mathematical and Physical Sciences, The University of Newcastle, Australia; IBM Research, Melbourne, Australia. Electronic address: r.hickson@UNSWalumni.com.",
+                    "orcid": "0000-0001-6453-7745"
+                },
+                {
+                    "name": "David Allingham",
+                    "institution": "School of Mathematical and Physical Sciences, The University of Newcastle, Australia. Electronic address: David.Allingham@newcastle.edu.au."
+                },
+                {
+                    "name": "G N Mercer",
+                    "institution": "National Centre for Epidemiology and Population Health, The Australian National University, Canberra, Australia."
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Ndii2015.xml",
+                    "description": "SBML L2V4 Ndii2015-transmission dynamics of dengue in the presence of Wolbachia_Original",
+                    "fileSize": "49178",
+                    "mimeType": "application/xml",
+                    "md5sum": "4317cb49784c2653bc80546f9d422e2a",
+                    "sha1sum": "09973ade45aa1711daaf38699aa6b1ac999d8a82",
+                    "sha256sum": "3d688b50ba28444bd625a52e5f2f15608e4f73fd71b4bbdcdeefe0edba61dd9a"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "Ndii2015.cps",
+                    "description": "COPASI version 4.27 (Build 217) Turner2015-Human/Mosquito ELP Model_Original",
+                    "fileSize": "101129",
+                    "mimeType": "application/xml",
+                    "md5sum": "539ad8408fef3c8434dbc061d7372350",
+                    "sha1sum": "77f26948a5f65cb8d98aecf5eb554ffc9741e014",
+                    "sha256sum": "b0aabdfc16429a906dc3febed835572f46d81781aaf41fdc4829cf9f2ad8d036"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1584364248,
+                    "submitter": "Ahmad Zyoud",
+                    "comment": "Import of Ndii2015-transmission dynamics of dengue in the presence of Wolbachia."
+                }
+            ]
+        },
+        "firstPublished": 1584718175,
+        "submissionId": "MODEL2003160002",
+        "modellingApproach": {
+            "accession": "MAMO_0000046",
+            "name": "ordinary differential equation model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Ahmad Zyoud",
+                    "email": "azyoud@ebi.ac.uk",
+                    "affiliation": "EMBL-EBI",
+                    "orcid": "0000-0002-5937-8564",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aai",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqbiol:hasTaxon",
+                "accession": "9606",
+                "name": "Homo sapiens",
+                "resource": "Taxonomy",
+                "uri": "http://identifiers.org/taxonomy/9606"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "MAMO_0000046",
+                "name": "Ordinary differential equation model",
+                "resource": "Mathematical Modelling Ontology",
+                "uri": "http://identifiers.org/mamo/MAMO_0000046"
+            },
+            {
+                "qualifier": "bqbiol:isDescribedBy",
+                "accession": "---",
+                "resource": "PubMed",
+                "uri": "https://identifiers.org/pubmed/---"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "0020446",
+                "resource": "OMIT",
+                "uri": "https://identifiers.org/omit/0020446"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "C14198",
+                "name": "Disease Vector",
+                "resource": "NCIt",
+                "uri": "http://identifiers.org/ncit/C14198"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "C15716",
+                "name": "Population Study",
+                "resource": "NCIt",
+                "uri": "https://identifiers.org/ncit/C15716"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "0004994",
+                "resource": "OMIT",
+                "uri": "https://identifiers.org/omit/0004994"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2003160002' files=[File(name='Ndii2015.xml', description='SBML L2V4 Ndii2015-transmission dynamics of dengue in the presence of Wolbachia_Original', size=49178), File(name='Ndii2015.cps', description='COPASI version 4.27 (Build 217) Turner2015-Human/Mosquito ELP Model_Original', size=101129)]"
+}

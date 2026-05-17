@@ -1,0 +1,148 @@
+{
+    "model_id": "MODEL2311070007",
+    "doi": "10.20944/preprints202210.0223.v1",
+    "year": 2022,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "iAR22_SARS-CoV-2_BALF2 - A collection of cell-type specific constraint-based metabolic SARS-CoV-2 infection models in BALF2",
+        "description": "A collection of cell-type specific constraint-based metabolic models of human BALF2 cells (bronchoalveolar Lavage fluid cells) infected with SARS-CoV-2 based that were generated based on gene-expression data using a manually curated version of Recon 2 as base model.",
+        "format": {
+            "name": "COMBINE archive",
+            "identifier": "OMEX",
+            "version": "1.0"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.20944/preprints202210.0223.v1",
+            "journal": "Preprints",
+            "title": "Metabolic Modeling Elucidates Phenformin and Atpenin A5 as Broad-Spectrum Antiviral Drugs: Influenza-Infection Model",
+            "affiliation": "1. Computational Systems Biology of Infections and Antimicrobial-Resistant Pathogens, Institute for Bioinformatics and Medical Informatics (IBMI), Eberhard Karl University of T\u00fcbingen, 72076 T\u00fcbingen, Germany\n2. Institute for Medical Virology and Epidemiology of Viral Diseases, University Hospital T\u00fcbingen, 72076 T\u00fcbingen, Germany\n3. Research Group Medical Systems Biology, Institute of Experimental Medicine,Christian-Albrechts-University Kiel & University Hospital Schleswig Holstein, 24105 Kiel, Germany\n4. Cologne Excellence Cluster for Cellular Stress Responses in Aging-Associated Diseases (CECAD), University of Cologne, 50931 Cologne, Germany\n5. Department of Computer Science, Eberhard Karl University of T\u00fcbingen, 72076 T\u00fcbingen, Germany\n6. German Center for Infection Research (DZIF), partner site T\u00fcbingen, Germany\n7. Cluster of Excellence \u2018Controlling Microbes to Fight Infections,\u2019 Eberhard Karl University of T\u00fcbingen, 72076 T\u00fcbingen, Germany",
+            "synopsis": "The SARS-CoV-2 pandemic has reemphasized the urgent need to develop broad-spectrum antiviral therapies. We developed a computational pipeline that uses scRNA-Seq data to reconstruct the metabolic state of cells and tissuesduring viral infection. Using this pipeline, we investigated the cellular capacity to produce SARS-CoV-2 virions invarious tissues and disease conditions. Subsequently, we expanded our analysis to influenza A and dengue virus andidentified several metabolic targets and their inhibitors for broad-spectrum antiviral treatment. Phenformin, an inhibitorof NADH:ubiquinone oxidoreductase, suppressed SARS-CoV-2 and dengue virus replication. Using Atpenin A5 toblock the succinate dehydrogenase inhibited SARS-CoV-2, dengue virus, influenza A virus and respiratory syncytialvirus with superior therapeutic indices. Thus, our work establishes host metabolism as druggable for broad antiviraltherapy. Moreover, our pipeline, the identified targets, and inhibitors are invaluable tools for pandemic preparedness.",
+            "year": 2022,
+            "month": "10",
+            "link": "http://identifiers.org/doi/10.20944/preprints202210.0223.v1",
+            "authors": [
+                {
+                    "name": "Alina Renz",
+                    "institution": "Department of Computer Science, University of T\u00fcbingen, 72076, T\u00fcbingen, Germany.Computational Systems Biology of Infection and Antimicrobial-Resistant Pathogens, Institute for Bioinformatics and Medical Informatics (IBMI), University of T\u00fcbingen, 72076, T\u00fcbingen, Germany.",
+                    "orcid": "0000-0003-3851-9978"
+                },
+                {
+                    "name": "Mirjam Hohner",
+                    "institution": "University Hospital T\u00fcbingen"
+                },
+                {
+                    "name": "Maximilian Breitenbach",
+                    "institution": "University Hospital T\u00fcbingen",
+                    "orcid": "0000-0003-1349-863X"
+                },
+                {
+                    "name": "Jonathan Josephs-Spaulding",
+                    "institution": "Danmarks Tekniske Universitet The Novo Nordisk Foundation Center for Biosustainability: Lyngby, DK",
+                    "orcid": "0000-0001-9828-0685"
+                },
+                {
+                    "name": "Johanna D\u00fcrrwald",
+                    "institution": "University Hospital T\u00fcbingen",
+                    "orcid": "0009-0005-9610-350X"
+                },
+                {
+                    "name": "Lena Best",
+                    "institution": "University of Kiel",
+                    "orcid": "0000-0003-2772-153X"
+                },
+                {
+                    "name": "Rapha\u00ebl Jami",
+                    "institution": "University Hospital T\u00fcbingen",
+                    "orcid": "0000-0002-1864-5451"
+                },
+                {
+                    "name": "Georgios Marinos",
+                    "institution": "University Medical Center Schleswig-Holstein Campus Kiel",
+                    "orcid": "0000-0002-6443-7696"
+                },
+                {
+                    "name": "Filipe Cabreiro",
+                    "institution": "Imperial College London",
+                    "orcid": "0000-0002-3696-4843"
+                },
+                {
+                    "name": "Andreas Dr\u00e4ger",
+                    "institution": "Martin Luther University Halle-Wittenberg",
+                    "orcid": "0000-0002-1240-5553"
+                },
+                {
+                    "name": "Michael Schindler",
+                    "institution": "University Hospital T\u00fcbingen",
+                    "orcid": "0000-0001-8989-5813"
+                },
+                {
+                    "name": "Christoph Kaleta",
+                    "institution": "University of Kiel",
+                    "orcid": "0000-0001-8004-9514"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "SARS-CoV-2_CoreModelsBALF2.omex",
+                    "description": "iAR22_SARS-CoV-2_BALF2: A collection of cell-type specific constraint-based metabolic models of human BALF2 cells  infected with SARS-CoV-2.",
+                    "fileSize": "1345050657",
+                    "mimeType": "application/zip",
+                    "md5sum": "d3d478ee6b2692630b9dfb7f9dc54cc0",
+                    "sha1sum": "0c474baf0af59956bc3fe92e42175616725c3e12",
+                    "sha256sum": "c1a4bf1e0e47d1cd89114b5fbee827ba8a00be5d592c1d1e3101f4f8f9978272"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 2,
+                    "submitted": 1699655543,
+                    "submitter": "Andreas Dr\u00e4ger",
+                    "comment": "Unified model identifier"
+                }
+            ]
+        },
+        "firstPublished": 1744043236,
+        "submissionId": "MODEL2311070007",
+        "modellingApproach": {
+            "accession": "MAMO_0000009",
+            "name": "constraint-based model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000009"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "Not Peer Reviewed"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Andreas Dr\u00e4ger",
+                    "email": "andreas.draeger@informatik.uni-halle.de",
+                    "affiliation": "Martin Luther University Halle-Wittenberg",
+                    "orcid": "0000-0002-1240-5553",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.20944/preprints202210.0223.v1",
+                "resource": "DOI",
+                "uri": "https://identifiers.org/doi:10.20944/preprints202210.0223.v1"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2311070007",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2311070007"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2311070007' files=[File(name='SARS-CoV-2_CoreModelsBALF2.omex', description='iAR22_SARS-CoV-2_BALF2: A collection of cell-type specific constraint-based metabolic models of human BALF2 cells  infected with SARS-CoV-2.', size=1345050657)]"
+}
