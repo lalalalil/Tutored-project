@@ -174,7 +174,7 @@ Figure 1 : Example of the file structure for extracted data
 
 This step is essential because BioModels annotations may vary in naming conventions.
 
-2. ### **Retrieval of Models from BioModels** 
+2. ### **Retrieval of Models from BioModels**
 
 **Data access** : Models will be retrieved using :
 
@@ -196,7 +196,7 @@ This step is essential because BioModels annotations may vary in naming conventi
 
 Figure 2 : Example of output files for each disease
 
-3. ### **State of the Art: Disease-Specific Model Landscape** 
+3. ### **State of the Art: Disease-Specific Model Landscape**
 
 A systematic state-of-the-art review will be performed to refine the selection of **30 to 60 models**. This phase will evaluate the modeling landscape based on three pillars :
 
