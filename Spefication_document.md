@@ -53,8 +53,6 @@
 
 [D. Metadata Acquisition Structuring and Standardization	8](#metadata-acquisition-structuring-and-standardization)
 
-[A unified metadata schema will be developed based on :	8](#a-unified-metadata-schema-will-be-developed-based-on-:)
-
 [E. Automated Metadata Enrichment	8](#automated-metadata-enrichment)
 
 [**IV. Technical Materials and Architecture	9**](#technical-materials-and-architecture)
