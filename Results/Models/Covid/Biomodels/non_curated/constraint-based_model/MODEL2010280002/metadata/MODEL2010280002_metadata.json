@@ -1,0 +1,98 @@
+{
+    "model_id": "MODEL2010280002",
+    "doi": "10.26508/LSA.202000869",
+    "year": 2020,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Delattre2020 - SARS-CoV-2-infected human lung cell",
+        "description": "Modified Recon2.2 where the host biomass objective function has been modified to reflect the average composition of the proteome of human lung cells (based on expression data from the human proteome atlas) and where a new additional biomass objective function has been added to represent the production of SARS-CoV-2 viral particles.",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L3V1"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.26508/LSA.202000869",
+            "journal": "Life Science Alliance",
+            "title": "Inhibiting the reproduction of SARS-CoV-2 through perturbations in human lung cell metabolic network",
+            "affiliation": "university of warwick",
+            "synopsis": "Viruses rely on their host for reproduction. Here, we made use of genomic and structural information to create a biomass function capturing the amino and nucleic acid requirements of SARSCoV- 2. Incorporating this biomass function into a stoichiometric metabolic model of the human lung cell and applying metabolic flux balance analysis, we identified host-based metabolic perturbations inhibiting SARS-CoV-2 reproduction. Our results highlight reactions in the central metabolism, as well as amino acid and nucleotide biosynthesis pathways. By incorporating host cellular maintenance into the model based on available protein expression data from human lung cells, we find thaViruses rely on their host for reproduction. Here, we made use of genomic and structural information to create a biomass function capturing the amino and nucleic acid requirements of SARSCoV- 2. Incorporating this biomass function into a stoichiometric metabolic model of the human lung cell and applying metabolic flux balance analysis, we identified host-based metabolic perturbations inhibiting SARS-CoV-2 reproduction. Our results highlight reactions in the central metabolism, as well as amino acid and nucleotide biosynthesis pathways. By incorporating host cellular maintenance into the model based on available protein expression data from human lung cells, we find that only few of these metabolic perturbations are able to selectively inhibit virus reproduction. Some of the catalysing enzymes of such reactions have demonstrated interactions with existing drugs, which can be used for experimental testing of the presented predictions using gene knockouts and RNA interference techniques. In summary, the developed computational approach offers a platform for rapid, experimentally testable generation of drug predictions against existing and emerging viruses based on their biomass requirements.t only few of these metabolic perturbations are able to selectively inhibit virus reproduction. Some of the catalysing enzymes of such reactions have demonstrated interactions with existing drugs, which can be used for experimental testing of the presented predictions using gene knockouts and RNA interference techniques. In summary, the developed computational approach offers a platform for rapid, experimentally testable generation of drug predictions against existing and emerging viruses based on their biomass requirements.",
+            "year": 2020,
+            "month": "11",
+            "volume": "4",
+            "issue": "1",
+            "pages": "e202000869",
+            "link": "http://identifiers.org/doi/10.26508/LSA.202000869",
+            "authors": [
+                {
+                    "name": "Hadrien Delattre"
+                },
+                {
+                    "name": "Kalesh Sasidharan"
+                },
+                {
+                    "name": "Orkun S Soyer"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Delattre2020 - SARS-CoV-2-infected human lung cell.xml",
+                    "description": "SBML L3V1",
+                    "fileSize": "21678525",
+                    "mimeType": "application/xml",
+                    "md5sum": "032a630f60fa84d0d4c8321a50cb1efa",
+                    "sha1sum": "c60ad62acf84a21b5beee44c44e2bdbfe82725d9",
+                    "sha256sum": "159355f40e871ee1477fb8bcf78f5deb97746aa60f431265141187b8d388e2a3"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 4,
+                    "submitted": 1614633396,
+                    "submitter": "hadrien delattre",
+                    "comment": "Model revised without commit message"
+                }
+            ]
+        },
+        "firstPublished": 1614677723,
+        "submissionId": "MODEL2010280002",
+        "modellingApproach": {
+            "accession": "MAMO_0000009",
+            "name": "constraint-based model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000009"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "hadrien delattre",
+                    "email": "hadrien.delattre@mail.com",
+                    "affiliation": "university of warwick",
+                    "orcid": "0000-0002-5488-8370",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.26508/LSA.202000869",
+                "resource": "DOI",
+                "uri": "https://identifiers.org/doi:10.26508/LSA.202000869"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2010280002",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2010280002"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2010280002' files=[File(name='Delattre2020 - SARS-CoV-2-infected human lung cell.xml', description='SBML L3V1', size=21678525)]"
+}

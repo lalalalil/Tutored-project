@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4f1738736a0a7db9334e7a5fecdcb044960083929f07033f2f76c3fa1a83cf14
-size 347
+parameter_file: covid_ethiopa_multivariants_parameters.tsv
+format_version: 1
+problems:
+- condition_files:
+  - covid_ethiopa_multivariants_conditions.tsv
+  measurement_files:
+  - covid_ethiopa_multivariants_measurements.tsv
+  sbml_files:
+  - covid_ethiopa_multivariants_model.xml
+  observable_files:
+  - covid_ethiopa_multivariants_observables.tsv

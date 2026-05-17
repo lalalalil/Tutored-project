@@ -1,0 +1,258 @@
+{
+    "model_id": "MODEL2504120001",
+    "doi": "10.1038/s41467-024-47556-2",
+    "year": 2024,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Merkt2024 - SEIR based model of SARS-CoV-2 variant spread and cross-immunity in Ethiopia",
+        "description": "Spanning August 2020 to July 2022, this model reconstructs SARS-CoV-2 infection and reinfection dynamics across multiple variants \u2014 mainly wildtype, Alpha, Delta, and Omicron BA.4/5. It describes how each variant spread through the population, incorporating cross-immunity between variants. The model is calibrated using seroprevalence data, PCR positivity rates, and variant sequencing, providing insights into how prior infections shaped susceptibility to future waves.",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L3V2"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.1038/s41467-024-47556-2",
+            "journal": "Nature communications",
+            "title": "Long-term monitoring of SARS-CoV-2 seroprevalence and variants in Ethiopia provides prediction for immunity and cross-immunity.",
+            "affiliation": "Life and Medical Sciences (LIMES), University of Bonn, Bonn, Germany.",
+            "synopsis": "Under-reporting of COVID-19 and the limited information about circulating SARS-CoV-2 variants remain major challenges for many African countries. We analyzed SARS-CoV-2 infection dynamics in Addis Ababa and Jimma, Ethiopia, focusing on reinfection, immunity, and vaccination effects. We conducted an antibody serology study spanning August 2020 to July 2022 with five rounds of data collection across a population of 4723, sequenced PCR-test positive samples, used available test positivity rates, and constructed two mathematical models integrating this data. A multivariant model explores variant dynamics identifying wildtype, alpha, delta, and omicron BA.4/5 as key variants in the study population, and cross-immunity between variants, revealing risk reductions between 24% and 69%. An antibody-level model predicts slow decay leading to sustained high antibody levels. Retrospectively,\u00a0increased early vaccination might have substantially reduced infections during the delta and omicron waves in the considered group of individuals, though further vaccination now seems less impactful.",
+            "year": 2024,
+            "month": "4",
+            "volume": "15",
+            "issue": "1",
+            "pages": "3463",
+            "link": "http://identifiers.org/doi/10.1038/s41467-024-47556-2",
+            "authors": [
+                {
+                    "name": "Simon Merkt",
+                    "institution": "University of Bonn",
+                    "orcid": "0000-0002-8017-4494"
+                },
+                {
+                    "name": "Solomon Ali",
+                    "institution": "Saint Paul's Hospital Millennium Medical College, Addis Ababa, Ethiopia.",
+                    "orcid": "0000-0001-5641-8797"
+                },
+                {
+                    "name": "Esayas Kebede Gudina",
+                    "institution": "Jimma University Clinical Trial Unit, Jimma University Institute of Health, Jimma, Ethiopia.",
+                    "orcid": "0000-0002-6264-9695"
+                },
+                {
+                    "name": "Wondimagegn Adissu",
+                    "institution": "Jimma University Clinical Trial Unit, Jimma University Institute of Health, Jimma, Ethiopia.",
+                    "orcid": "0000-0003-1624-3114"
+                },
+                {
+                    "name": "Addisu Gize",
+                    "institution": "Saint Paul's Hospital Millennium Medical College, Addis Ababa, Ethiopia.CIH LMU Center for International Health, LMU Munich, Munich, Germany."
+                },
+                {
+                    "name": "Maximilian Muenchhoff",
+                    "institution": "Max von Pettenkofer Institute and Gene Center, Virology, National Reference Center for Retroviruses, LMU Munich, Munich, Germany.German Center for Infection Research (DZIF), partner site Munich, Munich, Germany.",
+                    "orcid": "0000-0001-7016-0470"
+                },
+                {
+                    "name": "Alexander Graf",
+                    "institution": "Laboratory for Functional Genome Analysis, Gene Center, LMU Munich, Munich, Germany.",
+                    "orcid": "0000-0003-4435-6861"
+                },
+                {
+                    "name": "Stefan Krebs",
+                    "institution": "Laboratory for Functional Genome Analysis, Gene Center, LMU Munich, Munich, Germany.",
+                    "orcid": "0000-0001-5112-9507"
+                },
+                {
+                    "name": "Kira Elsbernd",
+                    "institution": "Division of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Munich, Munich, Germany.Institute for Medical Information Processing, Biometry and Epidemiology (IBE), Faculty of Medicine, LMU Munich, Munich, Germany.",
+                    "orcid": "0000-0003-1616-0212"
+                },
+                {
+                    "name": "Rebecca Kisch",
+                    "institution": "Division of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Munich, Munich, Germany.",
+                    "orcid": "0000-0002-8583-4324"
+                },
+                {
+                    "name": "Sisay Sirgu Betizazu",
+                    "institution": "Saint Paul's Hospital Millennium Medical College, Addis Ababa, Ethiopia.",
+                    "orcid": "0009-0001-5187-4643"
+                },
+                {
+                    "name": "Bereket Fantahun",
+                    "institution": "Saint Paul's Hospital Millennium Medical College, Addis Ababa, Ethiopia."
+                },
+                {
+                    "name": "Delayehu Bekele",
+                    "institution": "Saint Paul's Hospital Millennium Medical College, Addis Ababa, Ethiopia.",
+                    "orcid": "0000-0002-9243-2622"
+                },
+                {
+                    "name": "Raquel Rubio-Acero",
+                    "institution": "Division of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Munich, Munich, Germany."
+                },
+                {
+                    "name": "Mulatu Gashaw",
+                    "institution": "Jimma University Clinical Trial Unit, Jimma University Institute of Health, Jimma, Ethiopia.",
+                    "orcid": "0000-0002-2299-7863"
+                },
+                {
+                    "name": "Eyob Girma",
+                    "institution": "Jimma University Clinical Trial Unit, Jimma University Institute of Health, Jimma, Ethiopia.",
+                    "orcid": "0000-0002-9030-4328"
+                },
+                {
+                    "name": "Daniel Yilma",
+                    "institution": "Jimma University Clinical Trial Unit, Jimma University Institute of Health, Jimma, Ethiopia.",
+                    "orcid": "0000-0001-6058-2696"
+                },
+                {
+                    "name": "Ahmed Zeynudin",
+                    "institution": "Jimma University Clinical Trial Unit, Jimma University Institute of Health, Jimma, Ethiopia."
+                },
+                {
+                    "name": "Ivana Paunovic",
+                    "institution": "Division of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Munich, Munich, Germany.Immunology, Infection and Pandemic Research IIP, Fraunhofer ITMP, Munich, Germany.",
+                    "orcid": "0009-0005-5943-6153"
+                },
+                {
+                    "name": "Michael Hoelscher",
+                    "institution": "German Center for Infection Research (DZIF), partner site Munich, Munich, Germany.Division of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Munich, Munich, Germany.Immunology, Infection and Pandemic Research IIP, Fraunhofer ITMP, Munich, Germany.Unit Global Health, Helmholtz Zentrum M\u00fcnchen-German Research Center for Environmental Health, Neuherberg, Germany.",
+                    "orcid": "0000-0002-7642-1835"
+                },
+                {
+                    "name": "Helmut Blum",
+                    "institution": "Laboratory for Functional Genome Analysis, Gene Center, LMU Munich, Munich, Germany.",
+                    "orcid": "0000-0002-3994-2332"
+                },
+                {
+                    "name": "J Hasenauer",
+                    "orcid": "0000-0002-4935-3312"
+                },
+                {
+                    "name": "Arne Kroidl",
+                    "institution": "German Center for Infection Research (DZIF), partner site Munich, Munich, Germany. akroidl@lrz.uni-muenchen.de.Division of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Munich, Munich, Germany. akroidl@lrz.uni-muenchen.de.",
+                    "orcid": "0000-0003-3569-9176"
+                },
+                {
+                    "name": "Andreas Wieser",
+                    "institution": "German Center for Infection Research (DZIF), partner site Munich, Munich, Germany. andreas.wieser@lmu.de.Division of Infectious Diseases and Tropical Medicine, LMU University Hospital, LMU Munich, Munich, Germany. andreas.wieser@lmu.de.Immunology, Infection and Pandemic Research IIP, Fraunhofer ITMP, Munich, Germany. andreas.wieser@lmu.de.Faculty of Medicine, Max Von Pettenkofer Institute, LMU Munich, Munich, Germany. andreas.wieser@lmu.de.",
+                    "orcid": "0000-0002-8703-9228"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "covid_ethiopa_multivariants_model.xml",
+                    "description": "SBML L3V2 representation of multivariant model",
+                    "fileSize": "1721974",
+                    "mimeType": "application/xml",
+                    "md5sum": "a1d254112b477bb1b0855b1163862abf",
+                    "sha1sum": "53347be8f23a04b185ffc63a90c0dac3c9474697",
+                    "sha256sum": "b019946246ec43e6ecf846ccb438e24fcd8f662ffe3f57fbad7e663c122f9107"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "covid_ethiopa_multivariants.yaml",
+                    "description": "PEtab YAML file listing files of PEtab problem (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "347",
+                    "mimeType": "text/plain",
+                    "md5sum": "07ea53c2b0e749675b7ce98ca825520c",
+                    "sha1sum": "ed69ebeeccce9c7bd615b599c032a7d0cd7f324d",
+                    "sha256sum": "4f1738736a0a7db9334e7a5fecdcb044960083929f07033f2f76c3fa1a83cf14"
+                },
+                {
+                    "name": "covid_ethiopa_multivariants_conditions.tsv",
+                    "description": "PEtab condition table containing experimental conditions (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "44",
+                    "mimeType": "text/plain",
+                    "md5sum": "5bdb6b494e0f1d4e4b8550866eb8bbe9",
+                    "sha1sum": "f783a34ad0b1bd6f0ad95694ad5bfcd6e260ce75",
+                    "sha256sum": "4188718a6d6a4e6e0d80a2b528dd253499c193d16694ca517c4bb3467e5cea8b"
+                },
+                {
+                    "name": "covid_ethiopa_multivariants_measurements.tsv",
+                    "description": "PEtab measurement table containing measurements for estimation (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "11946",
+                    "mimeType": "text/plain",
+                    "md5sum": "6a7ad23188796ccfa3a86e5223a29da9",
+                    "sha1sum": "fc777bf4355b8ceb4074a2d852b6a6449f888864",
+                    "sha256sum": "e2cc1735f25eb9c7e28e577ca286c28e0f845ba5433d2521b4496df03010e164"
+                },
+                {
+                    "name": "covid_ethiopa_multivariants_observables.tsv",
+                    "description": "PEtab observable table containing model observables (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "1688",
+                    "mimeType": "text/plain",
+                    "md5sum": "1e926f6d6da0168804312da147dd9570",
+                    "sha1sum": "79528b1ddf1737a6685387379c7af7ae675b8f18",
+                    "sha256sum": "613fb550c82e78a6f7c302fa7b0a32ed86e5fa5293c32b84c2eb6b7696d77f44"
+                },
+                {
+                    "name": "covid_ethiopa_multivariants_parameters.tsv",
+                    "description": "PEtab parameter table containing model parameter values and estimation setup (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "1478",
+                    "mimeType": "text/plain",
+                    "md5sum": "7074eb9cae36f465ede8820ac12b412b",
+                    "sha1sum": "9ece13266cf0fd2508e4125c9f37a75986faa46b",
+                    "sha256sum": "8dac3a79cfda190714c4220431913633af2f9c49e68d177d3482358ec41ab30a"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1744466235,
+                    "submitter": "Simon Merkt",
+                    "comment": "Import of Merkt2024 - SEIR based model of SARS-CoV-2 variant spread and cross-immunity in Ethiopia"
+                }
+            ]
+        },
+        "firstPublished": 1744493015,
+        "submissionId": "MODEL2504120001",
+        "modellingApproach": {
+            "accession": "MAMO_0000028",
+            "name": "population model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000028"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Simon Merkt",
+                    "email": "simon.merkt@uni-bonn.de",
+                    "affiliation": "University of Bonn",
+                    "orcid": "0000-0002-8017-4494",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.1038/s41467-024-47556-2",
+                "resource": "DOI",
+                "uri": "https://identifiers.org/doi:10.1038/s41467-024-47556-2"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2504120001",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2504120001"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "MAMO_0000028",
+                "name": "population model",
+                "resource": "Mathematical Modelling Ontology",
+                "uri": "http://identifiers.org/mamo/MAMO_0000028"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2504120001' files=[File(name='covid_ethiopa_multivariants_model.xml', description='SBML L3V2 representation of multivariant model', size=1721974), File(name='covid_ethiopa_multivariants.yaml', description='PEtab YAML file listing files of PEtab problem (c.f. https://petab.readthedocs.io)', size=347), File(name='covid_ethiopa_multivariants_conditions.tsv', description='PEtab condition table containing experimental conditions (c.f. https://petab.readthedocs.io)', size=44), File(name='covid_ethiopa_multivariants_measurements.tsv', description='PEtab measurement table containing measurements for estimation (c.f. https://petab.readthedocs.io)', size=11946), File(name='covid_ethiopa_multivariants_observables.tsv', description='PEtab observable table containing model observables (c.f. https://petab.readthedocs.io)', size=1688), File(name='covid_ethiopa_multivariants_parameters.tsv', description='PEtab parameter table containing model parameter values and estimation setup (c.f. https://petab.readthedocs.io)', size=1478)]"
+}

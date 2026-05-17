@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:613fb550c82e78a6f7c302fa7b0a32ed86e5fa5293c32b84c2eb6b7696d77f44
-size 1688
+observableId	observableName	observableFormula	noiseFormula
+ab_prev_1x	Antibody prevalence (1 infection)	R_1x_sum/N_sum	noiseParameter1_ab_prev_1x
+ab_prev_2x	Antibody prevalence (2 infections, 2vaccinations, 1 each or more)	R_2x_sum/N_sum	noiseParameter1_ab_prev_2x
+var_inc_0	Incidence of variant A	(I_0_sum)/(I_0_sum + I_1_sum + I_2_sum + I_3_sum + I_4_sum + I_5_sum + I_6_sum + I_7_sum)	noiseParameter1_var_inc_0
+var_inc_1	Incidence of variant B.1.480	(I_1_sum)/(I_0_sum + I_1_sum + I_2_sum + I_3_sum + I_4_sum + I_5_sum + I_6_sum + I_7_sum)	noiseParameter1_var_inc_1
+var_inc_2	Incidence of variant B.1.1.7	(I_2_sum)/(I_0_sum + I_1_sum + I_2_sum + I_3_sum + I_4_sum + I_5_sum + I_6_sum + I_7_sum)	noiseParameter1_var_inc_2
+var_inc_3	Incidence of variant B.1.351	(I_3_sum)/(I_0_sum + I_1_sum + I_2_sum + I_3_sum + I_4_sum + I_5_sum + I_6_sum + I_7_sum)	noiseParameter1_var_inc_3
+var_inc_4	Incidence of variant B.1.525	(I_4_sum)/(I_0_sum + I_1_sum + I_2_sum + I_3_sum + I_4_sum + I_5_sum + I_6_sum + I_7_sum)	noiseParameter1_var_inc_4
+var_inc_5	Incidence of variant B.1.617.2	(I_5_sum)/(I_0_sum + I_1_sum + I_2_sum + I_3_sum + I_4_sum + I_5_sum + I_6_sum + I_7_sum)	noiseParameter1_var_inc_5
+var_inc_6	Incidence of variant BA.1	(I_6_sum)/(I_0_sum + I_1_sum + I_2_sum + I_3_sum + I_4_sum + I_5_sum + I_6_sum + I_7_sum)	noiseParameter1_var_inc_6
+var_inc_7	Incidence of variant BA.4	(I_7_sum)/(I_0_sum + I_1_sum + I_2_sum + I_3_sum + I_4_sum + I_5_sum + I_6_sum + I_7_sum)	noiseParameter1_var_inc_7
+infc_rel_nat	Infected national (relative)	observableParameter1_infc_rel_nat * (I_0_sum + I_1_sum + I_2_sum + I_3_sum + I_4_sum + I_5_sum + I_6_sum + I_7_sum)/N_sum	noiseParameter1_infc_rel_nat

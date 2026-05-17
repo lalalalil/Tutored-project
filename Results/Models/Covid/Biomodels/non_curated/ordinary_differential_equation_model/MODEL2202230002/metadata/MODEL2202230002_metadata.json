@@ -1,0 +1,97 @@
+{
+    "model_id": "MODEL2202230002",
+    "doi": "",
+    "year": 2022,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "COVID-19 immunotherapy A mathematical model",
+        "description": "The pandemic caused by SARS-CoV-2 is responsible for terrible health devastation with profoundly harmful consequences for the economic, social and political activities of communities on a global scale. Extraordinary e\ufb00orts have been made by the world scienti\ufb01c community, who, in solidarity, shared knowledge so that e\ufb00ective vaccines could be produced quickly. However, it is still important to study therapies that can reduce the risk, until group immunity is reached, which, globally, will take a time that is still di\ufb03cult to predict. On the other hand, the immunity time guaranteed by already approved vaccines is still uncertain.The current study proposes a therapy whose foundation lies in the important role that innate immunity may have, by preventing the disease from progressing to the acute phase that may eventually lead to the patient\u2019s death. Our focus is on NK cells and their relevant role.Natural killer cells (NK) are considered the primary defense lymphocytes against virus-infected cells. They play a critical role in modulating the immune system. Preliminary studies in COVID-19 patients with severe disease, suggest a reduction in the number and function of NK cells, resulting in decreased clearance of infected and activated cells and unchecked elevation of in\ufb02ammation markers that damage tissue. SARS-CoV-2 infection distorts the immune response towards a highly in\ufb02ammatory phenotype. Restoring the e\ufb00ector functions of NK cells has the potential to correct the delicate immune balance needed to e\ufb00ectively overcome SARS-CoV-2 infection.",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L2V4"
+        },
+        "publication": {
+            "type": "Other Link (URL)",
+            "accession": "https://www.cmup.pt/bibcite/reference/6814",
+            "journal": "Preprint",
+            "title": "COVID-19 immunotherapy A mathematical model I",
+            "affiliation": "Mathematical Department\nFaculty of Sciences\nUniversity of Porto\nPortugal",
+            "synopsis": "The pandemic caused by SARS-CoV-2 is responsible for a terrible health devastation with profoundly harmful consequences for the economic, social and political activities of communities on a global scale. Extraordinary e\ufb00orts have been made by the world scienti\ufb01c community, who, in solidarity, shared knowledge so that e\ufb00ective vaccines could be produced quickly. However, it is still important to study therapies that can reduce the risk, until group immunity is reached, which, globally, will take a time that is still di\ufb03cult to predict. On the other hand, the immunity time guaranteed by already approved vaccines is still uncertain.\nThe current study proposes a therapy whose foundation lies in the important role that innate immunity may have, by preventing the disease from\nprogressing to the acute phase that may eventually lead to the patient\u2019s\ndeath. Our focus is on NK cells and their relevant role.\nNatural killer cells (NK) are considered the primary defense lymphocytes against virus-infected cells. They play a critical role in modulating\nthe immune system. Preliminary studies in COVID-19 patients with severe disease, suggest a reduction in the number and function of NK cells, resulting in decreased clearance of infected and activated cells and unchecked elevation of in\ufb02ammation markers that damage tissue. SARS-CoV-2 infection distorts the immune response towards a highly in\ufb02ammatory phenotype. Restoring the e\ufb00ector functions of NK cells has the potential\nto correct the delicate immune balance needed to e\ufb00ectively overcome SARS-CoV-2 infection.",
+            "year": 2022,
+            "month": "1",
+            "link": "https://www.cmup.pt/bibcite/reference/6814",
+            "authors": [
+                {
+                    "name": "Jo\u00e3o Nuno Domingues Tavares",
+                    "institution": "Faculdade de Ci\u00eancias da Universidade do Porto",
+                    "orcid": "0000-0002-0596-1500"
+                },
+                {
+                    "name": "Emilie Gomes"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "COVID19 immunotherapy a Mathematical Model.xml",
+                    "description": "Main Copasi model that supports the work intitled \"COVID-19 immunotherapy  A mathematical model\", submitted to Mathematical Medicine and Biology: A Journal of the IMA, Manuscript ID MMB-21-040.R3",
+                    "fileSize": "117098",
+                    "mimeType": "application/xml",
+                    "md5sum": "b4f0778ef036d118ea3d9e01c7b4f212",
+                    "sha1sum": "de04cda7a175d21bbd0ec2bf385caf4b47c58701",
+                    "sha256sum": "fa222a69c5dc4723a399417d0a560f660edb17a11f693e7e6e17e188e04fd455"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1645617135,
+                    "submitter": "Jo\u00e3o Nuno Domingues Tavares",
+                    "comment": "Import of COVID-19 immunotherapy A mathematical model"
+                },
+                {
+                    "version": 2,
+                    "submitted": 1655890656,
+                    "submitter": "Jo\u00e3o Nuno Domingues Tavares",
+                    "comment": "Model revised without commit message"
+                }
+            ]
+        },
+        "firstPublished": 1655909609,
+        "submissionId": "MODEL2202230002",
+        "modellingApproach": {
+            "accession": "MAMO_0000046",
+            "name": "ordinary differential equation model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "Not Peer Reviewed"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Jo\u00e3o Nuno Domingues Tavares",
+                    "email": "jntavar@fc.up.pt",
+                    "affiliation": "Faculdade de Ci\u00eancias da Universidade do Porto",
+                    "orcid": "0000-0002-0596-1500",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2202230002",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2202230002"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2202230002' files=[File(name='COVID19 immunotherapy a Mathematical Model.xml', description='Main Copasi model that supports the work intitled \"COVID-19 immunotherapy  A mathematical model\", submitted to Mathematical Medicine and Biology: A Journal of the IMA, Manuscript ID MMB-21-040.R3', size=117098)]"
+}

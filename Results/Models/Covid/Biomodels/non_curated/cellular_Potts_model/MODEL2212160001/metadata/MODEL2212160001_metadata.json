@@ -1,0 +1,221 @@
+{
+    "model_id": "MODEL2212160001",
+    "doi": "10.3390/v14030605",
+    "year": 2022,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Gianlupi2022 - Antiviral Timing, Potency, and Heterogeneity Effects on an Epithelial Tissue Patch Infected by SARS-CoV-2",
+        "description": "We extend our established agent-based multiscale computational model of infection of lung tissue by SARS-CoV-2 to include pharmacokinetic and pharmacodynamic models of remdesivir. We model remdesivir treatment for COVID-19; however, our methods are general to other viral infections and antiviral therapies. We investigate the effects of drug potency, drug dosing frequency, treatment initiation delay, antiviral half-life, and variability in cellular uptake and metabolism of remdesivir and its active metabolite on treatment outcomes in a simulated patch of infected epithelial tissue. Non-spatial deterministic population models which treat all cells of a given class as identical can clarify how treatment dosage and timing influence treatment efficacy. However, they do not reveal how cell-to-cell variability affects treatment outcomes. Our simulations suggest that for a given treatment regime, including cell-to-cell variation in drug uptake, permeability and metabolism increase the likelihood of uncontrolled infection as the cells with the lowest internal levels of antiviral act as super-spreaders within the tissue. The model predicts substantial variability in infection outcomes between similar tissue patches for different treatment options. In models with cellular metabolic variability, antiviral doses have to be increased significantly (>50% depending on simulation parameters) to achieve the same treatment results as with the homogeneous cellular metabolism.",
+        "format": {
+            "name": "Other",
+            "identifier": "UNKNOWN",
+            "version": "*"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.3390/v14030605",
+            "journal": "Viruses",
+            "title": "Multiscale Model of Antiviral Timing, Potency, and Heterogeneity Effects on an Epithelial Tissue Patch Infected by SARS-CoV-2.",
+            "affiliation": "Department of Intelligent Systems Engineering and Biocomplexity Institute, Indiana University, 2425 N Milo B Sampson Ln, Bloomington, IN 47408, USA.",
+            "synopsis": "We extend our established agent-based multiscale computational model of infection of lung tissue by SARS-CoV-2 to include pharmacokinetic and pharmacodynamic models of remdesivir. We model remdesivir treatment for COVID-19; however, our methods are general to other viral infections and antiviral therapies. We investigate the effects of drug potency, drug dosing frequency, treatment initiation delay, antiviral half-life, and variability in cellular uptake and metabolism of remdesivir and its active metabolite on treatment outcomes in a simulated patch of infected epithelial tissue. Non-spatial deterministic population models which treat all cells of a given class as identical can clarify how treatment dosage and timing influence treatment efficacy. However, they do not reveal how cell-to-cell variability affects treatment outcomes. Our simulations suggest that for a given treatment regime, including cell-to-cell variation in drug uptake, permeability and metabolism increase the likelihood of uncontrolled infection as the cells with the lowest internal levels of antiviral act as super-spreaders within the tissue. The model predicts substantial variability in infection outcomes between similar tissue patches for different treatment options. In models with cellular metabolic variability, antiviral doses have to be increased significantly (&gt;50% depending on simulation parameters) to achieve the same treatment results as with the homogeneous cellular metabolism.",
+            "year": 2022,
+            "month": "3",
+            "volume": "14",
+            "issue": "3",
+            "pages": "605",
+            "link": "http://identifiers.org/doi/10.3390/v14030605",
+            "authors": [
+                {
+                    "name": "Juliano Ferrari Gianlupi",
+                    "orcid": "0000-0002-1305-146X"
+                },
+                {
+                    "name": "Mapder T",
+                    "institution": "School of Mathematical Sciences, Queensland University of Technology (QUT), Australia; ARC Centre of Excellence for Mathematical and Statistical Frontiers, QUT, Australia.",
+                    "orcid": "0000-0002-1630-0716"
+                },
+                {
+                    "name": "Sego TJ"
+                },
+                {
+                    "name": "Sluka JP",
+                    "institution": "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America.",
+                    "orcid": "0000-0002-5901-1404"
+                },
+                {
+                    "name": "Quinney SK"
+                },
+                {
+                    "name": "Craig M",
+                    "orcid": "0000-0003-4852-4770"
+                },
+                {
+                    "name": "Stratford RE Jr"
+                },
+                {
+                    "name": "Glazier JA",
+                    "institution": "Biocomplexity Institute Indiana University Bloomington, Bloomington, IN 47405-7105, United States of America.",
+                    "orcid": "0000-0003-3634-190X"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Model-Antiviral-Heterogeneity-Tissue-Infected-SARS-2.zip",
+                    "description": "Contains the whole model and file structure. To run the model open ViralInfectionVTM.cc3d in CompuCell3D's player",
+                    "fileSize": "32858",
+                    "mimeType": "application/zip",
+                    "md5sum": "0772bce5966ff289f40c82547c0fe55e",
+                    "sha1sum": "fea3a47f6d6deef6b5971582a63d7beb7276bf56",
+                    "sha256sum": "6c5b33096702cd3429337193d2b950df1296fd5f0be0780b1483ec21cbfb06b1"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "DrugDosingInputs.py",
+                    "description": "Input parameters for DrugDosingModelSteppable.py. File structure must match the one in the zip file",
+                    "fileSize": "5086",
+                    "mimeType": "text/plain",
+                    "md5sum": "272721d992b9ad539b7787abdcadc2ca",
+                    "sha1sum": "d3fe0bf262d053cb70f6187747cb733dce306cbc",
+                    "sha256sum": "aac1391e5785df72ccccc86abfe9598ce2ca06ddbf12c4b2b120645ada5ff765"
+                },
+                {
+                    "name": "DrugDosingModelSteppable.py",
+                    "description": "Python classes/functions defining the drug PK/PD, drug MOA, data collection for drug treatment model, etc. File structure must match the one in the zip file",
+                    "fileSize": "35125",
+                    "mimeType": "text/plain",
+                    "md5sum": "d70091af8abd12823ec7339265aef3b4",
+                    "sha1sum": "5d565ae6ef8b8ca1ac1ad22f9af412adfb5417bc",
+                    "sha256sum": "f9b8f02626f47613a3e529fa9fc51c88eb1761f029885db4f9e84c0c017d0455"
+                },
+                {
+                    "name": "ViralInfectionVTM.cc3d",
+                    "description": "File that loads the model into CompuCell3D. File structure must match the one in the zip file",
+                    "fileSize": "585",
+                    "mimeType": "text/plain",
+                    "md5sum": "c269394f1079a1b9949d37665a861a65",
+                    "sha1sum": "f89e3b1966d951a6d3a87ce0b3201371526520f0",
+                    "sha256sum": "2cec033edc95ac5a6b84bcfac20df125893a251145a193b76f1dac9f493941e8"
+                },
+                {
+                    "name": "ViralInfectionVTM.py",
+                    "description": "Model loader file, loads and registers the model classes defined in ViralInfectionVTMSteppables and DrugDosingModelSteppable. File structure must match the one in the zip file",
+                    "fileSize": "3183",
+                    "mimeType": "text/plain",
+                    "md5sum": "4a941d2bcbcfe8290d2eabb8817e52ae",
+                    "sha1sum": "e69dfdc28d494b278c48e47be01680b57577e717",
+                    "sha256sum": "0c06062dea2a42d233fbbe49c999f9cff59ef72e20043c7427ef2a071c7d4d1d"
+                },
+                {
+                    "name": "ViralInfectionVTM.xml",
+                    "description": "Defines the lattice dimentions, which energies the model uses (contact, chemotaxis, volume, etc) see publication and explanation on cellular Potts models for explanation on energies. File structure must match the one in the zip file",
+                    "fileSize": "6349",
+                    "mimeType": "application/xml",
+                    "md5sum": "7df7555e16c3d72e3128c751cb3622d5",
+                    "sha1sum": "f7d0487b95e096721f5e0f6d55a7c48761a6e686",
+                    "sha256sum": "af5d99326c9ac15a9ca7390b3abd791e8cd1399f5ec0d10db82e88c643326165"
+                },
+                {
+                    "name": "ViralInfectionVTMLib.py",
+                    "description": "Contains Antimony model strings for intra-cellular viral replication; immune recruitment; and utility functions. File structure must match the one in the zip file",
+                    "fileSize": "6993",
+                    "mimeType": "text/plain",
+                    "md5sum": "ff4b9c9f4f98bb8966267a8703145648",
+                    "sha1sum": "8c08df6f92c230f3084e3bd894ea959331129c62",
+                    "sha256sum": "f968e49a79e3fd38e75626766c831251c1cfe73172d77eb4bdceaff75bf6ef9a"
+                },
+                {
+                    "name": "ViralInfectionVTMModelInputs.py",
+                    "description": "Inputs/Parameters for ViralInfectionVTMSteppables.py. File structure must match the one in the zip file",
+                    "fileSize": "16052",
+                    "mimeType": "text/plain",
+                    "md5sum": "8018ac80075b6d47bdcd084eb54694c3",
+                    "sha1sum": "dcc06eea827da5cd9ed902eff043d99eb0435cc3",
+                    "sha256sum": "9ea31c4c3cebc52bea1c69250891557f219f2dd30871c374fcb8d5c7601c4b5e"
+                },
+                {
+                    "name": "ViralInfectionVTMSteppableBasePy.py",
+                    "description": "Defines parent class for model classes. File structure must match the one in the zip file",
+                    "fileSize": "7560",
+                    "mimeType": "text/plain",
+                    "md5sum": "3fd4b5cef811bd07b0290dd20a823f54",
+                    "sha1sum": "8aa324a2742ca01152a946215a8ce714acf81bab",
+                    "sha256sum": "71f8cc8a23544b8badb0fd67e2feb670a752750f890ed31b1c24e879f9953e18"
+                },
+                {
+                    "name": "ViralInfectionVTMSteppables.py",
+                    "description": "Contains model classes for immune recruitment, cell behavior, simulation initialization, etc. File structure must match the one in the zip file",
+                    "fileSize": "51567",
+                    "mimeType": "text/plain",
+                    "md5sum": "b049165b828ed671e1b3299dda0edc1b",
+                    "sha1sum": "082f696855cad27e2db2c5a5b3d44f18ce287905",
+                    "sha256sum": "6aa32a56b4a3cbdb89ae89746882cd4df7ad06702b1f6fc091750f4752bfbc11"
+                },
+                {
+                    "name": "nCoVSteppableBase.py",
+                    "description": "Utility class. File structure must match the one in the zip file",
+                    "fileSize": "462",
+                    "mimeType": "text/plain",
+                    "md5sum": "5bce3e5b916b31e3d6da6ad8392778ee",
+                    "sha1sum": "939a54415485c6b9c28d66bf4fbc33f0cb80917c",
+                    "sha256sum": "ede7975b43ae0d59afb9fc389c73859aeeddbb4175acffa0cf4e139188936d5e"
+                },
+                {
+                    "name": "nCoVUtils.py",
+                    "description": "Utilify functions definitions. File structure must match the one in the zip file",
+                    "fileSize": "1779",
+                    "mimeType": "text/plain",
+                    "md5sum": "db141c63b7a3f7bedd18a9fd74d43980",
+                    "sha1sum": "9861678b24201834edd53cccc541f0992acb03c8",
+                    "sha256sum": "1c41f4b19598d9caa0f82907a944850dff8b35212c4ff243001d15e0900821d2"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1671192859,
+                    "submitter": "Juliano Ferrari Gianlupi",
+                    "comment": "Import of Gianlupi2022 - Antiviral Timing, Potency, and Heterogeneity Effects on an Epithelial Tissue Patch Infected by SARS-CoV-2"
+                }
+            ]
+        },
+        "firstPublished": 1672359721,
+        "submissionId": "MODEL2212160001",
+        "modellingApproach": {
+            "accession": "MAMO_0000183",
+            "name": "cellular Potts model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000183"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Juliano Ferrari Gianlupi",
+                    "email": "julianoferrarigianlupi@gmail.com",
+                    "orcid": "0000-0002-1305-146X",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.3390/v14030605",
+                "resource": "DOI",
+                "uri": "https://identifiers.org/doi:10.3390/v14030605"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2212160001",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2212160001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2212160001' files=[File(name='Model-Antiviral-Heterogeneity-Tissue-Infected-SARS-2.zip', description=\"Contains the whole model and file structure. To run the model open ViralInfectionVTM.cc3d in CompuCell3D's player\", size=32858), File(name='DrugDosingInputs.py', description='Input parameters for DrugDosingModelSteppable.py. File structure must match the one in the zip file', size=5086), File(name='DrugDosingModelSteppable.py', description='Python classes/functions defining the drug PK/PD, drug MOA, data collection for drug treatment model, etc. File structure must match the one in the zip file', size=35125), File(name='ViralInfectionVTM.cc3d', description='File that loads the model into CompuCell3D. File structure must match the one in the zip file', size=585), File(name='ViralInfectionVTM.py', description='Model loader file, loads and registers the model classes defined in ViralInfectionVTMSteppables and DrugDosingModelSteppable. File structure must match the one in the zip file', size=3183), File(name='ViralInfectionVTM.xml', description='Defines the lattice dimentions, which energies the model uses (contact, chemotaxis, volume, etc) see publication and explanation on cellular Potts models for explanation on energies. File structure must match the one in the zip file', size=6349), File(name='ViralInfectionVTMLib.py', description='Contains Antimony model strings for intra-cellular viral replication; immune recruitment; and utility functions. File structure must match the one in the zip file', size=6993), File(name='ViralInfectionVTMModelInputs.py', description='Inputs/Parameters for ViralInfectionVTMSteppables.py. File structure must match the one in the zip file', size=16052), File(name='ViralInfectionVTMSteppableBasePy.py', description='Defines parent class for model classes. File structure must match the one in the zip file', size=7560), File(name='ViralInfectionVTMSteppables.py', description='Contains model classes for immune recruitment, cell behavior, simulation initialization, etc. File structure must match the one in the zip file', size=51567), File(name='nCoVSteppableBase.py', description='Utility class. File structure must match the one in the zip file', size=462), File(name='nCoVUtils.py', description='Utilify functions definitions. File structure must match the one in the zip file', size=1779)]"
+}

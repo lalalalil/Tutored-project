@@ -1,0 +1,136 @@
+{
+    "model_id": "MODEL1911120004",
+    "doi": "",
+    "year": 2019,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Gupta2019 - Restoration of cytosolic calcium inhibits Mycobacterium tuberculosis intracellular growth",
+        "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">        <pre>This is a four dimensionsal ordinary differential equation mathematical model that explores the contribution of PI3P during Mycobacterium tuberculosis (Mtb) phagocytosis. The model was built in an effort to understand the mechanisms by which Mtb eliminates phagosome-lysosome fusion during the hosts enactment of anti-microbial pathways.</pre>      </body>    </notes>",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L2V4"
+        },
+        "publication": {
+            "type": "PubMed ID",
+            "accession": "31002776",
+            "journal": "Journal of theoretical biology",
+            "title": "Restoration of cytosolic calcium inhibits Mycobacterium tuberculosis intracellular growth: Theoretical evidence and experimental observation.",
+            "affiliation": "Drug Discovery Research Centre, Translational Health Science and Technology Institute, NCR Biotech Science Cluster, Faridabad 121001, India.",
+            "synopsis": "Mycobacterium tuberculosis (Mtb) is a highly successful intracellular pathogen because of its ability to modulate host's anti-microbial pathways. Phagocytosis acts as the first line of defence against microbial infection. However, Mtb inhibits Phosphatidylinositol 3-phosphate (PI3P) oscillations which is required for phagolysosomal fusion. Here we attempted to understand the mechanisms by which Mtb eliminates phagosome-lysosome fusion. To address this, we built a four dimensional ordinary differential equation model and explored the contribution of PI3P during Mtb phagocytosis. Using this model, we identified some sensitive parameters that influence the dynamics of host-pathogen interactions. We observed that PI3P dynamics can be controlled by regulating the intracellular calcium oscillations. Some plausible methods to restore PI3P oscillations are ER flux rate, recruitment rate of proteins, like Rab GTPase, and cooperativity coefficient of calcium dependent consumption of calmodulin. Further, we investigated whether modulation of these pathways is a potential therapeutic intervention strategy. Here we showed that RyR2 agonist caffeine stimulated calcium influx and inhibited growth of intracellular Mtb in macrophages. Taken together, we demonstrate that modulation of host calcium level is a plausible strategy for killing of intracellular Mtb.",
+            "year": 2019,
+            "month": "7",
+            "volume": "472",
+            "pages": "110-123",
+            "link": "http://identifiers.org/pubmed/31002776",
+            "authors": [
+                {
+                    "name": "Ankur Gupta",
+                    "institution": "Drug Discovery Research Centre, Translational Health Science and Technology Institute, NCR Biotech Science Cluster, Faridabad 121001, India."
+                },
+                {
+                    "name": "Phonindra Nath Das",
+                    "institution": "Department of Mathematics, Memari College, Memari, Burdwan, West Bengal 713146, India.",
+                    "orcid": "0000-0002-6797-8535"
+                },
+                {
+                    "name": "Rania Bouzeyen",
+                    "institution": "Institut Pasteur de Tunis, LTCII, LR11 IPT02, Tunis, 1002, Tunisia; Universite' Tunis El Manar, Tunis, 1068, Tunisia."
+                },
+                {
+                    "name": "Sonali Porey Karmakar",
+                    "institution": "Drug Discovery Research Centre, Translational Health Science and Technology Institute, NCR Biotech Science Cluster, Faridabad 121001, India."
+                },
+                {
+                    "name": "Ramandeep Singh",
+                    "institution": "Tuberculosis Research Laboratory, Vaccine and Infectious Research Centre, Translational Health Science and Technology Institute, NCR Biotech Science Cluster, Faridabad 121001, India.",
+                    "orcid": "0000-0001-5775-7993"
+                },
+                {
+                    "name": "Ramandeep Singh",
+                    "institution": "Tuberculosis Research Laboratory, Vaccine and Infectious Research Centre, Translational Health Science and Technology Institute, NCR Biotech Science Cluster, Faridabad 121001, India.",
+                    "orcid": "0000-0003-2705-3826"
+                },
+                {
+                    "name": "Nandadulal Bairagi",
+                    "institution": "Centre for Mathematical Biology and Ecology, Department of Mathematics, Jadavpur University, Kolkata 700032, India.",
+                    "orcid": "0000-0001-8867-7996"
+                },
+                {
+                    "name": "Samrat Chatterjee",
+                    "institution": "Drug Discovery Research Centre, Translational Health Science and Technology Institute, NCR Biotech Science Cluster, Faridabad 121001, India. Electronic address: samrat.chatterjee@thsti.res.in."
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Gupta2019.xml",
+                    "description": "SBML L2V4 Representation of Gupta2019 - Restoration of cytosolic calcium inhibits Mycobacterium tuberculosis intracellular growth",
+                    "fileSize": "37728",
+                    "mimeType": "application/xml",
+                    "md5sum": "54458974f2452208dac105673d0135b8",
+                    "sha1sum": "60eb49f655e6c585e9c666c117a7c290fd4b3521",
+                    "sha256sum": "d08b176c317114d6fd7336b62edcadcc28a1203f1eef1f82f2fe28e74993b7b4"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "Gupta2019.cps",
+                    "description": "COPASI file of Gupta2019 - Restoration of cytosolic calcium inhibits Mycobacterium tuberculosis intracellular growth",
+                    "fileSize": "92963",
+                    "mimeType": "application/xml",
+                    "md5sum": "05746cccf6785a0302227da60d9857a1",
+                    "sha1sum": "1104fe708aa2a94f0f7ca168f901ae87527ede3b",
+                    "sha256sum": "bd2b5bd6f5a58b33518ffb671563ecd8feba1abfe06999c7595ce4f09c7303c2"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1573565616,
+                    "submitter": "Johannes Meyer",
+                    "comment": "Import of Gupta2019 - Restoration of cytosolic calcium inhibits Mycobacterium tuberculosis intracellular growth"
+                }
+            ]
+        },
+        "firstPublished": 1573676530,
+        "submissionId": "MODEL1911120004",
+        "modellingApproach": {
+            "accession": "MAMO_0000046",
+            "name": "ordinary differential equation model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Johannes Meyer",
+                    "email": "johannes.p.meyer@gmail.com",
+                    "affiliation": "EMBL-EBI",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aai",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "MAMO_0000046",
+                "name": "Ordinary differential equation model",
+                "resource": "Mathematical Modelling Ontology",
+                "uri": "http://identifiers.org/mamo/MAMO_0000046"
+            },
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "CHEBI:26034",
+                "name": "phosphatidylinositol 3-phosphate",
+                "resource": "ChEBI",
+                "uri": "http://identifiers.org/chebi/CHEBI:26034"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL1911120004' files=[File(name='Gupta2019.xml', description='SBML L2V4 Representation of Gupta2019 - Restoration of cytosolic calcium inhibits Mycobacterium tuberculosis intracellular growth', size=37728), File(name='Gupta2019.cps', description='COPASI file of Gupta2019 - Restoration of cytosolic calcium inhibits Mycobacterium tuberculosis intracellular growth', size=92963)]"
+}

@@ -1,0 +1,110 @@
+{
+    "model_id": "MODEL2402280001",
+    "doi": "10.3390/v14051103",
+    "year": 2022,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Juhasz2022 - In silico evaluation of Paxlovid\u2019s pharmacometrics for SARS-CoV-2",
+        "description": "Paxlovid is a promising, orally bioavailable novel drug for SARS-CoV-2 with excellent safety profiles. Our main goal here is to explore the pharmacometric features of this new antiviral. To provide a detailed assessment of Paxlovid, we propose a hybrid multiscale mathematical approach.",
+        "format": {
+            "name": "Java",
+            "identifier": "Java",
+            "version": "*"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.3390/v14051103",
+            "journal": "Viruses",
+            "title": "In Silico Evaluation of Paxlovid's Pharmacometrics for SARS-CoV-2: A Multiscale Approach.",
+            "affiliation": "Bolyai Institute, University of Szeged, National Laboratory for Health Security",
+            "synopsis": "Paxlovid is a promising, orally bioavailable novel drug for SARS-CoV-2 with excellent safety profiles. Our main goal here is to explore the pharmacometric features of this new antiviral. To provide a detailed assessment of Paxlovid, we propose a hybrid multiscale mathematical approach. We demonstrate that the results of the present in silico evaluation match the clinical expectations remarkably well: on the one hand, our computations successfully replicate the outcome of an actual in vitro experiment; on the other hand, we verify both the sufficiency and the necessity of Paxlovid's two main components (nirmatrelvir and ritonavir) for a simplified in vivo case. Moreover, in the simulated context of our computational framework, we visualize the importance of early interventions and identify the time window where a unit-length delay causes the highest level of tissue damage. Finally, the results' sensitivity to the diffusion coefficient of the virus is explored in detail.",
+            "year": 2022,
+            "month": "5",
+            "volume": "14",
+            "issue": "5",
+            "pages": "1103",
+            "link": "http://identifiers.org/doi/10.3390/v14051103",
+            "authors": [
+                {
+                    "name": "Ferenc A Bartha",
+                    "orcid": "0000-0002-7545-9145"
+                },
+                {
+                    "name": "N\u00f3ra Juh\u00e1sz",
+                    "institution": "Bolyai Institute, University of Szeged",
+                    "orcid": "0000-0001-6560-7581"
+                },
+                {
+                    "name": "Sadegh Marzban",
+                    "orcid": "0000-0002-9435-017X"
+                },
+                {
+                    "name": "Renji Han",
+                    "orcid": "0000-0001-5899-9943"
+                },
+                {
+                    "name": "Gergely R\u00f6st",
+                    "orcid": "0000-0001-9476-3284"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "NirmatrelvirExperiments.java",
+                    "description": "Java file running Paxlovid experiments for SARS-CoV-2",
+                    "fileSize": "22340",
+                    "mimeType": "text/plain",
+                    "md5sum": "c00f67af4c2af3d12ee0e760abe5f195",
+                    "sha1sum": "32f53c8081aea6dcd4c4ad95b0147205d184652a",
+                    "sha256sum": "5026662b14bb34ed5deaf35734b10e7f695b279acc8ae5316cb6a38eb0d81bcd"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 2,
+                    "submitted": 1709139830,
+                    "submitter": "N\u00f3ra Juh\u00e1sz",
+                    "comment": "Import of In Silico Evaluation of Paxlovid\u2019s Pharmacometrics for SARS-CoV-2: A Multiscale Approach"
+                }
+            ]
+        },
+        "firstPublished": 1709141280,
+        "submissionId": "MODEL2402280001",
+        "modellingApproach": {
+            "accession": "MAMO_0000003",
+            "name": "mathematical model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000003"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "N\u00f3ra Juh\u00e1sz",
+                    "email": "ms.juhasz.nora@gmail.com",
+                    "affiliation": "Bolyai Institute, University of Szeged",
+                    "orcid": "0000-0001-6560-7581",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.3390/v14051103",
+                "resource": "DOI",
+                "uri": "http://identifiers.org/doi/10.3390/v14051103"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2402280001",
+                "resource": "BioModels Database",
+                "uri": "http://identifiers.org/biomodels.db/MODEL2402280001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2402280001' files=[File(name='NirmatrelvirExperiments.java', description='Java file running Paxlovid experiments for SARS-CoV-2', size=22340)]"
+}

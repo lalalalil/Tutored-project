@@ -1,7 +1,3 @@
-"category","avg_files_per_model"
-"covid_files",4.62
-"dengue_files",1.22
-"hiv_files",7.42
-"influenza_files",5.33
-"mpox_files",6
-"tuberculosis_files",7.24
+version https://git-lfs.github.com/spec/v1
+oid sha256:1756ac3f3f531997934919b9363695119c5ccf285d3ec7952cbbb7b25c44c3e1
+size 153

@@ -1,0 +1,100 @@
+{
+    "model_id": "MODEL2209020001",
+    "doi": "",
+    "year": 2022,
+    "year_source": "firstPublished",
+    "web_metadata": {
+        "name": "BY-COVID Knowledge Graph: A comprehensive network integrating various data resources of BY-COVID project",
+        "description": "The BY-COVID Knowledge Graph integrates biological and chemical data from BY-COVID project partner sites. These data are further enriched with information such as biological processes, assays, drug candidates, drug indications, mechanism of action and side effects to form a dynamic and comprehensive network. This is achieved by using the UniProt, ChEMBL and OpenTargets API. The KG is compliant with FAIR annotations allowing seamless transformation and integration to/with other formats and infrastructures. Please check the github for more details: https://github.com/Fraunhofer-ITMP/BY-COVID-KG.",
+        "format": {
+            "name": "Other",
+            "identifier": "UNKNOWN",
+            "version": "*"
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "bycovidgraph_2ndSep.pkl",
+                    "description": "BYCOVID KG created with pybel framework",
+                    "fileSize": "46716417",
+                    "mimeType": "application/octet-stream",
+                    "md5sum": "0fff4a11c84e2282e819f510ccfd9c7c",
+                    "sha1sum": "61df7044f7c79cac1f9421b33131182ecde81bdb",
+                    "sha256sum": "a1e0dab981bfbf9438e924b809372d516d9f1ab3f2dc93b431ad1e5d2b45fb6f"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "bycovidgraph_2ndSep.csv",
+                    "description": "BYCOVID KG exported as triples in csv format",
+                    "fileSize": "58577160",
+                    "mimeType": "text/plain",
+                    "md5sum": "681d55a2a19f0d5222bb9b148b771c64",
+                    "sha1sum": "56b41aba010fdee717c937be87694447173fd205",
+                    "sha256sum": "48cc3958a3b2fa111e00924057b6a075f7ebed0a4f23ff1571882591e4ce8021"
+                },
+                {
+                    "name": "bycovidgraph_2ndSep.graphml",
+                    "description": "BYCOVID KG file for cytoscape visualization",
+                    "fileSize": "75717925",
+                    "mimeType": "application/xml",
+                    "md5sum": "0521383b469c1244fb642422c45aaa9e",
+                    "sha1sum": "71b9eac52202833730b31f9fd1476da01916af8c",
+                    "sha256sum": "0b34899b21b99697072ebcfdf675796456d87bffa63e96fe03547b10a2c17014"
+                },
+                {
+                    "name": "bycovidgraph_2ndSep.sif",
+                    "description": "BYCOVID KG exported as triples in sif format",
+                    "fileSize": "19140132",
+                    "mimeType": "text/plain",
+                    "md5sum": "d5f14e8b1eda4723cd8bcff0ed6d1c78",
+                    "sha1sum": "0134c5c7c676c156221a25518bce3fcab7515266",
+                    "sha256sum": "bd8150f41c3c04ab5a71177ee19abc5c9ef72c87cbb96532cffaf0aa09a9c415"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1662119068,
+                    "submitter": "Reagon Karki",
+                    "comment": "Import of BY-COVID Knowledge Graph: A comprehensive network integrating various data resources of BY-COVID project"
+                }
+            ]
+        },
+        "firstPublished": 1666024107,
+        "submissionId": "MODEL2209020001",
+        "modellingApproach": {
+            "accession": "OTHER",
+            "name": "Other",
+            "resource": "Unknown"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "COVID-19",
+            "Not Peer Reviewed"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Reagon Karki",
+                    "email": "reagon.karki@itmp.fraunhofer.de",
+                    "affiliation": "Fraunhofer ITMP",
+                    "orcid": "0000-0002-1815-0037",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2209020001",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2209020001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2209020001' files=[File(name='bycovidgraph_2ndSep.pkl', description='BYCOVID KG created with pybel framework', size=46716417), File(name='bycovidgraph_2ndSep.csv', description='BYCOVID KG exported as triples in csv format', size=58577160), File(name='bycovidgraph_2ndSep.graphml', description='BYCOVID KG file for cytoscape visualization', size=75717925), File(name='bycovidgraph_2ndSep.sif', description='BYCOVID KG exported as triples in sif format', size=19140132)]"
+}

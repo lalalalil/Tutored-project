@@ -1,0 +1,118 @@
+{
+    "model_id": "MODEL1812040006",
+    "doi": "",
+    "year": 2016,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Pawelek2016 - Within-Host Models of High and Low Pathogenic Influenza Virus Infections",
+        "description": "a possible mechanism of MP in determining HP versus LP outcomes, and how different interventions might affect infection dynamics",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L2V4"
+        },
+        "publication": {
+            "type": "PubMed ID",
+            "accession": "26918620",
+            "journal": "PloS one",
+            "title": "Within-Host Models of High and Low Pathogenic Influenza Virus Infections: The Role of Macrophages.",
+            "affiliation": "Department of Mathematics and Computational Science, University of South Carolina Beaufort, Bluffton, South Carolina, United States of America.",
+            "synopsis": "The World Health Organization identifies influenza as a major public health problem. While the strains commonly circulating in humans usually do not cause severe pathogenicity in healthy adults, some strains that have infected humans, such as H5N1, can cause high morbidity and mortality. Based on the severity of the disease, influenza viruses are sometimes categorized as either being highly pathogenic (HP) or having low pathogenicity (LP). The reasons why some strains are LP and others HP are not fully understood. While there are likely multiple mechanisms of interaction between the virus and the immune response that determine LP versus HP outcomes, we focus here on one component, namely macrophages (MP). There is some evidence that MP may both help fight the infection and become productively infected with HP influenza viruses. We developed mathematical models for influenza infections which explicitly included the dynamics and action of MP. We fit these models to viral load and macrophage count data from experimental infections of mice with LP and HP strains. Our results suggest that MP may not only help fight an influenza infection but may contribute to virus production in infections with HP viruses. We also explored the impact of combination therapies with antivirals and anti-inflammatory drugs on HP infections. Our study suggests a possible mechanism of MP in determining HP versus LP outcomes, and how different interventions might affect infection dynamics.",
+            "year": 2016,
+            "month": "0",
+            "volume": "11",
+            "issue": "2",
+            "pages": "e0150568",
+            "link": "http://identifiers.org/pubmed/26918620",
+            "authors": [
+                {
+                    "name": "Kasia A Pawelek",
+                    "institution": "Department of Mathematics and Computational Science, University of South Carolina Beaufort, Bluffton, South Carolina, United States of America."
+                },
+                {
+                    "name": "Daniel Dor",
+                    "institution": "Department of Natural Sciences, University of South Carolina Beaufort, Bluffton, South Carolina, United States of America."
+                },
+                {
+                    "name": "Cristian Salmeron",
+                    "institution": "Department of Mathematics and Computational Science, University of South Carolina Beaufort, Bluffton, South Carolina, United States of America."
+                },
+                {
+                    "name": "Andreas Handel",
+                    "institution": "Department of Epidemiology and Biostatistics, College of Public Health, University of Georgia, Athens, Georgia, United States of America.",
+                    "orcid": "0000-0002-4622-1146"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Model.xml",
+                    "description": "SBML file for the model.",
+                    "fileSize": "21727",
+                    "mimeType": "application/xml",
+                    "md5sum": "5f76038147e974994e90f017bea4737e",
+                    "sha1sum": "082be06ac3ef752a9fd92d0cddc43a8de09bfdfe",
+                    "sha256sum": "fa2001771a936b8813e2c7b2054d31d973422c3eeda2ccc079b495d5ef507d36"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "V2 ODE.cps",
+                    "description": "Copasi file for the model",
+                    "fileSize": "53716",
+                    "mimeType": "application/xml",
+                    "md5sum": "6618be9fea58a4c46971c910c7b48540",
+                    "sha1sum": "56f3e0918fcd76c4a7f883b7ecafa89853145ae5",
+                    "sha256sum": "5eb7ec1c871b7896f958e4e5e78e0d5cdd65412d6d671ece9ec62a37961d0b00"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 4,
+                    "submitted": 1594301588,
+                    "submitter": "Krishna Kumar Tiwari",
+                    "comment": "Edited model metadata online."
+                }
+            ]
+        },
+        "firstPublished": 1594301601,
+        "submissionId": "MODEL1812040006",
+        "modellingApproach": {
+            "accession": "MAMO_0000046",
+            "name": "ordinary differential equation model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000046"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Sarubini Kananathan",
+                    "email": "skananathan@ebi.ac.uk",
+                    "affiliation": "EMBL-EBI",
+                    "external": false
+                },
+                {
+                    "name": "Krishna Kumar Tiwari",
+                    "email": "ktiwari@ebi.ac.uk",
+                    "affiliation": "EMBL-EBI",
+                    "orcid": "0000-0002-3699-0937",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aag",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "MAMO_0000046",
+                "name": "Ordinary differential equation model",
+                "resource": "Mathematical Modelling Ontology",
+                "uri": "http://identifiers.org/mamo/MAMO_0000046"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL1812040006' files=[File(name='Model.xml', description='SBML file for the model.', size=21727), File(name='V2 ODE.cps', description='Copasi file for the model', size=53716)]"
+}

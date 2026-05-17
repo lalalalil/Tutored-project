@@ -1,0 +1,188 @@
+{
+    "model_id": "MODEL2212310001",
+    "doi": "",
+    "year": 2021,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Model-based prediction of SARS-CoV-2 in Ethiopia: Extended SEIR model",
+        "description": "One of three models used to describe dynamics of COVID-19 spread in Ethiopia. Here the two investigated population groups healthcare workers and community members are modeled as separate but interacting groups.Results are published in https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(21)00386-7/fulltext",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L3V2"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.1016/S2214-109X(21)00386-7",
+            "journal": "The Lancet Global Health",
+            "title": "Seroepidemiology and model-based prediction of SARS-CoV-2 in Ethiopia: longitudinal cohort study among front-line hospital workers and communities",
+            "affiliation": "N/A",
+            "synopsis": "Background\nOver 1 year since the first reported case, the true COVID-19 burden in Ethiopia remains unknown due to insufficient surveillance. We aimed to investigate the seroepidemiology of SARS-CoV-2 among front-line hospital workers and communities in Ethiopia.\n\nMethods\nWe did a population-based, longitudinal cohort study at two tertiary teaching hospitals involving hospital workers, rural residents, and urban communities in Jimma and Addis Ababa. Hospital workers were recruited at both hospitals, and community participants were recruited by convenience sampling including urban metropolitan settings, urban and semi-urban settings, and rural communities. Participants were eligible if they were aged 18 years or older, had provided written informed consent, and were willing to provide blood samples by venepuncture. Only one participant per household was recruited. Serology was done with Elecsys anti-SARS-CoV-2 anti-nucleocapsid assay in three consecutive rounds, with a mean interval of 6 weeks between tests, to obtain seroprevalence and incidence estimates within the cohorts.\n\nFindings\nBetween Aug 5, 2020, and April 10, 2021, we did three survey rounds with a total of 1104 hospital workers and 1229 community residents participating. SARS-CoV-2 seroprevalence among hospital workers increased strongly during the study period: in Addis Ababa, it increased from 10\u00b79% (95% credible interval [CrI] 8\u00b73\u201313\u00b78) in August, 2020, to 53\u00b77% (44\u00b78\u201362\u00b75) in February, 2021, with an incidence rate of 2223 per 100\u2008000 person-weeks (95% CI 1785\u20132696); in Jimma Town, it increased from 30\u00b78% (95% CrI 26\u00b79\u201334\u00b78) in November, 2020, to 56\u00b71% (51\u00b71\u201361\u00b71) in February, 2021, with an incidence rate of 3810 per 100\u2008000 person-weeks (95% CI 3149\u20134540). Among urban communities, an almost 40% increase in seroprevalence was observed in early 2021, with incidence rates of 1622 per 100\u2008000 person-weeks (1004\u20132429) in Jimma Town and 4646 per 100\u2008000 person-weeks (2797\u20137255) in Addis Ababa. Seroprevalence in rural communities increased from 18\u00b70% (95% CrI 13\u00b75\u201323\u00b72) in November, 2020, to 31\u00b70% (22\u00b73\u201340\u00b73) in March, 2021.\n\nInterpretation\nSARS-CoV-2 spread in Ethiopia has been highly dynamic among hospital worker and urban communities. We can speculate that the greatest wave of SARS-CoV-2 infections is currently evolving in rural Ethiopia, and thus requires focused attention regarding health-care burden and disease prevention.\n\nFunding\nBavarian State Ministry of Sciences, Research, and the Arts; Germany Ministry of Education and Research; EU Horizon 2020 programme; Deutsche Forschungsgemeinschaft; and Volkswagenstiftung.",
+            "year": 2021,
+            "month": "11",
+            "volume": "9",
+            "issue": "11",
+            "pages": "e1517--e1527",
+            "link": "http://identifiers.org/doi/10.1016/S2214-109X(21)00386-7",
+            "authors": [
+                {
+                    "name": "Esayas Kebede Gudina"
+                },
+                {
+                    "name": "Solomon Ali"
+                },
+                {
+                    "name": "Eyob Girma"
+                },
+                {
+                    "name": "Addisu Gize"
+                },
+                {
+                    "name": "Birhanemeskel Tegene"
+                },
+                {
+                    "name": "Gadissa Bedada Hundie"
+                },
+                {
+                    "name": "Wondewosen Tsegaye Sime"
+                },
+                {
+                    "name": "Rozina Ambachew"
+                },
+                {
+                    "name": "Alganesh Gebreyohanns"
+                },
+                {
+                    "name": "Mahteme Bekele"
+                },
+                {
+                    "name": "Abhishek Bakuli"
+                },
+                {
+                    "name": "Kira Elsbernd"
+                },
+                {
+                    "name": "Simon Merkt"
+                },
+                {
+                    "name": "Lorenzo Contento"
+                },
+                {
+                    "name": "Michael Hoelscher"
+                },
+                {
+                    "name": "Jan Hasenauer"
+                },
+                {
+                    "name": "Andreas Wieser"
+                },
+                {
+                    "name": "Arne Kroidl"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "covid_ethiopia_seir2x_model.sbml",
+                    "description": "SBML L3V2 representation of Extended SEIR model",
+                    "fileSize": "10777",
+                    "mimeType": "application/xml",
+                    "md5sum": "d009e2a7d5d65760798ad4b33578d7b0",
+                    "sha1sum": "0ebf0980f700d3e334ea53412dea798cb09fa55b",
+                    "sha256sum": "a75ced012196accdf789625ec3ec82e2ec53e378e86675a2b4b1cf5fc602cc69"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "covid_ethiopia_seir2x.yaml",
+                    "description": "PEtab YAML file listing files of PEtab problem (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "318",
+                    "mimeType": "text/plain",
+                    "md5sum": "46bca7e2b1cbe8099acafd5df201bb67",
+                    "sha1sum": "9a30b58605630def1adac781c9c1ead0870cf599",
+                    "sha256sum": "82c5393cbb06be6aaa9c10c2b32f23175163660195790fa87c6376d68acf06bf"
+                },
+                {
+                    "name": "covid_ethiopia_seir2x_conditions.tsv",
+                    "description": "PEtab condition table containing experimental conditions (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "68",
+                    "mimeType": "text/plain",
+                    "md5sum": "a89a35c985480bb225427de8b8f613f7",
+                    "sha1sum": "4052e84f5d8f325a16bab112b61e1314c7d3ed64",
+                    "sha256sum": "42fc398e95459c124a1933b427460b30cf3d10b994e5a961c7bb26a71d54e00e"
+                },
+                {
+                    "name": "covid_ethiopia_seir2x_measurements.tsv",
+                    "description": "PEtab measurement table containing measurements for estimation (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "820",
+                    "mimeType": "text/plain",
+                    "md5sum": "b2e222d554f1174caaf1bc180e867068",
+                    "sha1sum": "abe2cdc8161a0f327acff4738403c32e375dbd98",
+                    "sha256sum": "85c120a4981889a80ae695015b014d00dc06d092324fbb434d2855eec79cc354"
+                },
+                {
+                    "name": "covid_ethiopia_seir2x_observables.tsv",
+                    "description": "PEtab observable table containing model observables (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "260",
+                    "mimeType": "text/plain",
+                    "md5sum": "814598c58729814a02470ce1a1c34bd8",
+                    "sha1sum": "8fea3fe083d0a2896c99673437d317bfab825d23",
+                    "sha256sum": "6a6222bf948e0eda588a7a5a6fca0fd4183871b9784fffa3ff46d68e0cc85d49"
+                },
+                {
+                    "name": "covid_ethiopia_seir2x_parameters.tsv",
+                    "description": "PEtab parameter table containing model parameter values and estimation setup (c.f. https://petab.readthedocs.io)",
+                    "fileSize": "639",
+                    "mimeType": "text/plain",
+                    "md5sum": "a8c5b2558d1844c7022c549a936915ac",
+                    "sha1sum": "0661be27c9622b04817f8ff342a25131572367a5",
+                    "sha256sum": "881c208bee3a46179d370bad493a2cf1fc9362b09d63352c09fb1f48b22cd77c"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1672495456,
+                    "submitter": "Simon Merkt",
+                    "comment": "Import of Model-based prediction of SARS-CoV-2 in Ethiopia: Extended SEIR model"
+                }
+            ]
+        },
+        "firstPublished": 1672824835,
+        "submissionId": "MODEL2212310001",
+        "modellingApproach": {
+            "accession": "MAMO_0000028",
+            "name": "population model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000028"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "COVID-19"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Simon Merkt",
+                    "email": "simon.merkt@uni-bonn.de",
+                    "affiliation": "University of Bonn",
+                    "orcid": "0000-0002-8017-4494",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqbiol:hasProperty",
+                "accession": "MAMO_0000028",
+                "name": "population model",
+                "resource": "Mathematical Modelling Ontology",
+                "uri": "http://identifiers.org/mamo/MAMO_0000028"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2212310001' files=[File(name='covid_ethiopia_seir2x_model.sbml', description='SBML L3V2 representation of Extended SEIR model', size=10777), File(name='covid_ethiopia_seir2x.yaml', description='PEtab YAML file listing files of PEtab problem (c.f. https://petab.readthedocs.io)', size=318), File(name='covid_ethiopia_seir2x_conditions.tsv', description='PEtab condition table containing experimental conditions (c.f. https://petab.readthedocs.io)', size=68), File(name='covid_ethiopia_seir2x_measurements.tsv', description='PEtab measurement table containing measurements for estimation (c.f. https://petab.readthedocs.io)', size=820), File(name='covid_ethiopia_seir2x_observables.tsv', description='PEtab observable table containing model observables (c.f. https://petab.readthedocs.io)', size=260), File(name='covid_ethiopia_seir2x_parameters.tsv', description='PEtab parameter table containing model parameter values and estimation setup (c.f. https://petab.readthedocs.io)', size=639)]"
+}

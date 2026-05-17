@@ -1,0 +1,111 @@
+{
+    "model_id": "MODEL2401170001",
+    "doi": "10.1016/j.bpj.2023.12.026",
+    "year": 2024,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Pradeep2024 - A Mechanical modelling framework for studying endothelial permeability",
+        "format": {
+            "name": "Other",
+            "identifier": "UNKNOWN",
+            "version": "*"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.1016/j.bpj.2023.12.026",
+            "journal": "Biophysical journal",
+            "title": "A mechanical modelling framework to study endothelial permeability.",
+            "affiliation": "School of Mathematics, University of Birmingham, Birmingham, B15 2TS, UK. Electronic address: p.keshavanarayana@bham.ac.uk.",
+            "synopsis": "The inner lining of blood vessels, the endothelium, is made up of endothelial cells. Vascular endothelial (VE)-cadherin protein forms a bond with VE-cadherin from neighbouring cells to determine the size of gaps between the cells and thereby regulate the size of particles that can cross the endothelium. Chemical cues such as thrombin, along with mechanical properties of the cell and extracellular matrix (ECM) are known to affect the permeability of endothelial cells. Abnormal permeability is found in patients suffering from diseases including cardiovascular diseases, cancer, and COVID-19. Even though some of the regulatory mechanisms affecting endothelial permeability are well studied, details of how several mechanical and chemical stimuli acting simultaneously affect endothelial permeability are not yet understood. In this article, we present a continuum-level mechanical modelling framework to study the highly dynamic nature of the VE-cadherin bonds. Taking inspiration from the catch-slip behaviour that VE-cadherin complexes are known to exhibit, we model VE-cadherin homophilic bond as cohesive contact with damage following a traction-separation law. We explicitly model the actin-cytoskeleton, and substrate to study their role in permeability. Our studies show that mechano-chemical coupling is necessary to simulate the influence of the mechanical properties of the substrate on permeability. Simulations show that shear between cells is responsible for the variation in permeability between bi-cellular and tri-cellular junctions, explaining the phenotypic differences observed in experiments. An increase in the magnitude of traction force due to disturbed flow that endothelial cells experience results in increased permeability, and it is found that the effect is higher on stiffer ECM. Finally, we show that the cylindrical monolayer exhibits higher permeability than the planar monolayer under unconstrained cases. Thus, we present a contact mechanics-based mechano-chemical model to investigate the variation in permeability of endothelial monolayer due to multiple loads acting simultaneously.",
+            "year": 2024,
+            "month": "1",
+            "pages": "S0006-3495(23)04179-6",
+            "link": "http://identifiers.org/doi/10.1016/j.bpj.2023.12.026",
+            "authors": [
+                {
+                    "name": "Pradeep Keshavanarayana"
+                },
+                {
+                    "name": "Fabian Spill"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "Planar_Monolayer_With_ECM.inp",
+                    "description": "Geometry description along with material parameters",
+                    "fileSize": "0",
+                    "mimeType": "application/octet-stream",
+                    "md5sum": "d41d8cd98f00b204e9800998ecf8427e",
+                    "sha1sum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                    "sha256sum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "Cell_UMAT_Small_Strain.f",
+                    "description": "Material definition for stress fibre growth",
+                    "fileSize": "0",
+                    "mimeType": "application/octet-stream",
+                    "md5sum": "d41d8cd98f00b204e9800998ecf8427e",
+                    "sha1sum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                    "sha256sum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                },
+                {
+                    "name": "UAMP.f",
+                    "description": "Random intercellular pressure acting on cell",
+                    "fileSize": "0",
+                    "mimeType": "application/octet-stream",
+                    "md5sum": "d41d8cd98f00b204e9800998ecf8427e",
+                    "sha1sum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                    "sha256sum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 1,
+                    "submitted": 1705508674,
+                    "submitter": "Pradeep Keshavanarayana",
+                    "comment": "Import of Pradeep2024-A Mechanical modelling framework for studying endothelial permeability"
+                }
+            ]
+        },
+        "firstPublished": 1705573062,
+        "submissionId": "MODEL2401170001",
+        "modellingApproach": {
+            "accession": "MAMO_0000034",
+            "name": "finite element spatial model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000034"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Pradeep Keshavanarayana",
+                    "email": "p.keshavanarayana@bham.ac.uk",
+                    "affiliation": "University of Birmingham",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.1016/j.bpj.2023.12.026",
+                "resource": "DOI",
+                "uri": "https://identifiers.org/doi/10.1016/j.bpj.2023.12.026"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2401170001",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db/MODEL2401170001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2401170001' files=[File(name='Planar_Monolayer_With_ECM.inp', description='Geometry description along with material parameters', size=0), File(name='Cell_UMAT_Small_Strain.f', description='Material definition for stress fibre growth', size=0), File(name='UAMP.f', description='Random intercellular pressure acting on cell', size=0)]"
+}

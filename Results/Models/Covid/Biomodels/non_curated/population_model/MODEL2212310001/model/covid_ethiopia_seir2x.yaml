@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:82c5393cbb06be6aaa9c10c2b32f23175163660195790fa87c6376d68acf06bf
-size 318
+parameter_file: covid_ethiopia_seir2x_parameters.tsv
+format_version: 1
+problems:
+- condition_files:
+  - covid_ethiopia_seir2x_conditions.tsv
+  measurement_files:
+  - covid_ethiopia_seir2x_measurements.tsv
+  sbml_files:
+  - covid_ethiopia_seir2x_model.sbml
+  observable_files:
+  - covid_ethiopia_seir2x_observables.tsv

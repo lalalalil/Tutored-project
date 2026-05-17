@@ -1,0 +1,105 @@
+{
+    "model_id": "MODEL2203300001",
+    "doi": "10.46471/gigabyte.80",
+    "year": 2023,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Bannerman2022 Whole Genome Metabolism - Mycobacterium leprae (strain Br4923)_1",
+        "description": "This is a whole genome metabolism model of Mycobacterium leprae",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L3V1"
+        },
+        "publication": {
+            "type": "DOI",
+            "accession": "10.46471/gigabyte.80",
+            "journal": "GigaByte (Hong Kong, China)",
+            "title": "Mycobacterial metabolic model development for drug target identification.",
+            "affiliation": "Lucy Cavendish College, University of Cambridge, Lady Margaret Rd, Cambridge, CB3 0BU, UK.",
+            "synopsis": "Antibiotic resistance is increasing at an alarming rate, and three related mycobacteria are sources of widespread infections in humans. According to the World Health Organization, <i>Mycobacterium leprae</i>, which causes leprosy, is still endemic in tropical countries; <i>Mycobacterium tuberculosis</i> is the second leading infectious killer worldwide after COVID-19; and <i>Mycobacteroides abscessus</i>, a group of non-tuberculous mycobacteria, causes lung infections and other healthcare-associated infections in humans. Due to the rise in resistance to common antibacterial drugs, it is critical that we develop alternatives to traditional treatment procedures. Furthermore, an understanding of the biochemical mechanisms underlying pathogenic evolution is important for the treatment and management of these diseases. In this study, metabolic models have been developed for two bacterial pathogens, <i>M. leprae</i> and <i>My. abscessus</i>, and a new computational tool has been used to identify potential drug targets, which are referred to as bottleneck reactions. The genes, reactions, and pathways in each of these organisms have been highlighted; the potential drug targets can be further explored as broad-spectrum antibacterials and the unique drug targets for each pathogen are significant for precision medicine initiatives. The models and associated datasets described in this paper are available in GigaDB, Biomodels, and PatMeDB repositories.",
+            "year": 2023,
+            "month": "1",
+            "volume": "2023",
+            "pages": "gigabyte80",
+            "link": "http://identifiers.org/doi/10.46471/gigabyte.80",
+            "authors": [
+                {
+                    "name": "Bannerman BP",
+                    "institution": "Lucy Cavendish College, University of Cambridge, Lady Margaret Rd, Cambridge, CB3 0BU, UK.Science Resources Foundation, 128 City Road, London, EC1V 2NX, UK.",
+                    "orcid": "0000-0002-5746-8283"
+                },
+                {
+                    "name": "Oarga A",
+                    "institution": "Department of Computer Science and Systems Engineering, University of Zaragoza, C/Mar\u00eda de Luna n\u00b0\u00a01, 50018, Zaragoza, Spain.",
+                    "orcid": "0000-0002-7271-733X"
+                },
+                {
+                    "name": "J\u00falvez J",
+                    "institution": "Department of Computer Science and Systems Engineering, University of Zaragoza, C/Mar\u00eda de Luna n\u00b0\u00a01, 50018, Zaragoza, Spain.",
+                    "orcid": "0000-0002-7093-228X"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "iMlep22.xml",
+                    "description": "SBML L3V1 representation of Mycobacterium leprae metabolism model.",
+                    "fileSize": "15258799",
+                    "mimeType": "application/xml",
+                    "md5sum": "ecd9dc4ce91984ea5f6635073973ff58",
+                    "sha1sum": "23324001289fceeebcf8b24941c8785ce3476e1d",
+                    "sha256sum": "c62652df76d99bad7ceab091573b12c4495d72062922b8b7d9e162edcabd8c8a"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 3,
+                    "submitted": 1681378916,
+                    "submitter": "Bridget Bannerman",
+                    "comment": "Model revised without commit message"
+                }
+            ]
+        },
+        "firstPublished": 1681390598,
+        "submissionId": "MODEL2203300001",
+        "modellingApproach": {
+            "accession": "MAMO_0000009",
+            "name": "constraint-based model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000009"
+        },
+        "curationStatus": "NON_CURATED",
+        "modelTags": [
+            "Manuscript Accepted"
+        ],
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Bridget Bannerman",
+                    "email": "bpc28@cam.ac.uk",
+                    "affiliation": "University of Cambridge",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "10.46471/gigabyte.80",
+                "resource": "DOI",
+                "uri": "https://identifiers.org/doi:10.46471/gigabyte.80"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2203300001",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2203300001"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2203300001' files=[File(name='iMlep22.xml', description='SBML L3V1 representation of Mycobacterium leprae metabolism model.', size=15258799)]"
+}

@@ -1,0 +1,126 @@
+{
+    "model_id": "MODEL2203300002",
+    "doi": "",
+    "year": 2023,
+    "year_source": "publication_block",
+    "web_metadata": {
+        "name": "Bannerman2022 Whole Genome Metabolism - M. abscessus (strain ATCC 19977 / DSM 44196)",
+        "description": "<notes xmlns=\"http://www.sbml.org/sbml/level2/version4\">      <body xmlns=\"http://www.w3.org/1999/xhtml\">     <p>This is a whole genome metabolism model of M. abscessus </p>  </body>    </notes>",
+        "format": {
+            "name": "SBML",
+            "identifier": "SBML",
+            "version": "L3V1"
+        },
+        "publication": {
+            "type": "PubMed ID",
+            "accession": "37153490",
+            "journal": "GigaByte (Hong Kong, China)",
+            "title": "Mycobacterial metabolic model development for drug target identification.",
+            "affiliation": "Lucy Cavendish College, University of Cambridge, Lady Margaret Rd, Cambridge, CB3 0BU, UK.",
+            "synopsis": "Antibiotic resistance is increasing at an alarming rate, and three related mycobacteria are sources of widespread infections in humans. According to the World Health Organization, <i>Mycobacterium leprae</i>, which causes leprosy, is still endemic in tropical countries; <i>Mycobacterium tuberculosis</i> is the second leading infectious killer worldwide after COVID-19; and <i>Mycobacteroides abscessus</i>, a group of non-tuberculous mycobacteria, causes lung infections and other healthcare-associated infections in humans. Due to the rise in resistance to common antibacterial drugs, it is critical that we develop alternatives to traditional treatment procedures. Furthermore, an understanding of the biochemical mechanisms underlying pathogenic evolution is important for the treatment and management of these diseases. In this study, metabolic models have been developed for two bacterial pathogens, <i>M. leprae</i> and <i>My. abscessus</i>, and a new computational tool has been used to identify potential drug targets, which are referred to as bottleneck reactions. The genes, reactions, and pathways in each of these organisms have been highlighted; the potential drug targets can be further explored as broad-spectrum antibacterials and the unique drug targets for each pathogen are significant for precision medicine initiatives. The models and associated datasets described in this paper are available in GigaDB, Biomodels, and PatMeDB repositories.",
+            "year": 2023,
+            "month": "0",
+            "volume": "2023",
+            "pages": "gigabyte80",
+            "link": "http://identifiers.org/pubmed/37153490",
+            "authors": [
+                {
+                    "name": "Bridget P Bannerman",
+                    "institution": "Lucy Cavendish College, University of Cambridge, Lady Margaret Rd, Cambridge, CB3 0BU, UK.Science Resources Foundation, 128 City Road, London, EC1V 2NX, UK.",
+                    "orcid": "0000-0002-5746-8283"
+                },
+                {
+                    "name": "Alexandru Oarga",
+                    "institution": "Department of Computer Science and Systems Engineering, University of Zaragoza, C/Mar\u00eda de Luna n\u00b0\u00a01, 50018, Zaragoza, Spain.",
+                    "orcid": "0000-0002-7271-733X"
+                },
+                {
+                    "name": "Jorge J\u00falvez",
+                    "institution": "Department of Computer Science and Systems Engineering, University of Zaragoza, C/Mar\u00eda de Luna n\u00b0\u00a01, 50018, Zaragoza, Spain.",
+                    "orcid": "0000-0002-7093-228X"
+                }
+            ]
+        },
+        "files": {
+            "main": [
+                {
+                    "name": "iMab22.xml",
+                    "description": "SBML L3V1 representation of M. abscessus metabolism model.",
+                    "fileSize": "20844337",
+                    "mimeType": "application/xml",
+                    "md5sum": "35a68ccea222a2a3483fea7ff4e74278",
+                    "sha1sum": "1f94afc412d13fe07c3201965de204734a909828",
+                    "sha256sum": "7b4c0333267c487a42acf2717057ea2f3b8c1b8357de0aa1db346990815772bf"
+                }
+            ],
+            "additional": [
+                {
+                    "name": "Imab2022.xml",
+                    "description": "SBML L3V1 representation of M. abscrssus metabolism model.",
+                    "fileSize": "14547291",
+                    "mimeType": "application/xml",
+                    "md5sum": "de8a1cb24bc9349d5970d0676002c165",
+                    "sha1sum": "5ecc8fdbf4cd4f576daa075105d9f85a2af78c8b",
+                    "sha256sum": "5a8cff348be100417fe4b0df7de6b8ac96b5042afa7d9f52410c29635cedb021"
+                }
+            ]
+        },
+        "history": {
+            "revisions": [
+                {
+                    "version": 3,
+                    "submitted": 1680764387,
+                    "submitter": "Bridget Bannerman",
+                    "comment": "Model revised without commit message"
+                },
+                {
+                    "version": 4,
+                    "submitted": 1691108633,
+                    "submitter": "Rahuman S Malik-Sheriff",
+                    "comment": "Publication details added."
+                }
+            ]
+        },
+        "firstPublished": 1691108670,
+        "submissionId": "MODEL2203300002",
+        "modellingApproach": {
+            "accession": "MAMO_0000009",
+            "name": "constraint-based model",
+            "resource": "http://identifiers.org/mamo/MAMO_0000009"
+        },
+        "curationStatus": "NON_CURATED",
+        "contributors": {
+            "Modeller": [
+                {
+                    "name": "Bridget Bannerman",
+                    "email": "bpc28@cam.ac.uk",
+                    "affiliation": "University of Cambridge",
+                    "external": false
+                },
+                {
+                    "name": "Rahuman S Malik-Sheriff",
+                    "email": "sheriff@ebi.ac.uk",
+                    "affiliation": "European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+                    "orcid": "0000-0003-0705-9809",
+                    "external": false
+                }
+            ]
+        },
+        "vcsIdentifier": "aaj",
+        "modelLevelAnnotations": [
+            {
+                "qualifier": "bqmodel:isDescribedBy",
+                "accession": "37153490",
+                "resource": "PubMed",
+                "uri": "https://identifiers.org/pubmed:37153490"
+            },
+            {
+                "qualifier": "bqmodel:is",
+                "accession": "MODEL2203300002",
+                "resource": "BioModels Database",
+                "uri": "https://identifiers.org/biomodels.db:MODEL2203300002"
+            }
+        ]
+    },
+    "files_list": "model_id='MODEL2203300002' files=[File(name='iMab22.xml', description='SBML L3V1 representation of M. abscessus metabolism model.', size=20844337), File(name='Imab2022.xml', description='SBML L3V1 representation of M. abscrssus metabolism model.', size=14547291)]"
+}
