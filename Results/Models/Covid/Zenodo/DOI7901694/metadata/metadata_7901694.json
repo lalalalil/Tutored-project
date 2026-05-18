@@ -1,0 +1,370 @@
+{
+    "created": "2024-11-22T22:24:25.323033+00:00",
+    "modified": "2024-11-22T22:24:25.789693+00:00",
+    "id": 7901694,
+    "conceptrecid": "7901693",
+    "doi": "10.5281/zenodo.7901694",
+    "conceptdoi": "10.5281/zenodo.7901693",
+    "doi_url": "https://doi.org/10.5281/zenodo.7901694",
+    "metadata": {
+        "title": "PI3Kg inhibition circumvents inflammation and mortality in SARS-CoV-2 and other infections",
+        "doi": "10.5281/zenodo.7901694",
+        "publication_date": "2024-03-27",
+        "description": "<p>Virulent infectious agents such as SARS-CoV-2 and Methicillin Resistant <em>Staphylococcus Aureus</em> (MRSA) induce tissue damage that recruits neutrophils and monocyte/macrophages that promote T cell exhaustion, fibrosis, vascular leak, epithelial cell depletion, and fatal organ damage. Neutrophils and macrophages recruited to pathogen infected lungs, including SARS-CoV-2 infected lungs, express phosphatidylinositol 3-kinase gamma (PI3Kg), a signaling protein that coordinately controls granulocyte and monocyte trafficking to diseased tissues and immune suppressive, pro-fibrotic transcription in myeloid cells. PI3Kg deletion and inhibition with the clinical PI3Kg inhibitor eganelisib promoted survival in models of infectious diseases, including SARS-CoV-2 and MRSA, by suppressing inflammation, vascular leak, organ damage and cytokine storm. These results demonstrate essential roles for PI3Kg in inflammatory lung disease and support the potential use of PI3Kg inhibitors to suppress inflammation in severe infectious diseases.</p>",
+        "access_right": "open",
+        "creators": [
+            {
+                "name": "Shepard, Ryan",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Ghebremedhin, Anghesom",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Pratumchai, Isa",
+                "affiliation": "Scripps Research Institute"
+            },
+            {
+                "name": "Robinson, Sally",
+                "affiliation": "Tufts University"
+            },
+            {
+                "name": "Betts, Courtney",
+                "affiliation": "Oregon Health & Science University"
+            },
+            {
+                "name": "Hu, Jingjing",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Sasik, Roman",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Fisch, Kathleen",
+                "affiliation": "University of California San Diego Medical Center",
+                "orcid": "0000-0002-0117-7444"
+            },
+            {
+                "name": "Zak, Jaroslav",
+                "affiliation": "Scripps Research Institute",
+                "orcid": "0000-0002-8135-856X"
+            },
+            {
+                "name": "Chen, Hui",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Paradise, Marc",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Rivera, Jason",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Amjad, Mohammad",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Uchiyama, Satoshi",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Seo, Hideya",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Campos, Alejandro",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Dayao, Denise",
+                "affiliation": "Tufts University"
+            },
+            {
+                "name": "Tzipori, Saul",
+                "affiliation": "Tufts University"
+            },
+            {
+                "name": "Piedra-Mora, Cesar",
+                "affiliation": "Tufts University",
+                "orcid": "0000-0003-1146-7717"
+            },
+            {
+                "name": "Das, Soumita",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Hasteh, Farnaz",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Russo, Hana",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Sun, Xin",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Xu, Le",
+                "affiliation": "University of California San Diego Medical Center",
+                "orcid": "0000-0001-6321-5023"
+            },
+            {
+                "name": "Crotty Alexander, Laura",
+                "affiliation": "University of California San Diego Medical Center",
+                "orcid": "0000-0002-5091-2660"
+            },
+            {
+                "name": "Duran, Jason",
+                "affiliation": "University of California San Diego Medical Center",
+                "orcid": "0000-0003-1666-2319"
+            },
+            {
+                "name": "Odish, Mazen",
+                "affiliation": "University of California San Diego Medical Center",
+                "orcid": "0000-0003-1247-1371"
+            },
+            {
+                "name": "Pretorius, Victor",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Kirchberger, Nell",
+                "affiliation": "Oregon Health & Science University"
+            },
+            {
+                "name": "Chin, Shao-ming",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Von Schalscha, Tami",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Cheresh, David",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Morrey, John",
+                "affiliation": "University of Utah"
+            },
+            {
+                "name": "Alargova, Rossitza",
+                "affiliation": "Infinity Pharmaceuticals*"
+            },
+            {
+                "name": "OConnell, Brenda",
+                "affiliation": "Infinity Pharmaceuticals*"
+            },
+            {
+                "name": "Martinot, Theodore",
+                "affiliation": "Infinity Pharmaceuticals*"
+            },
+            {
+                "name": "Patel, Sandip P.",
+                "affiliation": "University of California San Diego Medical Center"
+            },
+            {
+                "name": "Nizet, Victor",
+                "affiliation": "University of California San Diego Medical Center",
+                "orcid": "0000-0003-3847-0422"
+            },
+            {
+                "name": "Martinot, Amanda",
+                "affiliation": "Tufts University",
+                "orcid": "0000-0001-6237-6191"
+            },
+            {
+                "name": "Coussens, Lisa",
+                "affiliation": "Oregon Health & Science University",
+                "orcid": "0000-0003-2389-1865"
+            },
+            {
+                "name": "Teijaro, John",
+                "affiliation": "Scripps Research Institute"
+            },
+            {
+                "name": "Varner, Judith",
+                "affiliation": "University of California San Diego Medical Center",
+                "orcid": "0000-0002-9251-0600"
+            }
+        ],
+        "keywords": [
+            "SARS-CoV-2",
+            "granulocyte",
+            "macrophage",
+            "MRSA",
+            "vascular leak",
+            "Inflammation",
+            "eganelisib",
+            "Acute respiratory distress syndrome",
+            "cytokine storm",
+            "Sepsis"
+        ],
+        "related_identifiers": [
+            {
+                "identifier": "https://urldefense.com/v3/__https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190496__;!!LLK065n_VXAQ!g8XC0vbI_vN3OZsa5_O79irBOpJJxIcbfj9GTEw8sAbakW07qNftAv26-3ZpGczTEpOYFOgd-pFJv6ZBrnXe$",
+                "relation": "isSupplementedBy",
+                "scheme": "url"
+            },
+            {
+                "identifier": "https://urldefense.com/v3/__https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229570__;!!LLK065n_VXAQ!gwwLiFp_ZffJoWg2uWVvVNFaNGpSEeM4G-NVOEhjmt8hEjpNF2OJLe97Zq4471cTJdhHY3r-7p5YMjcKoWRj$",
+                "relation": "isSupplementedBy",
+                "scheme": "url"
+            },
+            {
+                "identifier": "https://urldefense.com/v3/__https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE190494__;!!LLK065n_VXAQ!g8XC0vbI_vN3OZsa5_O79irBOpJJxIcbfj9GTEw8sAbakW07qNftAv26-3ZpGczTEpOYFOgd-pFJv5DdgEpI$",
+                "relation": "isSupplementedBy",
+                "scheme": "url"
+            },
+            {
+                "identifier": "10.5061/dryad.sf7m0cgbm",
+                "relation": "isSourceOf",
+                "scheme": "doi"
+            }
+        ],
+        "resource_type": {
+            "title": "Software",
+            "type": "software"
+        },
+        "license": {
+            "id": "mit-license"
+        },
+        "communities": [
+            {
+                "id": "dryad"
+            }
+        ],
+        "relations": {
+            "version": [
+                {
+                    "index": 0,
+                    "is_last": true,
+                    "parent": {
+                        "pid_type": "recid",
+                        "pid_value": "7901693"
+                    }
+                }
+            ]
+        },
+        "notes": "<p>Any spreadsheet program such as Excel.</p><p>Funding provided by: National Cancer Institute<br>ROR ID: https://ror.org/040gcmg81<br>Award Number: R01CA226909</p><p>Funding provided by: National Cancer Institute<br>ROR ID: https://ror.org/040gcmg81<br>Award Number: R01CA167426</p><p>Funding provided by: National Institute of Dental and Craniofacial Research<br>ROR ID: https://ror.org/004a2wv92<br>Award Number: R01DE027325</p><p>Funding provided by: University of California System<br>ROR ID: https://ror.org/00pjdza24<br>Award Number: R00RG2398</p>",
+        "method": "<p><strong>Human subjects</strong></p>\n<p>All human tissue analyses were conducted on de-identified tissue under guidelines established by the Institutional Review Board for human subject research of the University of California, San Diego. Postmortem tissue studies received IRB exemption from oversight as research on deceased patients is not classified as human subjects research by the US Department of Health and Human Services or the US Food and Drug Administration. All patients in this study were admitted early in the pandemic during the first 3-6 months after the first cases of COVID-19 were reported in the US when no specific therapeutics had been developed. De-identified lung tissue was obtained upon rapid autopsy of deceased COVID-19 patients formalin-fixed for 48h and processed by the Department of Pathology, UCSD, into paraffin-embedded tissue blocks by the Moores Cancer Center histology shared resource, UCSD, San Diego, CA. Normal human lung tissue was obtained from consented patients during lung cancer surgery at the Moores Cancer Center, UCSD and processed into paraffin embedded tissue blocks by the UCSD Department of Pathology. Bronchoalveolar lavage cells from COVID positive and from COVID-19 negative patients were pelleted, fixed, paraffin embedded and sectioned. All tissue was used for immunohistochemical and bioinformatics analysis.</p>\n<p><strong>Animals</strong></p>\n<p>8-9-week-old C57BL/6 stock 000664 (RRID:IMSR_JAX:000664) male and female mice were purchased from Jackson Laboratories, Bar Harbor, ME. K18-hACE2 (RRID:IMSR_JAX:034860) 6-8 week old male mice  were purchased from Jackson Laboratories. 10-month-old female Balb/c animals (RRID:IMSR_CRL:028) were purchased from Charles River for SARS-CoV-2 infection studies. Golden Syrian Hamsters (Mesocricetus auratus; genotype: HsdHan: AURA) six- to seven-week-old were from Envigo, USA. <em>Pik3cg-/-</em> mice in the C57BL/6 background (RRID:MGI:3619226) were maintained in the Varner lab at the University of California, San Diego. MRSA, MHV studies and ARDS studies were performed at the University of California, San Diego with the approval of the Institutional Animal Care and Use Committees and Institutional Biosafety Committees of the University of California, San Diego. SARS-CoV-2.  SARS-CoV-2 infection of K18-hACE2 mice studies were performed at The Scripps Research Institute, La Jolla, CA with the approval of the Institutional Animal Care and Use Committee of The Scripps Research Institute. maSARS-CoV-2 mouse models were performed with support from the NIH-ACTIV program of NIAID, NIH at The Institute for Antiviral Research, Animal, Dairy and Veterinary Science, Utah State University, Logan, UT, with the approval of the Institutional Animal Care and Use Committees and Institutional Biosafety Committees of Utah State University. SARS-CoV-2 hamster studies were performed at the Department of Infectious Diseases and Global Health, Tufts University Cummings School of Veterinary Medicine, North Grafton, MA, USA. All animal experiments were performed with the approval of the Institutional Animal Care and Use Committees and Institutional Biosafety Committees of Tufts University. SARS-CoV-2 hamster experiments were conducted in ABSL3 facilities on the campus of Tufts University.</p>\n<p><strong>Reagents</strong></p>\n<p>Murine L929 cells (RRID:CVCL_0462, L cell, L-929, derivative of Strain L) were purchased from ATCC (Bethesda, MD) and maintained in completed Dulbecco's Modified Eagle Medium (DMEM) media supplemented with 10% heat-inactivated fetal bovine serum (FBS) and antibiotics (100 μg/mL penicillin and 100 μg/mL streptomycin). Murine hepatitis virus MHV-A59 infectious clone in L929 cells (BEI NR-43000). SARS-CoV-2, Mouse-Adapted, MA10 variant, infectious clone in Calu-3 cells (BEI NR-55429) were obtained from BEI Resources, NIAID, NIH, Bethesda, Maryland, USA). Formulated IPI-549 and vehicle were provided by Infinity Pharmaceuticals (Cambridge, MA).</p>\n<p><strong>Human histopathology </strong></p>\n<p>Lung tissue was obtained upon rapid autopsy of recently deceased COVID-19 patients by the Department of Pathology, UCSD, formalin fixed for 48h, and processed into paraffin embedded tissue blocks by the Moores Cancer Center histology shared resource, UCSD, San Diego, CA. Normal human lung tissue was obtained during lung cancer surgery at the Moores Cancer Center, UCSD and processed into paraffin embedded tissue blocks by the UCSD Department of Pathology. Bronchoalveolar lavage cells from COVID-19 positive and from COVID-19 negative patients were pelleted, fixed, paraffin embedded and sectioned. Glass slides containing 4-5µm thick tissue sections were deparaffinized and stained with hematoxylin and eosin or Mason's Trichrome by the Moores Cancer Center histology shared resource. Alternatively, slides were deparaffinized, rehydrated and treated for 20 minutes with Diva Decloaker (901-DV2004X-071017 Biocare Medical) antigen retrieval solution followed by with endogenous peroxidase blocking, and incubation with 5% normal goat serum for 1h. Slides were then incubated with 1:200 anti-human CD68 (RRID:AB_2074844 clone PG-M1, Dako/Agilent), 1:400 anti-PI3 Kinase-gamma (RRID:AB_1904087 Cell Signaling Technology, Inc., clone D55D5, #5405) or 1:200 anti-Myeloperoxidase (RRID:AB_2864724 ab208670, Abcam). Following primary antibody incubation, slides were washed in Tris buffered saline containing Tween 20 (TBST) and incubated with anti-rabbit horseradish peroxidase (HRP)-conjugated polymer (RRID:AB_2336820 Vectastain Elite ABC-HRP PK-6101, Vector Laboratories) for 30 minutes at room temperature, washed in TBST and counterstained with hematoxylin. Slides were mounted with Cytoseal permanent mounting medium (Richard-Allan Scientific Cat #8310-4). Biomarker quantification was performed using QPath open source digital image analysis software.</p>\n<p><strong>Multiplex IHC</strong></p>\n<p>Sequential IHC was performed on 5 μm FFPE sections using an adapted protocol based on methodology previously described (14-15). Briefly, slides were deparaffinized and stained with hematoxylin (S3301, Dako, Santa Clara, CA), followed by whole-slide scanning at 20X magnification on an Aperio AT2 (Leica Biosystems, Wetzlar, Germany). Tissues then underwent 20 minutes heat-mediated antigen retrieval in pH 6.0 Citra solution (BioGenex, Fremont, CA), followed by 10 minutes endogenous peroxidase blocking in Dako Dual Endogenous Enzyme Block (S2003, Dako, Santa Clara, CA), then 10 minutes protein blocking with 5% normal goat serum and 2.5% BSA in TBST. Primary antibody conditions are listed in Supplementary Table 1. Following primary antibody incubation, slides were washed in TBST, and incubated with either anti-rat, anti-mouse, or anti-rabbit Histofine Simple Stain MAX PO horseradish peroxidase (HRP)-conjugated polymer (RRID:AB_2811178 Biosciences, Tokyo, Japan) for 30 minutes at room temperature, followed by AEC chromogen (RRID:AB_2336076 Vector Laboratories, Burlingame, CA). Slides were digitally scanned following each chromogen development, then AEC was removed with 100% EtOH. Between rounds, peroxidase blocking with Dako Dual Endogenous Enzyme Block was performed for 10 minutes at RT to inactivate HRP enzyme still present upon the secondary antibody of the previous round. Another primary produced in a distinct species could be utilized within the same staining cycle. Between cycles, citrate antigen retrieval was completed as described above to remove all primary antibodies primary-secondary antibody complexes.</p>\n<p>Following iterative staining, computational image processes and analysis was performed. Scanned images were registered in MATLAB version R2018b using the SURF algorithm in the Computer Vision Toolbox (The MathWorks, Inc., Natick, MA). Image processing and cell quantification were performed using FIJI (FIJI Is Just ImageJ) (62). AEC signal was extracted for quantification and visualization in FIJI using a custom macro for color deconvolution. Briefly, the FIJI plugin Color_Deconvolution [H AEC] was used to separate hematoxylin, followed by postprocessing steps for signal cleaning and background elimination. AEC signal was extracted in FIJI using with the NIH plugin RGB_to_CMYK. Color deconvoluted images were processed in CellProfiler Version 3.5.1 (63) to quantify single cell mean intensity signal measurements for every stained marker. FCS Express 6 Image Cytometry RUO (De Novo Software, Glendale, CA) was used to perform hierarchical gating and cell classification based on expression of known markers as shown in Supp. Data. Fig. 1. For visualization, signal-extracted images were overlaid and pseudocolored in FIJI.</p>\n<p><strong>TempoSeq FFPE tissue RNA Sequencing</strong></p>\n<p>Two five-micron FFPE sections from each of twelve postmortem lung specimens from COVID-19 patients, five normal lung specimens, eight BALF specimens from COVID-19 patients and five BALF specimens from normal patients were used to perform TempoSeq (Templated Oligo assay with Sequencing readout) FFPE human whole transcriptome RNA sequencing at BioSpyder Technologies, Inc, Carlsbad, CA, as previously described (25-26). Of these, one upper lung and one lower lung specimens from each of two patients were included in initial analysis. Two 5 FFPE tissue sections per sample were scraped from glass slides, paraffin removed and at least two 25-nucleotide long oligonucleotides specific for 19,283 genes (21,111 probes) were used to prepare full-length (50-nucleotide-long) probes that were amplified prior to sequencing library preparation. Prepared libraries were sequenced on an Illumina HiSeq2500; mapped reads were generated by TempO-SeqR alignment of demultiplexed FASTQ files using Bowtie, allowing for up to 2 mismatches in the 50-nucleotide target sequence.</p>\n<p><strong>RNA sequencing analysis</strong></p>\n<p>Cell type deconvolution was performed using the log-normal regression algorithm of Danaher et al. (27) and its implementation in Bioconductor (28). Inputs were the normalized expression values (cpm), the background matrix of background values set to a value of 6, and the training matrix containing log2 expression values in the training set, which is part of the R package and named \"Human_Cell_Landscape\". The training matrix originally contained 102 human cell types, but we excluded non-specific cell types not expected to be in these tissues, such as glial cells, kidney cells, etc. A total of 56 cell types for the lung tissue remained.</p>\n<p><strong>GeoMx Digital Spatial Profiling (DSP) </strong></p>\n<p>nanoString<strong> </strong>GeoMx digital spatial profiling was applied to COVID and normal lung tissues to acquire spatially resolved, quantitative measurements of gene expression in human lung macrophages, granulocytes and epithelium in FFPE tissue sections. Three cases of post-mortem COVID lung tissues and one case of surgically resected normal lung tissue were sectioned, deparaffinized, rehydrated and treated with low pH retrieval solution. nanoString GeoMX Digital Spatial ImmuneOncology and COVID-19 RNA probes were hybridized to sections overnight. Sections were then stained with a cocktail of immunofluorescent antibodies comprised of Alexa fluor 532-labeled anti-CD68 (RRID:AB_2074852 Clone KP1, 1:100, Novus Biologicals, USA), Alexa fluor 647-labeled Myeloperoxidase (RRID: AB_964678 Clone 2C7, 1:500, Novus Biologicals, USA), Alexa fluor 594 labelled anti-PanCytokeratin (AE-1, AE-3, Novus Biologicals, NBP2-33200AF594) and SYTO13 Nuclear stain (ThermoFisher S7575).  Digital scanning of slides was performed on the GeoMX Digital Profiler (nanoString Technologies, Inc.). Regions of Interest (ROI) and cell type with a spatial resolution of approximately 10 mm were selected, exposed to UV light for RNA probe cleavage and oligonucleotide collection. Samples were sequenced on a NovaSeq6000. Counts from barcodes corresponding to RNA probes were normalized with internal positive and negative controls and then normalized to ROI area.</p>\n<p><strong>DSP RNA sequence analysis</strong></p>\n<p><strong>Hamster SARS-CoV-2 model</strong></p>\n<p><strong><em>Hamster viral infection</em></strong>: Six- to seven-week-old Golden (Syrian) Hamsters (Envigo; weight range 90-110g, equal number of male and females) were inoculated with SARS-CoV-2 intranasally with 1 x 10<sup>5 </sup>TCID50 in 100µl volume as described (71-72). The viral isolate USA-WA1/2020 (BEI Resources) was propagated on Vero E6 cells and clarified by centrifugation. Uninfected hamsters were sham inoculated with phosphate buffered saline intranasally. Hamsters were evaluated daily for changes in bodyweight, temperature, and demeanor or clinical signs of disease. Hamsters were euthanized at 2-, 4-, and 7-days post infection (dpi). Lung tissue was collected at necropsy and fixed in 10% neutral buffered formalin for 24 hours before being transferred to 70% ethanol. For PI3Kg inhibition studies, hamsters were administered 30 mg/kg IPI-549 or vehicle alone by orogastric gavage on days 0, 1, 2, and 3 following challenge and body weight monitored daily. Hamsters were euthanized at 2-, 4-, 7- and 14-days post infection. Lung tissue was collected at necropsy and fixed in 10% neutral buffered formalin for 24 hours before being transferred to 70% ethanol.</p>\n<p><strong><em>Hamster SARS-CoV-2 model histopathology and immunohistochemistry:</em></strong><em>  </em>At time of fixation, lungs were suffused with 10% formalin to expand the alveoli. All tissues were fixed in 10% formalin and blocks sectioned at 5 µm.  Slides were baked for 30-60 min at 65 degrees then deparaffinized in xylene and rehydrated through a series of graded ethanol to distilled water. Heat induced epitope retrieval (HIER) was performed using a pressure cooker on steam setting for 25 minutes in citrate buffer (ThermoFisher Scientific, AP-9003-500) followed by treatment with 3% hydrogen peroxide.  Slides were then rinsed in distilled water and protein blocked (BioCare, BE965H) for 15 min followed by rinses in 1x phosphate buffered saline.  Mouse Anti-SARS-CoV-2 nucleocapsid antibody (RRID:AB_2827977 Sino biological; 40143-MM05) diluted 1:1000, rabbit anti-myeloperoxidase (RRID:AB_2335676 Dako-Agilent; A0398) diluted 1:1000, or rabbit anti-Iba-1 antibody (RRID:AB_839504 Dako; 019-19741) diluted 1:4000 followed by rabbit Mach-2 HRP-Polymer (BioCare; RHRP520L) were incubated for 30 minutes then counterstained with hematoxylin followed by bluing using 0.25% ammonia water. Labeling was performed on a Biocare IntelliPATH autostainer. All antibodies were incubated for 60 min at room temperature. Tissue pathology was assessed independently by two board-certified veterinary pathologists.</p>\n<p><strong><em>Hamster SARS-CoV-2 RNAscope:</em></strong> RNAscope in situ hybridization as directed with the following modifications using a custom probe for hamster PI3Kg (ACD Cat. No. 1071581-C1 and DapB (ACD Cat.No 310043) as a negative control.  In brief, after slides were deparaffinized in xylene and rehydrated through a series of graded ethanol to distilled water, retrieval was performed for 30 min in ACD P2 retrieval buffer (ACD Cat. No. 322000) at 95-98°C, followed by treatment with protease III (ACD Cat. No. 322337) diluted 1:10 in PBS for 20 min at 40°C. Slides were then incubated with 3% H2O2 in PBS for 10 minutes at room temperature.  All washes were performed in 0.5x kit provided SSC. Slides were developed using the RNAscope® 2.5 HD Detection Reagents-RED (ACD Cat. No.322360).</p>\n<p><strong><em>Hamster SARS-CoV2 Quantitative Image Analysis</em></strong>: Quantitative image analysis was performed using HALO software (v3.0.311.405; Indica Labs) on at least one lung lobe cross-section from each animal as described (71-72). In cases where more than one cross-section was available, all lung lobes were quantified as an individual data point. For PI3Kg, the whole slide digital images were deconvoluted using the Indica Labs – Deconvolution algorithm (v1.1.1). The deconvoluted images were analyzed with Indica Labs – FISH-IF (v2.1.5) algorithm to determine the PI3Kg copies per mm2 total tissue area. For Iba-1, the Indica Labs - Multiplex IHC algorithm (v3.1.4) was used for quantitation. In all instances, manual inspection of all images was performed on each sample to ensure that the annotations were accurate.</p>\n<p><strong>Mouse SARS-CoV-2 models</strong></p>\n<p><strong><em>SARS-CoV-2 </em></strong><strong><em>viral infection</em></strong><em> </em><strong><em>in hACE2 transgenic mice</em></strong>: K18-hACE2 male mice (Jackson Laboratories) were intranasally (i.n.) infected with 5000 Plaque Forming Units (PFU) of SARS-CoV-2/human/USA/WA-CDC-WA1/2020 (SARS2-WA, BEI Resources, NIAID, NIH, Bethesda, Maryland, USA). After 0-2 days post-infection (p.i.), mice were treated with either vehicle or 25mg/kg IPI-549 once daily by oral gavage (n=5 or 10 per study). Weight loss was monitored at day 0, 3, 4 and 5 p.i. Lungs were collected at day 5 p.i. and stored in z-Fix for histological analysis or in TRIzol (ThermoFisher Scientific, 15596018) for RNA-sequencing. Some lungs were dissociated and processed for flow cytometry and virus detection. SARS-CoV-2 viral infection in hACE2 transgenic mice were performed 6 times.</p>\n<p><em><strong>Mouse SARS-CoV-2 model flow cytometry</strong></em></p>\n<p>Single cell suspensions were incubated with Ghost Dye™ Violet 510  Live Dead fixable stain BUV510 (Invitrogen), and then with Fc-blocking reagent (BD Bioscences) followed by incubation with fluorescently labeled antibodies at 4°C for 1h. Primary antibodies used for cell surface marker staining were: anti-mouse/human CD11b BUV563 (M1/70, Biolegend), anti-mouse-CD11c APA-Cy7 (N418, Biolegend), anti-mouse CD170/Siglec-F BV421 (S17007L, Biolegend), anti-mouse CD206/MMR (C068C2, Biolegend), anti-mouse F4/80 PerCP-Cy5.5 (BM8, Biolegend) anti-mouse CD90.2/Thy1.2 (30-H12, Biolegend), anti-mouse Ly-6G BV650 (1A8, Biolegend), anti-mouse CD64 BV711 (X54-5/7.1, Biolegend), anti-mouse/human CD44 (IM7, BD Bioscience) anti-mouse Ly-6C APC-A (HK1.4, Biolegend), anti-mouse NK-1.1 (PK136, BD Bioscience), anti-mouse CD45 Alexa Fluor 700 (BD Bioscience, 30-F11), anti-mouse CD19 BUV737 (1D3, BD Bioscience), anti-mouse CD8a  BUV395 (53-6.7, BD Bioscience), anti-mouse CD4 (RM4-5, Cytek), anti-TCRB PE-Cy7 (H57-597, Biolegend). FACS was performed on a Cytek Aurora with 5 lasers. Data analysis was performed using FlowJo (Treestar/BD Biosciences).</p>\n<p><strong><em>Mouse SARS-CoV-2</em></strong><strong> </strong><strong><em>viral infection</em></strong><em>:</em> Mouse-adapted SARS-CoV-2 (MA10 variant, infectious clone in Calu-3 cells, BEI NR-55429) (73) was prepared based on a stock titer = 1.97 x 10<sup>4</sup> pfu/ml.<strong> </strong>Female BALB/c mice 270 to 300 days old were ear-tagged, randomized to groups, and infected with 1 x 10<sup>3</sup> pfu/mouse in 90µl SARS-CoV-2 or Modified Eagle's Medium (MEM) sham by intranasal instillation at the Antiviral Institute of Utah State University. Within less than an hour at day 0, mice were administered by oral gavage with 15mg/kg IPI-549 or vehicle in a volume of 0.1 ml/25 g-mouse from either day 0-4 or day 2-4. Individual whole-body weights and survival were monitored for up to 6 days. After morning treatments on day 2 in the afternoon, 5 animals treated with vehicle and 10 animals treated with IPI-549 were necropsied. The remaining animals were monitored until death or day 6. Sera and lung tissues were collected from all mice. Lung homogenates in Trizol were used for RT-PCR analyses and heat-inactivated sera were analyzed for presence of cytokines.</p>\n<p><em><strong>Mouse SARS-CoV2 tissue processing:</strong></em> Sera and lungs were collected from IPI-549 and vehicle treated groups on days 2 and 5, respectively. Blood samples were collected by cardiac puncture, clotted, centrifuged to collect sera, heat-inactivated at 65°C for 45 min to inactivate virus and stored frozen. On day 5, the left lung lobe was perfused with 10% buffered formalin for H&amp;E staining and analysis. A 22-g blunt-ended needle was inserted in the trachea to gently fill the lung with fixative. The tissues were immersed in formalin overnight at refrigeration temperature before removing from the BSL3 lab, embedding, sectioning and scoring pathology. The right lung was weighed, bead-homogenized in 0.3 ml modified Eagle's Medium (MEM) and two aliquots of 0.1 mL of homogenate added to 1 ml Trizol prepared and frozen until processing for RNA extraction. The remaining homogenized lung volume was used for infectious cell culture SARS virus assay using CCID50 readout. RNA was extracted using the standard Trizol-method. The pellet was dissolved in 0.1 mL of RNase-free water. Total extracted RNA was quantified using a Nanodrop™ spectrophotometer so that 300 ng could be added to each RT-PCR reaction.</p>\n<p>Mouse SARS-CoV2 RT-PCR:  Two different primer/probe sets were used for purposes of comparison, one to detect genomic viral RNA (gRNA), and another to detect subgenomic viral RNA (sgRNA). The sgPCRs measure any one of viral replication products (S, 3a, E, M, 6, 7a, 7b, 8 and N). Any PCR product amplified from a subgenomic coding sequences is present in both the genomic and subgenomic sequences. Therefore, the approach to distinguish sgRNA from gRNA is to amplify a PCR product in both the 5' UTR leader sequence and within specific subgenomic sequence. Validated primer/probe sets in the leader and E sequences (74-75) were used: Forward primer (leader sequence): CGATCTCTTGTAGATCTGTTCTC  Reverse primer (E sgRNA): ATATTGCAGCAGTACGCACACA  Probe: (5'FAM)/ACACTAGCCATCCTTACTGCGCTTCG/(3'BHQ-2).</p>\n<p><em><strong>Mouse SARS-CoV2 gRNA:</strong></em> Genomic viral RNA does not specifically reflect replicating virus. The primer/probe set was developed at Utah State University from a prototypic SARS-CoV-2 sequence, SARS-CoV-2/human/USA/WA-CDC-WA1/2020, in the ORF1ab sequence (accession MN985325.10). This sequence is only present in gRNA, not sgRNA. The samples were run in duplicate using the same program settings above.  Forward primer: CACTAGTGCCACAAGAGCAC Reverse primer: TGCGAGCAGAAGGGTAGTAG Probe: (5'FAM)/TCCAGGGACCACCTGGTACTGGT/(3'BHQ-2). Each sample was run in duplicate using the Probe No-ROX One-step kit. The Magnetic Induction Cycler was programmed at 10 min. at 45°C, 2 min. at 95°C, then 40 cycles of 5 sec. at 95°C and 20 sec. at 60°C. A standard curve consisted of 1-log10 serial dilutions of a positive sample. The C(t) values of experimental samples were interpolated from the standard curve to obtain the relative copy number. The values are reported as relative copy number per 300 ng total RNA added to the RT-PCR reaction.</p>\n<p><em><strong>Mouse SARS-CoV-2 infectious virus assay:</strong></em>  A published assay to quantify infectious virus was used with some modification (76). Confluent or near-confluent Vero E6 monolayers were prepared in 96-well disposable microplates the day before testing. Cells were maintained in MEM supplemented with FBS as required for each cell line. For antiviral assays, the same medium was used but with FBS reduced to 2% or less and supplemented with 50 µg/ml of gentamicin. The lung tissue of each animal lung was homogenized in MEM supplemented with 10% FBS using a bead-homogenizer, and the tissue fragments were allowed to settle. Growth media was removed from the cells and the tissue homogenate was applied in 0.1 ml volume to wells at 2X concentration. Plates were incubated at 37oC with 5% CO2 until &gt;80% cytopathic effect (CPE) was observed in virus control wells. The plates were then stained with 0.01% neutral red for approximately two hours at 37°C in a 5% CO2 incubator. The neutral red medium was removed by complete aspiration, and the cells were rinsed 1X with phosphate buffered solution (PBS) to remove residual dye. The PBS was completely removed, and the incorporated neutral red was eluted with 50% Sorensen's citrate buffer/50% ethanol for at least 30 minutes. Neutral red dye penetrates into living cells, thus, the more intense the red color, the larger the number of viable cells present in the wells. The dye content in each well is quantified using a spectrophotometer at 540 nm wavelength. The dye content in each set of wells is converted to a percentage of dye present in untreated control wells using a spreadsheet and normalized based on the virus control. The data are reported as 50% cell-culture infectious doses (CCID50) per gram tissue. The terminology of TCID50 and CCID50 are interchangeable.</p>\n<p><strong><em>Mouse SARS-CoV-2 RNA sequencing and analysis</em></strong></p>\n<p>RNA sequencing libraries were prepared in two batches from ribodepleted RNA extracted from lung tissue of animals enrolled the murine SARS-CoV-2 studies described above. Libraries were sequenced at the University of California San Diego Institute for Genomic Medicine, Genomics Center utilizing an Illumina NovaSeq 6000. Quality trimming of FASTQ files was performed using Trimmomatic (v0.36). Paired-end reads were aligned to the mouse reference genome (GRCm39; annotation file, vM29) using STAR (v2.5.3a), followed by RSEM (v1.3.0) to quantify expression levels of transcripts. The R BioConductor package DESeq2 was used to perform differential gene expression analysis from unnormalized counts. Lowly expressed genes – defined as those genes with mean &lt;10 reads across all samples – were excluded prior to differential expression analysis. Plots represent the regularized log transformed (rlog) read counts. Sample clustering is supervised or unsupervised (Pearson correlation) where indicated. Significance was defined by using an adjusted p-value cut-off of &lt;0.05 after multiple testing correction. Total differentially expressed genes or genes differentially expressed in multiple group comparisons were extracted for gene annotation and functional enrichment analysis using GSEA.    </p>\n<p>Cell type enrichment scores in mouse RNA sequencing samples were determined from the expression frequency of cell type markers from PanglaoDB https://panglaodb.se/, a single cell sequencing resource for gene expression data collected and integrated from multiple studies. The reference matrix originally contained 178 cell types, but the data were filtered for cells of lung and immune origin. A total of 32 cell types remained. Only genes specific to mouse were included in the analysis. Cell type enrichment scores were calculated using the standard formula (nN/kM), where N is the total number of genes in the library, k is the number of genes in a specific cell type reference list, M is the number of differentially upregulated or downregulated genes, and n is the number of genes in both k and M. Significance was calculated using a Fisher's exact test and plotted as minus log10 p-value.</p>\n<p><strong>Murine hepatitis corona virus A59 strain (MHV-A59) infection </strong></p>\n<p><strong><em>MHV-A59</em></strong><strong> <em>viral infection:</em></strong> 8-week-old male C57BL/6 mice were inoculated intranasally with 7.5×10<sup>5</sup> plaque-forming units (pfu) in 24μl of MHV-A59 or sham inoculated with 24μl of 0.9% sterile saline. 15mg/kg IPI-549 or 0.1 ml of vehicle was administered p.o. Body weight and survival were monitored daily. At 2-, 5-, and 8-days post-infection, 5 mice from each treatment group and 3 mice from the sham infection group were euthanized, lungs were excised and rinsed in ice-cold 1xPBS. 100mg of lung tissue was homogenized in cold DMEM with 10% FBS for measurement of viral load by plaque assays, 100mg was homogenized in Trizol for RNA extraction, and the remaining tissue was preserved in 5ml of 10% Zinc Formalin for 24-48h, paraffin embedded and used for histological analysis. Blood was collected in 1.5ml Eppendorf tubes, allowed to clot, and serum was collected for cytokine and chemokine analysis.</p>\n<p><strong><em>MHV loads by plaque assay:</em></strong><strong> </strong>To quantify MHV viral load in lung tissue, lung homogenates were rapidly frozen and thawed three times. After centrifugation at 770 x g at 4°C for 10 minutes. Supernatants were collected and used to assay virus content using L929 fibroblasts monolayer on 6 well plates. 200µl of the lung homogenate was added to triplicate wells and plates were incubated at 37°C in a 5% CO<sub>2</sub> incubator for 1 hr, rocking every 10 mins. At the end of incubation, 2ml of 0.8% agarose was overlaid onto to each well. The plates were incubated for two days until the formation of virus plaques and the plaques of each well were counted.</p>\n<p><strong><em>MHV model RT-PCR:</em></strong><strong> </strong>Total RNA was extracted from 100 mg tissue with TRIzol reagent (Invitrogen, Carlsbad, CA), and 1 μg RNA that was pretreated with 1 U of RQ1 RNase-free DNase (ThermoFisher Scientific) to remove DNA contamination at 37 ºC for 30min, were used for reverse transcription with oligo-dT primer (Bio-Rad). PCR reactions were then performed using the primers shown below to detect the MHV-A59 N gene and other associated genes. PCR products (123 bp) were resolved by electrophoresis in 2% agarose gels and visualized on the iBright FL1000 System machine (Invitrogen, Carlsbad, CA). Total RNA was extracted using Trizol (Invitrogen, Carlsbad, CA) from approximately 100mg of lung tissues). Relative levels of each gene were normalized to those of the housekeeping gene GAPDH. Quantitect primer sets used were: <em>Il1b</em> Mm_Il1b_2_SG, <em>Tnfa</em> Mm_Tnf_1_SG, <em>Il6</em> Mm_Il6_1_SG, <em>Cxcl10</em> Mm_Cxcl10_1_SG, <em>Il10</em> Mm_Il10_1_SG, <em>Il12</em> Mm_Il12b_1_SG, <em>Ifng</em> Mm_Ifng_1_SG, <em>Ifna</em> Mm_Ifna2_1_SG, <em>Ifnb</em> Mm_Ifnb1_1_SG, <em>Gbp5 </em>Mm_Gbp5_1_SG, <em>Gbp3</em> Mm_Gbp3_1_SG, <em>Stat1 </em>Mm_Stat1_1_SG, <em>Cd8</em> Mm_Cd8a_1_SG, Cd4 Mm_Cd4_1_SG, <em>Ccl2</em> Mm_Ccl2_1_SG, <em>Gzmb</em> Mm_Gzmb_1_SG, and <em>Gapdh</em> Mm_Gapdh_3_SG (Qiagen).</p>\n<p><strong><em>MHV Cytokine analysis:</em></strong><strong> </strong>Cytokine concentrations in 25µl murine serum and BALF were determined using ProcartaPlex mouse cytokine panels (EPXR260-26088-901, EPX110-20820-901 and PPX-11-MXCE49Z) according to manufacturer's directions on a Luminex Magpix instrument (ThermoFisher Scientific). Murine cytokine ELISAs were performed using uncoated ELISA kits (Invitrogen/ThermoFisher Scientific): TNF alpha (RRID:AB_2575076 #88-7324-22), IL6 (RRID:AB_2574986 #88-7064-22), and IL1 (RRID:AB_2574942 #88-7013-22) according to manufacturer's directions.</p>\n<p><strong>MRSA and </strong><strong><em>E. coli</em></strong><strong> K1 strain RS218 infection models</strong></p>\n<p><strong><em>Bacterial Strains: </em></strong>Methicillin-resistant <em>Staphylococcus aureus</em> strain USA300/TCH1516 (MRSA) (ATCC BAA-1717) and <em>E. coli</em> K1 strain RS218 were used in the study. MRSA was propagated in Todd Hewitt broth (THB) and <em>E. coli</em> grown in Luria-Bertani broth (LB), shaking at 37°C to mid-log phase. Bacteria were collected by centrifugation at 4000 RPM for 10 min, washed once with phosphate buffered saline (PBS), and resuspended in experimental buffer.</p>\n<p><strong><em>MRSA animals.</em></strong><strong> </strong>Animal studies were conducted under protocols approved by the UC San Diego Institutional Animal Care and Use Committee (IACUC). For systemic infection, 8-12 weeks old wild type (WT) and p110γ−/− (p110γ ko) mice in the C57/Bl6 background were injected with 2x10<sup>8</sup> colony forming units (CFU) MRSA or 1x10<sup>7</sup> CFU <em>E. coli </em>intraperitoneally (i.p). Survival of infected mice was monitored every 8 h for 6 days. For CFU enumeration experiments, mice were infected with 2.7 x10<sup>8</sup> CFU MRSA i.p. and euthanized 24 h after infection, Liver, kidney, and spleen were harvested and dilution plated on THB agar plates. Serum was also collected at this timepoint for measurement of cytokines IL-6 and IL-1β using ELISA kits M6000MLB00C (R&amp;D Systems).</p>\n<p><strong><em>L929 conditioning media.</em></strong><strong> </strong>To prepare L929 conditioned media, confluent L929 cells were detached, collected, and passaged 1:10. Cells were then cultured for 7 to 8 days until the media was exhausted. The conditioned media, which contains macrophage growth factor M-CSF, was filtered (0.22 μm) and stored at −20 °C until use.</p>\n<p><strong><em>Murine bone marrow derived macrophages (BMDM).</em></strong><strong> </strong>BMDM were generated by flushing bone marrow cells from femurs and tibia of wild type (WT) and <em>Pik3cg-/-</em> C57Bl6 mice and resuspending the collected cells in RPMI 1650 supplemented with 20% L929 conditioned media. On day 7 of culture cells were washed, detached with 0.025% trypsin-EDTA and were seeded on 96-well plates for 48 h before used for bacterial killing assays.</p>\n<p><strong>Bacterial killing assay</strong>. Bacteria were added to cultured macrophages in 96-well plates at a multiplicity of infection (MOI) of 0.1 (10,000 CFU bacteria per 100,000 macrophages). After centrifugation at 1200 rpm for 5 min to initiate contact between macrophages and bacteria, the plate was incubated in 37°C, 5% CO<sub>2</sub> for 1 h. Macrophages were then lysed by 0.1% Triton-X and the lysed samples serially diluted and spot-plated onto THB agar plates for CFU enumeration.</p>\n<p><strong>Animal models of inflammation </strong></p>\n<p><strong><em>Peritoneal inflammation:</em></strong> WT and <em>Pik3cg-/-</em> mice were Intraperitoneally injected with 100 µl of a 3% thioglycolate (Sigma) solution. Peritoneal cells and fluids were collected 96 hours later from the peritoneal cavity into 10 ml of PBS. Macrophage enrichment was performed by plating cells in RPMI with 10% FBS and 1% penicillin/streptomycin for 2 h at 37 °C and 5% CO2. After 2 h, non-adherent cells were removed with three PBS washes, and cells were analyzed via flow cytometry for expression of CD45 (30-F11, RRID:AB_1210805), CD11b (M1/70, RRID:AB_469901), and F4/80 (BM8, RRID:AB_469653) (ThermoFisher). All data analysis was performed using the flow cytometry analysis program FloJo (Becton Dickinson).</p>\n<p><strong><em>ARDS Animal models:</em></strong> Inflammatory acute respiratory distress syndrome (ARDS) was modeled in animals by systemic or local administration of lipopolysaccharide (LPS) or poly inosine:cytosine (poly I:C). To model acute inflammation, n=5-10 WT or <em>Pik3cg-/-</em> mice were inoculated by intraperitoneal injection with a single dose of 10 mg/kg LPS (L4391, Sigma-Aldrich, Inc., St. Louis, MO, USA) or 12 mg/kg poly I:C (PCL-40-03, Invivogen, Inc., San Diego, CA, USA). In studies evaluating the effect of PI3Kg inhibitor IPI-549, mice were pre-treated once daily for 2 days with 100µl of Vehicle or IPI-549 (15mg/kg) by oral gavage prior to LPS or poly I:C inoculation.  Animals were euthanized 24hr later. All studies were performed three or more times with n= 5-10/group. To model chronic inflammation, WT or <em>Pik3cg-/-</em> mice were inoculated with doses of 3 mg/kg LPS or 12 mg/kg Poly I:C by intraperitoneal injection on three consecutive days. Some WT animals were pre-treated with 100µl of Vehicle or IPI-549 (15mg/kg) by oral gavage (n=5-10) for 1-2 days prior to LPS or poly I:C inoculation and once daily after inoculation for 3 days. Animals were euthanized 24hr after the last treatments. All studies were performed three or more times. In some animals, 5 mg/kg Poly I:C or LPS in 20 µl was administered once daily for three days by intranasal inoculation and animals were treated as described above. All studies were performed three or more times with n= 5-10/group.</p>\n<p><strong><em>ARDS Histopathology:</em></strong> To collect lung tissues from mice for histopathology, mice were euthanized, and lungs were immediately inflated by intratracheal administration of up to 1ml 10% zinc formalin, followed by immersion in 10% zinc formalin for 24-48hrs. Lungs were paraffin embedded and sectioned at the UCSD Moores Cancer Center histology shared resource. Glass slides containing 5µm thick tissue sections were deparaffinized and stained with hematoxylin and eosin or Mason's Trichrome by the Moores Cancer Center histology shared resource. Alternatively, slides were deparaffinized, rehydrated, treated with Diva Decloaker (Biocare Medical) antigen retrieval solution followed by endogenous peroxidase blocking, and then incubated with 5% normal goat serum for 1 hour. Slides were then incubated with 1:250 anti-F4/80 (RRID:AB_467558 <strong>14-4801-82</strong><strong>, </strong>ThermoFischer Scientific) or 1:500 anti-IBA1 (NB100-1028SS, Novus Biologicals) at 4°C overnight. Following primary antibody incubation, slides were washed in TBST, and incubated with goat anti-rat or horse anti-goat (horseradish peroxidase (HRP)-conjugated polymer (Vector Laboratories, Burlingame, CA) for 30 minutes at room temperature, washed in TBST and counterstained with hematoxylin. Images were taken on a Nikon microscope (Eclipse TE2000-U) and analyzed using Metamorph image capture analysis software (Version 6.3r5, Molecular Devices).</p>\n<p><strong><em>ARDS Cytokine analysis:</em></strong> To collect serum for cytokine analysis, blood was collected from the submandibular vein in living animals or from the ocular vein immediately after euthanasia of mice. Blood was allowed to clot for 30-60min at room temperature, then was centrifuged at 2000 x g for 10 min at 4°C. Serum was collected and stored at -80°C until use. </p>\n<p><strong><em>ARDS RNA analysis:</em></strong> To collect lung tissue for RNA analysis, animals were perfused with 5–10 ml of PBS to remove blood prior to excision of intact lungs. RNA was extracted from lungs using Trizol (Invitrogen, Carlsbad, CA). </p>\n<p><strong><em>ARDS CD11b+ cell isolation:</em></strong><strong> </strong>Murine lung tissues were minced in a petri dish on ice and then enzymatically dissociated in Hanks Balanced Salt Solution with Ca2+ and Mg2+ containing 0.5 mg/ml Collagenase IV (Sigma), 0.1 mg/ml Hyaluronidase V (Sigma), 0.6 U/ml Dispase II (Roche), 0.005 MU/ml DNAse I(Sigma) and 0.2 mg/ml soybean trypsin inhibitor (Worthington Biochemical) at 37°C for 15 min. Red blood cells were lysed with red blood cell lysis solution (Sigma), and the resulting suspension was filtered through a 70 µm cell strainer to produce a single cell suspension. Cells were centrifuged, at 300×g for 10 minutes, washed 2x in 1x PBS with 2mM EDTA and 0.5% BSA buffer and resuspended in 90 µL of 1x PBS with 2mM EDTA and 0.5% BSA per 107 total cells. CD11b+ cells were isolated by anti-CD11b magnetic bead pull down (130-049-601, Miltenyi Biotech, San Diego, CA) as follows: 10 µl of anti-CD11b MicroBeads was then added per 107 total cells, mixed well and incubated for 15 minutes in ice. Cells were then washed with 1−2 ml of 1x PBS with 2mM EDTA and 0.5% BSA buffer per 107 cells and centrifuged at 300×g for 10 minutes. The pellet was then resuspended at a concentration of 108 cells in 500 µL of buffer, applied to an LS column (Miltenyi, Cat #130-042-401) on a QuadroMACs magnetic separator (Miltenyi, Cat#130-091-051). The flow through containing CD11b- cells was collected for RNA extraction, and CD11b+ cells were eluted using a wash buffer into a separate collection tube for RNA extraction.</p>\n<p><strong><em>ARDS vascular leak assay:</em></strong><strong> </strong>To measure vascular leak in mouse models of acute respiratory distress syndrome, LPS or Poly I:C treated mice were injected by tail vein injection with 30mg/kg Evan's blue dye (100µl of 1% w/v in 0.9% saline) and one hour later, mice were euthanized. Lungs, heart, and kidneys were excised, weighed and dehydrated overnight at 65°C. Evan's Blue dye was extracted from dried tissue by incubation with formamide at a ratio of 10µl/mg dry weight overnight. Extracted dye was quantified versus a standard curve by measuring absorbance at 620nm.</p>\n<p><strong><em>ARDS bronchoalveolar lavage:</em></strong><strong> </strong>To collect cells and fluid from the bronchoalveolar spaces of mouse lungs, mice were euthanized. 1 ml of PBS-EDTA was injected into the lungs via intratracheal cannulation and then aspirated into a 15 mL conical tube; cells were pelleted by centrifugation at 300xg, and the supernatant (bronchoalveolar lavage fluid, BALF) was cryopreserved at -80°C for further analysis. Two additional lavages were performed; cells from all three lavages were pooled, centrifuged 5min at 300 × g at 4 °C, resuspended in 1 mL and centrifuged using a Cytospin centrifuge (ThermoFisher) for morphological analysis by Wright Giemsa staining and counting.           </p>\n<p><strong>Western blotting to detect PI3K</strong><strong>g: </strong>Immortalized murine macrophages were transfected with ribonucleoprotein (RNP) complexes consisting of a one of two guide RNAs targeting the second exon of the <em>Pik3cg </em>gene (sgRNA 1: GCTGGAAGAACTATGAAC and sgRNA 2: GGAGAACTATGAACAAC) and Cas9 nuclease (spCas9 2NLS Nuclease) from Synthego. Each population was Sanger sequenced to confirm gene knockdown. RIPA protein lysates from WT, transfected and mock transfected macrophages were electrophoresed on a 4-12% gradient gel, transferred to PVDF membrane for sequential incubation in rabbit anti-PIK3CG (D55D5) or rabbit anti-GAPDH (14C10) at 1:1000 followed by incubation in anti-rabbit IgG, HRP linked antibody and chemiluminescent substrate.</p>\n<p><strong>QUANTIFICATION AND STATISTICAL ANALYSIS </strong></p>\n<p>All data were graphed and expressed as the mean +/- standard error of the mean (mean +/- SE) using Graph Pad Prism version 9.1.0. Results were analyzed statistically using one-way Anova with Tukey's post-hoc test for multiple group analysis and Student's t-test or Mann Whitney non-parametric t tests for two group analysis using Graph Pad Prism version 9.1.0. Data with <em>p</em>≤0.05 were considered statistically significant and values greater than p&gt;0.05 were considered non-significant. All studies were performed 3 or more times with three or more replicates per group, except for SARS-CoV-2 in vivo assays which were performed one time each with 5-10 replicates per group due to the restricted access to SARS-CoV-2 animal models.</p>"
+    },
+    "title": "PI3Kg inhibition circumvents inflammation and mortality in SARS-CoV-2 and other infections",
+    "links": {
+        "self": "https://zenodo.org/api/records/7901694",
+        "self_html": "https://zenodo.org/records/7901694",
+        "preview_html": "https://zenodo.org/records/7901694?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.7901694",
+        "self_doi": "https://doi.org/10.5281/zenodo.7901694",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7901694",
+        "reserve_doi": "https://zenodo.org/api/records/7901694/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/7901693",
+        "parent_html": "https://zenodo.org/records/7901693",
+        "parent_doi": "https://doi.org/10.5281/zenodo.7901693",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7901693",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7901694/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7901694/sequence/default",
+        "files": "https://zenodo.org/api/records/7901694/files",
+        "media_files": "https://zenodo.org/api/records/7901694/media-files",
+        "archive": "https://zenodo.org/api/records/7901694/files-archive",
+        "archive_media": "https://zenodo.org/api/records/7901694/media-files-archive",
+        "latest": "https://zenodo.org/api/records/7901694/versions/latest",
+        "latest_html": "https://zenodo.org/records/7901694/latest",
+        "versions": "https://zenodo.org/api/records/7901694/versions",
+        "draft": "https://zenodo.org/api/records/7901694/draft",
+        "access_links": "https://zenodo.org/api/records/7901694/access/links",
+        "access_grants": "https://zenodo.org/api/records/7901694/access/grants",
+        "access_users": "https://zenodo.org/api/records/7901694/access/users",
+        "access_request": "https://zenodo.org/api/records/7901694/access/request",
+        "access": "https://zenodo.org/api/records/7901694/access",
+        "communities": "https://zenodo.org/api/records/7901694/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/7901694/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/7901694/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/7901694/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/7901694/quota-increase",
+        "requests": "https://zenodo.org/api/records/7901694/requests"
+    },
+    "updated": "2024-11-22T22:24:25.789693+00:00",
+    "recid": "7901694",
+    "revision": 6,
+    "files": [
+        {
+            "id": "673401d8-c5f2-4558-be79-c563e0bc047b",
+            "key": "GSEA_dotplots_COVID.Rmd",
+            "size": 5683,
+            "checksum": "md5:0765806c163da0255934283b4bf56259",
+            "links": {
+                "self": "https://zenodo.org/api/records/7901694/files/GSEA_dotplots_COVID.Rmd/content"
+            }
+        },
+        {
+            "id": "6d64de64-72ae-4634-8612-70314a5fcdd9",
+            "key": "Heatma.R",
+            "size": 20991,
+            "checksum": "md5:ab36aa230f4297751d249db5304d137f",
+            "links": {
+                "self": "https://zenodo.org/api/records/7901694/files/Heatma.R/content"
+            }
+        },
+        {
+            "id": "02d696a1-1823-4ef2-b629-3b55c8ae537f",
+            "key": "RNA-seq_SpatialDecon.R",
+            "size": 10040,
+            "checksum": "md5:364cd287fed484ca08410612bbff005f",
+            "links": {
+                "self": "https://zenodo.org/api/records/7901694/files/RNA-seq_SpatialDecon.R/content"
+            }
+        },
+        {
+            "id": "687de8c8-1200-4719-9c9f-fedbbd1e9c2e",
+            "key": "Human_Mouse_RNAseq_Integration_Code_Deposit.Rmd",
+            "size": 17774,
+            "checksum": "md5:75f545b7e0d21dcaa58b7ee8ff2c5e2b",
+            "links": {
+                "self": "https://zenodo.org/api/records/7901694/files/Human_Mouse_RNAseq_Integration_Code_Deposit.Rmd/content"
+            }
+        },
+        {
+            "id": "935edfbf-4a34-431a-b4f9-da191319d4cd",
+            "key": "Heatmap_for_IFNg_Viral_Response_Human_Mouse.Rmd",
+            "size": 8107,
+            "checksum": "md5:4bd08b2c7945e1f6b07124489591ec80",
+            "links": {
+                "self": "https://zenodo.org/api/records/7901694/files/Heatmap_for_IFNg_Viral_Response_Human_Mouse.Rmd/content"
+            }
+        },
+        {
+            "id": "b630a0ab-1991-4c10-b17f-fd83bddba9a7",
+            "key": "Mouse_SarsCov2_RNAseq_Code_Deposit.Rmd",
+            "size": 49910,
+            "checksum": "md5:ba2224665b477c565b15d938ae371874",
+            "links": {
+                "self": "https://zenodo.org/api/records/7901694/files/Mouse_SarsCov2_RNAseq_Code_Deposit.Rmd/content"
+            }
+        }
+    ],
+    "swh": {},
+    "owners": [
+        {
+            "id": "90070"
+        }
+    ],
+    "status": "published",
+    "stats": {
+        "downloads": 245,
+        "unique_downloads": 245,
+        "views": 102,
+        "unique_views": 102,
+        "version_downloads": 245,
+        "version_unique_downloads": 245,
+        "version_unique_views": 102,
+        "version_views": 102
+    },
+    "state": "done",
+    "submitted": true
+}

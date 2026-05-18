@@ -1,0 +1,174 @@
+{
+    "created": "2024-10-07T23:51:07.955958+00:00",
+    "modified": "2024-10-08T00:11:28.238593+00:00",
+    "id": 13901216,
+    "conceptrecid": "13901215",
+    "doi": "10.5281/zenodo.13901216",
+    "conceptdoi": "10.5281/zenodo.13901215",
+    "doi_url": "https://doi.org/10.5281/zenodo.13901216",
+    "metadata": {
+        "title": "Long COVID model",
+        "doi": "10.5281/zenodo.13901216",
+        "publication_date": "2024-10-08",
+        "access_right": "open",
+        "creators": [
+            {
+                "name": "Beams, Alexaner",
+                "affiliation": "Simon Fraser University",
+                "orcid": "0000-0002-6656-0217"
+            }
+        ],
+        "custom": {
+            "code:codeRepository": "https://github.com/alexbeams/PASCModel",
+            "code:programmingLanguage": [
+                {
+                    "id": "r",
+                    "title": {
+                        "en": "R"
+                    }
+                }
+            ],
+            "code:developmentStatus": {
+                "id": "unsupported",
+                "title": {
+                    "en": "Unsupported"
+                }
+            }
+        },
+        "resource_type": {
+            "title": "Software",
+            "type": "software"
+        },
+        "journal": {
+            "title": "Uncertainty in COVID-19 Transmission Could Undermine our Ability to Predict Long COVID"
+        },
+        "license": {
+            "id": "cc-by-4.0"
+        },
+        "relations": {
+            "version": [
+                {
+                    "index": 0,
+                    "is_last": true,
+                    "parent": {
+                        "pid_type": "recid",
+                        "pid_value": "13901215"
+                    }
+                }
+            ]
+        }
+    },
+    "title": "Long COVID model",
+    "links": {
+        "self": "https://zenodo.org/api/records/13901216",
+        "self_html": "https://zenodo.org/records/13901216",
+        "preview_html": "https://zenodo.org/records/13901216?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.13901216",
+        "self_doi": "https://doi.org/10.5281/zenodo.13901216",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13901216",
+        "reserve_doi": "https://zenodo.org/api/records/13901216/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/13901215",
+        "parent_html": "https://zenodo.org/records/13901215",
+        "parent_doi": "https://doi.org/10.5281/zenodo.13901215",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13901215",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13901216/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13901216/sequence/default",
+        "files": "https://zenodo.org/api/records/13901216/files",
+        "media_files": "https://zenodo.org/api/records/13901216/media-files",
+        "archive": "https://zenodo.org/api/records/13901216/files-archive",
+        "archive_media": "https://zenodo.org/api/records/13901216/media-files-archive",
+        "latest": "https://zenodo.org/api/records/13901216/versions/latest",
+        "latest_html": "https://zenodo.org/records/13901216/latest",
+        "versions": "https://zenodo.org/api/records/13901216/versions",
+        "draft": "https://zenodo.org/api/records/13901216/draft",
+        "access_links": "https://zenodo.org/api/records/13901216/access/links",
+        "access_grants": "https://zenodo.org/api/records/13901216/access/grants",
+        "access_users": "https://zenodo.org/api/records/13901216/access/users",
+        "access_request": "https://zenodo.org/api/records/13901216/access/request",
+        "access": "https://zenodo.org/api/records/13901216/access",
+        "communities": "https://zenodo.org/api/records/13901216/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/13901216/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/13901216/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/13901216/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/13901216/quota-increase",
+        "requests": "https://zenodo.org/api/records/13901216/requests"
+    },
+    "updated": "2024-10-08T00:11:28.238593+00:00",
+    "recid": "13901216",
+    "revision": 6,
+    "files": [
+        {
+            "id": "10d1d5f5-4728-44f6-a4d5-895eacc1e8c9",
+            "key": "README.md",
+            "size": 157,
+            "checksum": "md5:b2f6dbd6fe159e7e4446ce0f5a2ab8f3",
+            "links": {
+                "self": "https://zenodo.org/api/records/13901216/files/README.md/content"
+            }
+        },
+        {
+            "id": "8912d0d7-9685-4616-8390-437d19a77eae",
+            "key": "pasc_vax.R",
+            "size": 21245,
+            "checksum": "md5:c25a096596aa95b545984d600c73e841",
+            "links": {
+                "self": "https://zenodo.org/api/records/13901216/files/pasc_vax.R/content"
+            }
+        },
+        {
+            "id": "2f6afec1-33d6-4b9a-aa20-39ae34f072e6",
+            "key": "pasc.R",
+            "size": 38881,
+            "checksum": "md5:84845d9b6384c20fb2f368daae45038d",
+            "links": {
+                "self": "https://zenodo.org/api/records/13901216/files/pasc.R/content"
+            }
+        },
+        {
+            "id": "c51d40eb-eb3d-42f3-a69c-0ff891a10996",
+            "key": "immuneEscape.R",
+            "size": 10380,
+            "checksum": "md5:9e8b8e2d402c918b8996aadf4fbd005a",
+            "links": {
+                "self": "https://zenodo.org/api/records/13901216/files/immuneEscape.R/content"
+            }
+        },
+        {
+            "id": "1e2750cd-0ef6-446a-b46c-b80c163fa2f7",
+            "key": "pasc_het.R",
+            "size": 28804,
+            "checksum": "md5:ec3cc5896ef57c66309f53e3d93c7349",
+            "links": {
+                "self": "https://zenodo.org/api/records/13901216/files/pasc_het.R/content"
+            }
+        },
+        {
+            "id": "38b2d002-a51a-4e50-b4e3-b2d579d49a8b",
+            "key": "steady.R",
+            "size": 4988,
+            "checksum": "md5:46555ef877b2fb7fe29eba7418955611",
+            "links": {
+                "self": "https://zenodo.org/api/records/13901216/files/steady.R/content"
+            }
+        }
+    ],
+    "swh": {},
+    "owners": [
+        {
+            "id": "1199196"
+        }
+    ],
+    "status": "published",
+    "stats": {
+        "downloads": 72,
+        "unique_downloads": 64,
+        "views": 51,
+        "unique_views": 45,
+        "version_downloads": 72,
+        "version_unique_downloads": 64,
+        "version_unique_views": 45,
+        "version_views": 51
+    },
+    "state": "done",
+    "submitted": true
+}

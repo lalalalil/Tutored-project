@@ -1,0 +1,145 @@
+{
+    "created": "2025-08-22T01:27:02.235695+00:00",
+    "modified": "2025-08-22T01:27:02.624139+00:00",
+    "id": 16804602,
+    "conceptrecid": "15178090",
+    "doi": "10.5281/zenodo.16804602",
+    "conceptdoi": "10.5281/zenodo.15178090",
+    "doi_url": "https://doi.org/10.5281/zenodo.16804602",
+    "metadata": {
+        "title": "Variant-specific antibody correlates of protection against SARS-CoV-2 Omicron symptomatic and overall infections",
+        "doi": "10.5281/zenodo.16804602",
+        "publication_date": "2025-08-21",
+        "description": "<p>R notebook for data cleaning and statistical analyses of the scientific article: \"Variant-specific antibody correlates of protection against SARS-CoV-2 Omicron symptomatic and overall infections\". A companion synthetic dataset was added to this version.&nbsp;</p>",
+        "access_right": "open",
+        "creators": [
+            {
+                "name": "Zambrana, José Victor",
+                "affiliation": "University of Michigan–Ann Arbor",
+                "orcid": "0000-0003-0107-6173"
+            }
+        ],
+        "language": "eng",
+        "custom": {
+            "code:programmingLanguage": [
+                {
+                    "id": "r",
+                    "title": {
+                        "en": "R"
+                    }
+                }
+            ]
+        },
+        "resource_type": {
+            "title": "Computational notebook",
+            "type": "software",
+            "subtype": "computationalnotebook"
+        },
+        "alternate_identifiers": [
+            {
+                "identifier": "10.1101/2025.02.11.25322066"
+            }
+        ],
+        "license": {
+            "id": "cc-by-4.0"
+        },
+        "relations": {
+            "version": [
+                {
+                    "index": 3,
+                    "is_last": true,
+                    "parent": {
+                        "pid_type": "recid",
+                        "pid_value": "15178090"
+                    }
+                }
+            ]
+        }
+    },
+    "title": "Variant-specific antibody correlates of protection against SARS-CoV-2 Omicron symptomatic and overall infections",
+    "links": {
+        "self": "https://zenodo.org/api/records/16804602",
+        "self_html": "https://zenodo.org/records/16804602",
+        "preview_html": "https://zenodo.org/records/16804602?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.16804602",
+        "self_doi": "https://doi.org/10.5281/zenodo.16804602",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16804602",
+        "reserve_doi": "https://zenodo.org/api/records/16804602/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/15178090",
+        "parent_html": "https://zenodo.org/records/15178090",
+        "parent_doi": "https://doi.org/10.5281/zenodo.15178090",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15178090",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:16804602/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:16804602/sequence/default",
+        "files": "https://zenodo.org/api/records/16804602/files",
+        "media_files": "https://zenodo.org/api/records/16804602/media-files",
+        "archive": "https://zenodo.org/api/records/16804602/files-archive",
+        "archive_media": "https://zenodo.org/api/records/16804602/media-files-archive",
+        "latest": "https://zenodo.org/api/records/16804602/versions/latest",
+        "latest_html": "https://zenodo.org/records/16804602/latest",
+        "versions": "https://zenodo.org/api/records/16804602/versions",
+        "draft": "https://zenodo.org/api/records/16804602/draft",
+        "access_links": "https://zenodo.org/api/records/16804602/access/links",
+        "access_grants": "https://zenodo.org/api/records/16804602/access/grants",
+        "access_users": "https://zenodo.org/api/records/16804602/access/users",
+        "access_request": "https://zenodo.org/api/records/16804602/access/request",
+        "access": "https://zenodo.org/api/records/16804602/access",
+        "communities": "https://zenodo.org/api/records/16804602/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/16804602/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/16804602/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/16804602/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/16804602/quota-increase",
+        "requests": "https://zenodo.org/api/records/16804602/requests"
+    },
+    "updated": "2025-08-22T01:27:02.624139+00:00",
+    "recid": "16804602",
+    "revision": 4,
+    "files": [
+        {
+            "id": "3ea07794-d415-46cf-9e99-39fccddcc4a1",
+            "key": "README.txt",
+            "size": 367,
+            "checksum": "md5:495928d729a5671e6739b68e99d53449",
+            "links": {
+                "self": "https://zenodo.org/api/records/16804602/files/README.txt/content"
+            }
+        },
+        {
+            "id": "ad3c593d-e6b0-48e2-994e-1528dd827caf",
+            "key": "JUN26-2025 CoP analysis.R",
+            "size": 62426,
+            "checksum": "md5:b2d5f8bf55dbf415f70ba91ffa51c6c6",
+            "links": {
+                "self": "https://zenodo.org/api/records/16804602/files/JUN26-2025%20CoP%20analysis.R/content"
+            }
+        },
+        {
+            "id": "ff41d51d-4e41-4dc5-bd6d-d1de0145ae76",
+            "key": "datasero2.RDS",
+            "size": 170937,
+            "checksum": "md5:d15aee3acf890856b87eff6e145647e4",
+            "links": {
+                "self": "https://zenodo.org/api/records/16804602/files/datasero2.RDS/content"
+            }
+        }
+    ],
+    "swh": {},
+    "owners": [
+        {
+            "id": "1095364"
+        }
+    ],
+    "status": "published",
+    "stats": {
+        "downloads": 128,
+        "unique_downloads": 128,
+        "views": 217,
+        "unique_views": 202,
+        "version_downloads": 108,
+        "version_unique_downloads": 108,
+        "version_unique_views": 99,
+        "version_views": 105
+    },
+    "state": "done",
+    "submitted": true
+}

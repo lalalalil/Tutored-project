@@ -1,0 +1,168 @@
+{
+    "created": "2026-04-20T14:37:35.746925+00:00",
+    "modified": "2026-04-20T14:37:36.148247+00:00",
+    "id": 19155076,
+    "conceptrecid": "16743226",
+    "doi": "10.5281/zenodo.19155076",
+    "conceptdoi": "10.5281/zenodo.16743226",
+    "doi_url": "https://doi.org/10.5281/zenodo.19155076",
+    "metadata": {
+        "title": "Longitudinal antibody profiling after dengue reveals distinct dynamics by antibody specificity over 18 months",
+        "doi": "10.5281/zenodo.19155076",
+        "publication_date": "2026-04-20",
+        "description": "<p>R notebook from \"Longitudinal antibody profiling after dengue reveals distinct dynamics by antibody specificity over 18 months\" research project.</p>\n<p>This code contains a readme file, simulated dataset and code to reproduce main figures of our project.&nbsp;</p>\n<p>For more information contact:</p>\n<p>josviczammad@gmail.com</p>",
+        "access_right": "open",
+        "creators": [
+            {
+                "name": "Jose Victor, Zambrana",
+                "affiliation": null
+            },
+            {
+                "name": "Bos, Sandra",
+                "affiliation": "University of Pittsburgh",
+                "orcid": "0000-0001-5036-0336"
+            }
+        ],
+        "contributors": [
+            {
+                "name": "Zambrana, José Victor",
+                "affiliation": "University of Michigan–Ann Arbor",
+                "type": "Researcher",
+                "orcid": "0000-0003-0107-6173"
+            },
+            {
+                "name": "Bos, Sandra",
+                "affiliation": "University of Pittsburgh",
+                "type": "Researcher",
+                "orcid": "0000-0001-5036-0336"
+            }
+        ],
+        "related_identifiers": [
+            {
+                "identifier": "10.1101/2025.08.11.25333449",
+                "relation": "isDerivedFrom",
+                "resource_type": "publication-preprint",
+                "scheme": "doi"
+            }
+        ],
+        "references": [
+            "https://doi.org/10.1101/2025.08.11.25333449"
+        ],
+        "custom": {
+            "code:programmingLanguage": [
+                {
+                    "id": "r",
+                    "title": {
+                        "en": "R"
+                    }
+                }
+            ]
+        },
+        "resource_type": {
+            "title": "Computational notebook",
+            "type": "software",
+            "subtype": "computationalnotebook"
+        },
+        "license": {
+            "id": "cc-by-4.0"
+        },
+        "relations": {
+            "version": [
+                {
+                    "index": 1,
+                    "is_last": true,
+                    "parent": {
+                        "pid_type": "recid",
+                        "pid_value": "16743226"
+                    }
+                }
+            ]
+        }
+    },
+    "title": "Longitudinal antibody profiling after dengue reveals distinct dynamics by antibody specificity over 18 months",
+    "links": {
+        "self": "https://zenodo.org/api/records/19155076",
+        "self_html": "https://zenodo.org/records/19155076",
+        "preview_html": "https://zenodo.org/records/19155076?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.19155076",
+        "self_doi": "https://doi.org/10.5281/zenodo.19155076",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19155076",
+        "reserve_doi": "https://zenodo.org/api/records/19155076/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/16743226",
+        "parent_html": "https://zenodo.org/records/16743226",
+        "parent_doi": "https://doi.org/10.5281/zenodo.16743226",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.16743226",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19155076/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19155076/sequence/default",
+        "files": "https://zenodo.org/api/records/19155076/files",
+        "media_files": "https://zenodo.org/api/records/19155076/media-files",
+        "archive": "https://zenodo.org/api/records/19155076/files-archive",
+        "archive_media": "https://zenodo.org/api/records/19155076/media-files-archive",
+        "latest": "https://zenodo.org/api/records/19155076/versions/latest",
+        "latest_html": "https://zenodo.org/records/19155076/latest",
+        "versions": "https://zenodo.org/api/records/19155076/versions",
+        "draft": "https://zenodo.org/api/records/19155076/draft",
+        "access_links": "https://zenodo.org/api/records/19155076/access/links",
+        "access_grants": "https://zenodo.org/api/records/19155076/access/grants",
+        "access_users": "https://zenodo.org/api/records/19155076/access/users",
+        "access_request": "https://zenodo.org/api/records/19155076/access/request",
+        "access": "https://zenodo.org/api/records/19155076/access",
+        "communities": "https://zenodo.org/api/records/19155076/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/19155076/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/19155076/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/19155076/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/19155076/quota-increase",
+        "requests": "https://zenodo.org/api/records/19155076/requests"
+    },
+    "updated": "2026-04-20T14:37:36.148247+00:00",
+    "recid": "19155076",
+    "revision": 4,
+    "files": [
+        {
+            "id": "4a452bb9-3f23-49d5-8710-a04a22b023be",
+            "key": "README.txt",
+            "size": 9020,
+            "checksum": "md5:f593bba65950c3af3e67c3829e1182a6",
+            "links": {
+                "self": "https://zenodo.org/api/records/19155076/files/README.txt/content"
+            }
+        },
+        {
+            "id": "f1c72e94-b76c-42ec-971b-4260dd82b18e",
+            "key": "AbDynamics_Code.r",
+            "size": 140723,
+            "checksum": "md5:632258dd54c3d47084e2ef0cd3c80109",
+            "links": {
+                "self": "https://zenodo.org/api/records/19155076/files/AbDynamics_Code.r/content"
+            }
+        },
+        {
+            "id": "0165110f-2765-42d7-875f-d5bfe8090a5f",
+            "key": "AbDynamics_SimulatedDataset.RData",
+            "size": 479627,
+            "checksum": "md5:22201afc6debb3f788dfe49e40273ce3",
+            "links": {
+                "self": "https://zenodo.org/api/records/19155076/files/AbDynamics_SimulatedDataset.RData/content"
+            }
+        }
+    ],
+    "swh": {},
+    "owners": [
+        {
+            "id": "1095364"
+        }
+    ],
+    "status": "published",
+    "stats": {
+        "downloads": 14,
+        "unique_downloads": 14,
+        "views": 33,
+        "unique_views": 25,
+        "version_downloads": 7,
+        "version_unique_downloads": 7,
+        "version_unique_views": 10,
+        "version_views": 17
+    },
+    "state": "done",
+    "submitted": true
+}

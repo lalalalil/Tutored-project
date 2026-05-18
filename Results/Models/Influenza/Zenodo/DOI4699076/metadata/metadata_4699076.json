@@ -1,0 +1,127 @@
+{
+    "created": "2021-04-29T19:09:44.351150+00:00",
+    "modified": "2022-06-04T13:47:54.316706+00:00",
+    "id": 4699076,
+    "conceptrecid": "4699075",
+    "doi": "10.5281/zenodo.4699076",
+    "conceptdoi": "10.5281/zenodo.4699075",
+    "doi_url": "https://doi.org/10.5281/zenodo.4699076",
+    "metadata": {
+        "title": "Information and sequences of the six lineages identified in the H1N1 influenza A virus",
+        "doi": "10.5281/zenodo.4699076",
+        "publication_date": "2021-04-29",
+        "description": "<p>The influenza virus mutates and spreads rapidly, making it an ideal model for studying evolutionary and ecological processes. The ecological factors and processes by which different lineages compete or coexist within hosts, through time and across geographical space are poorly known. We hypothesize that competition would be higher for influenza viruses sharing the same host than those sharing different hosts (Host Barrier Hypothesis), or for influenza viruses with a higher cross-region transmission intensity than those with a lower cross-region transmission intensity (Geographic Barrier Hypothesis). Using available sequences of influenza A (H1N1) virus in GenBank we identified six lineages of H1N1 and twelve clades with several replacement events. We found the human-hosted lineages had a higher cross-region transmission intensity than swine-hosted lineages. The estimated co-occurrence probability of lineages sharing the same host is much lower than those sharing different hosts, and human-hosted lineages had lower co-occurrence probability and genetic diversity than swine-hosted lineages. Our results indicate that H1N1 lineages sharing the same host or having a higher cross-region transmission intensity experienced a higher competition and extinction pressure. Our study highlights the significant roles of the host and geographic barriers in shaping the competition, extinction and coexistence patterns of H1N1 lineages or clades.</p>",
+        "access_right": "open",
+        "creators": [
+            {
+                "name": "Cheng, Chaoyuan",
+                "affiliation": "Chinese Academy of Sciences",
+                "orcid": "0000-0001-9908-0706"
+            },
+            {
+                "name": "Zhang, Zhibin",
+                "affiliation": "Chinese Academy of Sciences"
+            }
+        ],
+        "related_identifiers": [
+            {
+                "identifier": "10.5061/dryad.r2280gbcw",
+                "relation": "isSourceOf",
+                "scheme": "doi"
+            }
+        ],
+        "resource_type": {
+            "title": "Software",
+            "type": "software"
+        },
+        "license": {
+            "id": "mit-license"
+        },
+        "communities": [
+            {
+                "id": "dryad"
+            }
+        ],
+        "relations": {
+            "version": [
+                {
+                    "index": 0,
+                    "is_last": true,
+                    "parent": {
+                        "pid_type": "recid",
+                        "pid_value": "4699075"
+                    }
+                }
+            ]
+        },
+        "notes": "<p>The explanation of each variable in the dataset is as follows:</p>\n\n<p>id: the virus name</p>\n\n<p>lat: latitude</p>\n\n<p>lon: longitude</p>\n\n<p>time: sampling time of the virus</p>\n\n<p>seqs: aligned HA-gene sequences of the virus</p>\n\n<p>host: host type</p>\n\n<p>year: sampling year</p>"
+    },
+    "title": "Information and sequences of the six lineages identified in the H1N1 influenza A virus",
+    "links": {
+        "self": "https://zenodo.org/api/records/4699076",
+        "self_html": "https://zenodo.org/records/4699076",
+        "preview_html": "https://zenodo.org/records/4699076?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.4699076",
+        "self_doi": "https://doi.org/10.5281/zenodo.4699076",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4699076",
+        "reserve_doi": "https://zenodo.org/api/records/4699076/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/4699075",
+        "parent_html": "https://zenodo.org/records/4699075",
+        "parent_doi": "https://doi.org/10.5281/zenodo.4699075",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4699075",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:4699076/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:4699076/sequence/default",
+        "files": "https://zenodo.org/api/records/4699076/files",
+        "media_files": "https://zenodo.org/api/records/4699076/media-files",
+        "archive": "https://zenodo.org/api/records/4699076/files-archive",
+        "archive_media": "https://zenodo.org/api/records/4699076/media-files-archive",
+        "latest": "https://zenodo.org/api/records/4699076/versions/latest",
+        "latest_html": "https://zenodo.org/records/4699076/latest",
+        "versions": "https://zenodo.org/api/records/4699076/versions",
+        "draft": "https://zenodo.org/api/records/4699076/draft",
+        "access_links": "https://zenodo.org/api/records/4699076/access/links",
+        "access_grants": "https://zenodo.org/api/records/4699076/access/grants",
+        "access_users": "https://zenodo.org/api/records/4699076/access/users",
+        "access_request": "https://zenodo.org/api/records/4699076/access/request",
+        "access": "https://zenodo.org/api/records/4699076/access",
+        "communities": "https://zenodo.org/api/records/4699076/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/4699076/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/4699076/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/4699076/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/4699076/quota-increase",
+        "requests": "https://zenodo.org/api/records/4699076/requests"
+    },
+    "updated": "2022-06-04T13:47:54.316706+00:00",
+    "recid": "4699076",
+    "revision": 3,
+    "files": [
+        {
+            "id": "3806430e-19c8-43cc-9c60-d2909260e972",
+            "key": "Calculating_the_coexistence_coefficient_between_different_lineages_and_hosts.py",
+            "size": 2834,
+            "checksum": "md5:09951c53fa0a686097bcce70fe6dca76",
+            "links": {
+                "self": "https://zenodo.org/api/records/4699076/files/Calculating_the_coexistence_coefficient_between_different_lineages_and_hosts.py/content"
+            }
+        }
+    ],
+    "swh": {},
+    "owners": [
+        {
+            "id": "90070"
+        }
+    ],
+    "status": "published",
+    "stats": {
+        "downloads": 57,
+        "unique_downloads": 56,
+        "views": 79,
+        "unique_views": 74,
+        "version_downloads": 57,
+        "version_unique_downloads": 56,
+        "version_unique_views": 74,
+        "version_views": 79
+    },
+    "state": "done",
+    "submitted": true
+}

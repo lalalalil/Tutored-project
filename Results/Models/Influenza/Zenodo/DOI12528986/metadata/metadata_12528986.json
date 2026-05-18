@@ -1,0 +1,157 @@
+{
+    "created": "2024-06-25T13:30:49.023986+00:00",
+    "modified": "2024-06-25T13:30:49.337566+00:00",
+    "id": 12528986,
+    "conceptrecid": "10514577",
+    "doi": "10.5281/zenodo.12528986",
+    "conceptdoi": "10.5281/zenodo.10514577",
+    "doi_url": "https://doi.org/10.5281/zenodo.12528986",
+    "metadata": {
+        "title": "Supporting data for \"Systematic analysis of SARS-CoV-2 Omicron subvariants' impact on B and T cell epitopes\"",
+        "doi": "10.5281/zenodo.12528986",
+        "publication_date": "2024-06-25",
+        "description": "<p>Data and code for the paper:</p>\n<p>Ruba Al Khalaf, Anna Bernasconi, and Pietro Pinoli. 2024.</p>\n<p>\"Systematic analysis of SARS-CoV-2 Omicron subvariants' impact on B and T cell epitopes\"</p>\n<p>&nbsp;</p>\n<p>This repository contains:</p>\n<ul>\n<li>The datasets curated: a <strong>Epitopes datasets.zip </strong>folder contains two files a T cell epitopes file and a B cell epitopes file, and a <strong>Subvariants dataset.zip</strong> folder contains a file of the characterizing mutations list of each subvariants used in the analysis.</li>\n<li>The code:&nbsp;<strong>The notebook</strong> file contains the Jupyter Notebook (Python code) of the analysis.</li>\n<li>The supplementary file of the paper: a <strong>Supplementary Materials.zip </strong>file contains all the supplementary figures and files mentioned in the paper.</li>\n<li>A&nbsp;<strong>Figures.zip</strong> folder contains all the generated figures -used in the paper- in high resolution.</li>\n</ul>",
+        "access_right": "open",
+        "creators": [
+            {
+                "name": "Al Khalaf, Ruba",
+                "affiliation": "Politecnico di Milano",
+                "orcid": "0000-0002-5645-5886"
+            },
+            {
+                "name": "Bernasconi, Anna",
+                "affiliation": "Politecnico di Milano",
+                "orcid": "0000-0001-8016-5750"
+            },
+            {
+                "name": "Pinoli, Pietro",
+                "affiliation": "Politecnico di Milano",
+                "orcid": "0000-0001-9786-2851"
+            }
+        ],
+        "resource_type": {
+            "title": "Computational notebook",
+            "type": "software",
+            "subtype": "computationalnotebook"
+        },
+        "license": {
+            "id": "cc-by-4.0"
+        },
+        "relations": {
+            "version": [
+                {
+                    "index": 3,
+                    "is_last": true,
+                    "parent": {
+                        "pid_type": "recid",
+                        "pid_value": "10514577"
+                    }
+                }
+            ]
+        }
+    },
+    "title": "Supporting data for \"Systematic analysis of SARS-CoV-2 Omicron subvariants' impact on B and T cell epitopes\"",
+    "links": {
+        "self": "https://zenodo.org/api/records/12528986",
+        "self_html": "https://zenodo.org/records/12528986",
+        "preview_html": "https://zenodo.org/records/12528986?preview=1",
+        "doi": "https://doi.org/10.5281/zenodo.12528986",
+        "self_doi": "https://doi.org/10.5281/zenodo.12528986",
+        "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12528986",
+        "reserve_doi": "https://zenodo.org/api/records/12528986/draft/pids/doi",
+        "parent": "https://zenodo.org/api/records/10514577",
+        "parent_html": "https://zenodo.org/records/10514577",
+        "parent_doi": "https://doi.org/10.5281/zenodo.10514577",
+        "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10514577",
+        "self_iiif_manifest": "https://zenodo.org/api/iiif/record:12528986/manifest",
+        "self_iiif_sequence": "https://zenodo.org/api/iiif/record:12528986/sequence/default",
+        "files": "https://zenodo.org/api/records/12528986/files",
+        "media_files": "https://zenodo.org/api/records/12528986/media-files",
+        "archive": "https://zenodo.org/api/records/12528986/files-archive",
+        "archive_media": "https://zenodo.org/api/records/12528986/media-files-archive",
+        "latest": "https://zenodo.org/api/records/12528986/versions/latest",
+        "latest_html": "https://zenodo.org/records/12528986/latest",
+        "versions": "https://zenodo.org/api/records/12528986/versions",
+        "draft": "https://zenodo.org/api/records/12528986/draft",
+        "access_links": "https://zenodo.org/api/records/12528986/access/links",
+        "access_grants": "https://zenodo.org/api/records/12528986/access/grants",
+        "access_users": "https://zenodo.org/api/records/12528986/access/users",
+        "access_request": "https://zenodo.org/api/records/12528986/access/request",
+        "access": "https://zenodo.org/api/records/12528986/access",
+        "communities": "https://zenodo.org/api/records/12528986/communities",
+        "communities-suggestions": "https://zenodo.org/api/records/12528986/communities-suggestions",
+        "request_deletion": "https://zenodo.org/api/records/12528986/request-deletion",
+        "file_modification": "https://zenodo.org/api/records/12528986/file-modification",
+        "quota_increase": "https://zenodo.org/api/records/12528986/quota-increase",
+        "requests": "https://zenodo.org/api/records/12528986/requests"
+    },
+    "updated": "2024-06-25T13:30:49.337566+00:00",
+    "recid": "12528986",
+    "revision": 4,
+    "files": [
+        {
+            "id": "2825a5f1-069f-4c31-82d0-8437f48862f8",
+            "key": "Epitopes datasets.zip",
+            "size": 106431734,
+            "checksum": "md5:81ff5b15509b63c94e8867bab09e3b0d",
+            "links": {
+                "self": "https://zenodo.org/api/records/12528986/files/Epitopes%20datasets.zip/content"
+            }
+        },
+        {
+            "id": "4f7710f9-8fdf-4a20-ace6-4f6564f4ad35",
+            "key": "Figures.zip",
+            "size": 8107826,
+            "checksum": "md5:51166f33527447d7f05f286deb5b9afa",
+            "links": {
+                "self": "https://zenodo.org/api/records/12528986/files/Figures.zip/content"
+            }
+        },
+        {
+            "id": "286e4400-8844-488d-8215-f472c3aa62ea",
+            "key": "Subvarinats dataset.zip",
+            "size": 2294,
+            "checksum": "md5:e150799103f9158018cea34c5e67c696",
+            "links": {
+                "self": "https://zenodo.org/api/records/12528986/files/Subvarinats%20dataset.zip/content"
+            }
+        },
+        {
+            "id": "54d7de3b-7f59-475a-bb51-d3ca7dbf1419",
+            "key": "Supplementary Materials.zip",
+            "size": 6133006,
+            "checksum": "md5:c6a505c3beed5565602fbe15329f8b41",
+            "links": {
+                "self": "https://zenodo.org/api/records/12528986/files/Supplementary%20Materials.zip/content"
+            }
+        },
+        {
+            "id": "b1760d41-b42d-4f2d-b4c7-c92ab0127584",
+            "key": "The notebook.ipynb",
+            "size": 1406185,
+            "checksum": "md5:58477701fc3f8bd0deb0072405657925",
+            "links": {
+                "self": "https://zenodo.org/api/records/12528986/files/The%20notebook.ipynb/content"
+            }
+        }
+    ],
+    "swh": {},
+    "owners": [
+        {
+            "id": "514469"
+        }
+    ],
+    "status": "published",
+    "stats": {
+        "downloads": 558,
+        "unique_downloads": 554,
+        "views": 352,
+        "unique_views": 323,
+        "version_downloads": 356,
+        "version_unique_downloads": 355,
+        "version_unique_views": 144,
+        "version_views": 151
+    },
+    "state": "done",
+    "submitted": true
+}
