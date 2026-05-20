@@ -1,4 +1,4 @@
-# Zenodo pipeline extractor
+# Zenodo Analysis Pipeline
 
 ## Overview
 
