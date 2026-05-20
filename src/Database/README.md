@@ -113,9 +113,3 @@ The execution pipeline generates a physical relational database asset alongside 
 | `infectio_git.db` | The populated SQLite database containing all relational tables and constraints. |
 | Table Row Summaries | Direct console printout displaying the exact number of populated records per entity. |
 | Pandas DataFrame Highlights | Analytical matrix logs demonstrating valid relational joins across pathogens and models. |
-
----
-
-# Authors
-
-Developed for large-scale infectious disease database consolidation, cross-repository standardization, and relational model discovery in computational biology and bioinformatics.
