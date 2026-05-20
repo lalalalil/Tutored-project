@@ -1,5 +1,4 @@
-# Zenodo Pathogen Model Extractor
-
+# Zenodo Analysis Pipeline
 ## Overview
 
 This project provides a complete Python pipeline for downloading, organizing, filtering, and preparing computational models of infectious diseases from the Zenodo repository.
