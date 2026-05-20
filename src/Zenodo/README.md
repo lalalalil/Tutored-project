@@ -1,9 +1,6 @@
-# Pathogen Model Extractor & Analyzer
+# Pathogen Model Extractor (Zenodo API)
 
-This project is a two-part pipeline designed to systematically retrieve, filter, and analyze mathematical and computational models of infectious diseases from the Zenodo repository. 
-
-1. **Python Script**: Queries the Zenodo API for specific pathogens, filters for software records containing executable or modeling file extensions, and downloads both the metadata and the source files.
-2. **R Script**: Parses the downloaded local JSON metadata and files to generate statistical insights and structured visualizations.
+This Python script runs a data extraction pipeline designed to systematically retrieve and filter mathematical and computational models of infectious diseases from the Zenodo repository. It queries the Zenodo API, applies strict metadata filters, isolates records containing executable model code, and downloads both the raw files and their structured metadata.
 
 ---
 
@@ -12,13 +9,13 @@ This project is a two-part pipeline designed to systematically retrieve, filter,
 * **Targeted Filtering**: Automatically excludes general epidemiological noise (e.g., climate, bed capacity, transmission rates) using negative API queries to focus strictly on structural or computational models.
 * **Format-Specific Extraction**: Detects and downloads specific formats: Python (`.py`, `.ipynb`), R (`.r`), MATLAB (`.m`), Julia (`.jl`), C/C++ (`.c`, `.cpp`), and systems biology standards (`.sbml`, `.sedml`, `.omex`, `.cps`, `.cellml`).
 * **Automated Architecture**: Structures downloaded files hierarchically by target pathogen, creating organized `metadata` and `data` subdirectories.
-* **Rate-Limit Friendly**: Embedded pauses (`time.sleep`) prevent API overload and connection drops.
+* **Rate-Limit Friendly**: Embedded pauses (`time.sleep`) prevent API overload, connection drops, or rate-limiting blocks.
 
 ---
 
 ## Directory Structure
 
-The Python script builds the following architectur. The R script relies on this layout to aggregate statistics:
+The script builds the following architecture. This exact layout is required for subsequent downstream analysis scripts to run properly:
 
 ```text
 Models/
