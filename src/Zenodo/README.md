@@ -1,24 +1,47 @@
-# Pathogen Model Extractor (Zenodo API)
+# Zenodo Pathogen Model Extractor
 
-This Python script runs a data extraction pipeline designed to systematically retrieve and filter mathematical and computational models of infectious diseases from the Zenodo repository. It queries the Zenodo API, applies strict metadata filters, isolates records containing executable model code, and downloads both the raw files and their structured metadata.
+## Overview
 
----
+This project provides a complete Python pipeline for downloading, organizing, filtering, and preparing computational models of infectious diseases from the Zenodo repository.
 
-## Features
+The pipeline automatically connects to the Zenodo API to search for target pathogens while filtering out general epidemiological noise. It systematically separates modeling scripts from metadata, creates structured local directories, isolates valid executable files, and eliminates empty repositories.
 
-* **Targeted Filtering**: Automatically excludes general epidemiological noise (e.g., climate, bed capacity, transmission rates) using negative API queries to focus strictly on structural or computational models.
-* **Format-Specific Extraction**: Detects and downloads specific formats: Python (`.py`, `.ipynb`), R (`.r`), MATLAB (`.m`), Julia (`.jl`), C/C++ (`.c`, `.cpp`), and systems biology standards (`.sbml`, `.sedml`, `.omex`, `.cps`, `.cellml`).
-* **Automated Architecture**: Structures downloaded files hierarchically by target pathogen, creating organized `metadata` and `data` subdirectories.
-* **Rate-Limit Friendly**: Embedded pauses (`time.sleep`) prevent API overload, connection drops, or rate-limiting blocks.
+The script is specifically designed for large-scale comparative analysis of infectious disease computational models, serving as the data ingestion step before downstream statistical analysis.
 
 ---
 
-## Directory Structure
+# Features
 
-The script builds the following architecture. This exact layout is required for subsequent downstream analysis scripts to run properly:
+* **Automated Zenodo API Crawling**: Performs multi-page queries using specific pathogen keywords and automated pagination.
+* **Targeted Noise Filtering**: Uses negative API queries to exclude unrelated articles focusing on epidemics, climate, transmission, or hospital bed capacities.
+* **Format-Specific Extraction**: Detects and isolates specific computational files including Python, R, MATLAB, Julia, C/C++, and systems biology standards.
+* **Hierarchical Repository Storage**: Automatically builds organized subdirectories for data and metadata based on extracted clean DOIs.
+* **Self-Cleaning Architecture**: Automatically removes temporary or empty virus directories that do not contain valid executable files.
+* **Rate-Limit Safeguards**: Integrates strategic pauses to comply with Zenodo API limitations and ensure data transfer stability.
+
+---
+
+# Supported Diseases
+
+The pipeline currently searches models related to:
+
+* Dengue (DENV)
+* Chikungunya (CHIKV)
+* Mpox (monkeypox)
+* West Nile Virus (WNV)
+* Influenza (including avian influenza and H5N1 strains)
+* Tuberculosis (mycobacterium)
+* HIV (human immunodeficiency virus)
+* COVID-19 (SARS-CoV-2)
+
+---
+
+# Project Structure
+
+The extraction pipeline dynamically builds and manages the following file system layout:
 
 ```text
-Models/
+├──Models
 └── [Pathogen_Name]/
     └── Zenodo/
         └── DOI[Extracted_ID]/
