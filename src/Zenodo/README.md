@@ -1,4 +1,4 @@
-# Zenodo Pathogen Model Extractor
+# Zenodo pipeline extractor
 
 ## Overview
 
