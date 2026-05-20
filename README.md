@@ -315,7 +315,7 @@ This project is distributed under the MIT License.
 ## Supervisors
 
 * Anna Niarakis
-* Nicolas Ricort-Teixidor
+* Virginie Jouffret
 
 ## Students
 
