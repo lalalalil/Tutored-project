@@ -78,8 +78,8 @@ p1 <- df %>%
   labs(title = "Publications Timeline", x = "Year", y = "Count") +
   theme_bio
 
-# Plot 6: Distribution of file types
-p6 <- df %>%
+# Plot 2: Distribution of file types
+p2 <- df %>%
   summarise(across(all_of(EXECUTABLE_EXTENSIONS), sum)) %>%
   pivot_longer(everything(), names_to = "extension", values_to = "total") %>%
   filter(total > 0) %>% 
@@ -89,8 +89,8 @@ p6 <- df %>%
   labs(title = "Files by Extension", x = "Type", y = "Total") +
   theme_bio
 
-# Plot 8: Distribution per Virus/Disease category
-p8 <- df %>%
+# Plot 3: Distribution per Virus/Disease category
+p3 <- df %>%
   count(disease_category) %>%
   filter(disease_category != "Unknown") %>% 
   ggplot(aes(x = reorder(disease_category, -n), y = n)) +
@@ -101,5 +101,5 @@ p8 <- df %>%
 
 # EXPORT 
 ggsave(file.path(output_dir, "01_timeline.png"), p1, width = 8, height = 5)
-ggsave(file.path(output_dir, "06_extensions.png"), p6, width = 8, height = 5)
-ggsave(file.path(output_dir, "08_categories.png"), p8, width = 8, height = 5)
+ggsave(file.path(output_dir, "02_extensions.png"), p2, width = 8, height = 5)
+ggsave(file.path(output_dir, "03_categories.png"), p3, width = 8, height = 5)
