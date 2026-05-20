@@ -1,4 +1,4 @@
-# Zenodo Analysis Pipeline
+# Zenodo Pathogen Model Extractor
 
 ## Overview
 
@@ -41,7 +41,6 @@ The pipeline currently searches models related to:
 The extraction pipeline dynamically builds and manages the following file system layout:
 
 ```text
-├──Models
 └── [Pathogen_Name]/
     └── Zenodo/
         └── DOI[Extracted_ID]/
@@ -49,3 +48,93 @@ The extraction pipeline dynamically builds and manages the following file system
             │   └── model_file.py
             └── metadata/
                 └── metadata_[Extracted_ID].json
+```
+
+---
+
+# Installation
+
+## Requirements
+
+* Python 3.x
+
+## Python Dependencies
+
+Install the required network package:
+
+```bash
+pip install requests
+```
+
+---
+
+# Usage
+
+Run the extraction script directly from your terminal:
+
+```bash
+python zenodo_extraction.py
+```
+
+---
+
+# Pipeline Steps
+
+## 1. Automated Search & Pagination
+The script queries the Zenodo API with a targeted keyword payload. It loops through up to five pages per query variant to gather relevant software entries while actively filtering out duplicate versions.
+
+## 2. Extension Filtering
+Every retrieved record undergoes a strict validation check. The pipeline inspects the file keys inside the metadata and ensures they match the target computational biology and programming formats before initiating any download.
+
+## 3. Directory Creation & Metadata Isolation
+For every valid record, a clean numeric identifier is extracted from the DOI. The script generates specialized data and metadata folders, writing the complete, unedited Zenodo JSON response directly into the metadata directory.
+
+## 4. Source File Download
+The script connects to the specific download links provided by the API context, downloading the raw script assets directly into the localized data subdirectories using binary writing modes.
+
+## 5. Post-Extraction Clean Up
+Once all keyword variants for a specific pathogen are processed, the system evaluates the target folder contents. If a pathogen directory contains no valid downloaded model files, the entire directory tree is wiped to keep the workspace clean.
+
+---
+
+# Metadata Structure
+
+Example of the structured metadata JSON saved by the script:
+
+```json
+{
+    "id": 1234567,
+    "links": {
+        "doi": "[https://doi.org/10.5281/zenodo.1234567](https://doi.org/10.5281/zenodo.1234567)",
+        "self": "[https://zenodo.org/api/records/1234567](https://zenodo.org/api/records/1234567)"
+    },
+    "metadata": {
+        "title": "Pathogen Computational Model",
+        "publication_date": "2026-05-20",
+        "description": "Source code repository for target disease dynamics."
+    },
+    "files": [
+        {
+            "key": "simulation.py",
+            "links": {
+                "self": "[https://zenodo.org/api/files/.../simulation.py](https://zenodo.org/api/files/.../simulation.py)"
+            }
+        }
+    ]
+}
+```
+
+---
+
+# Recognized File Types
+
+The script isolates computational modeling files and code scripts using a synchronized extension list:
+
+* **Python**: `.py`, `.ipynb`
+* **R Script**: `.r`
+* **MATLAB**: `.m`
+* **Julia**: `.jl`
+* **C / C++**: `.c`, `.cpp`
+* **Systems Biology / Copasi**: `.sbml`, `.sedml`, `.omex`, `.cps`, `.cellml`
+
+---
