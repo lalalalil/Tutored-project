@@ -59,32 +59,6 @@ docker-compose run infectio python src/Database/database_creation.py
 
 ---
 
-## Project Structure
-
-```
-InfectioGIT/
-├── docker/                          # Docker configuration
-│   ├── Dockerfile                   # Multi-stage build for all dependencies
-│   ├── docker-compose.yml           # Service orchestration
-│   ├── requirements.txt             # Python dependencies
-│   └── README.md                    # This file
-├── src/                             # Source code
-│   ├── Biomodels/
-│   │   └── biomodels_pipeline.py   # BioModels analysis (8-step pipeline)
-│   ├── NCBI/
-│   │   ├── ncbi_extraction.py      # PubMed Central extraction
-│   │   └── cleanup_files.py        # File cleanup utility
-│   ├── Zenodo/
-│   │   └── zenodo_extraction.py    # Zenodo data retrieval
-│   └── Database/
-│       └── database_creation.py    # SQLite database schema & population
-├── Results/                         # Downloaded models and results
-├── BioModels_Database_Final/        # BioModels data (created at runtime)
-├── BioModels_Stats/                 # BioModels statistics outputs
-└── downloaded_ncbi_models/          # NCBI extracted files (created at runtime)
-```
-
----
 
 ## Key Dependencies
 
