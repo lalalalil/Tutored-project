@@ -225,15 +225,92 @@ Generated figures are exported in publication-ready PNG format.
 
 # Installation and Usage
 
-## Python Requirements
+## Quick Start with Docker (Recommended)
 
-```bash id="l4pr30"
-pip install bioservices biomodels requests
+Docker provides a complete, reproducible environment with all dependencies pre-configured.
+
+### Prerequisites
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+### Setup
+
+```bash
+# Navigate to docker folder
+cd docker
+
+# Build the Docker image (takes ~3 minutes)
+docker-compose build
+
+# Verify installation
+docker-compose run infectio python -c "
+from Bio import Entrez
+import bioservices
+print('✓ All dependencies installed successfully!')
+"
 ```
 
-## R Requirements
+### Running Pipelines with Docker
 
-```r id="u7d1ny"
+#### BioModels Analysis Pipeline
+Interactive 8-step pipeline for downloading and analyzing BioModels:
+```bash
+cd docker
+docker-compose run infectio python src/Biomodels/biomodels_pipeline.py
+```
+
+**Menu Options:**
+1. Download & Sort (metadata vs model files)
+2. Clean Empty Models & Generate Extension Stats
+3. Separate by Curation Status
+4. Classify by Modelling Approach
+5. Generate Publication Dates CSV
+6. Delete Models Published Before 2015
+7. Clean Metadata Directories
+8. Run R Statistical Analysis
+9. Exit
+
+#### NCBI PubMed Central Extraction
+Download open-access articles and code from PubMed Central:
+```bash
+cd docker
+docker-compose run infectio python src/NCBI/ncbi_extraction.py
+```
+
+#### Database Creation
+Scan GitHub repository and populate SQLite database:
+```bash
+cd docker
+docker-compose run infectio python src/Database/database_creation.py
+```
+
+### Interactive Python Shell
+
+```bash
+cd docker
+docker-compose run infectio python -i
+```
+
+Then import and use the modules:
+```python
+from Bio import Entrez
+import bioservices
+import pandas as pd
+# ... your code here
+```
+
+---
+
+## Local Installation (Alternative)
+
+### Python Requirements
+
+```bash
+pip install biopython bioservices biomodels requests pandas numpy scipy xmltodict pyyaml tqdm
+```
+
+### R Requirements
+
+```r
 install.packages(c(
   "tidyverse",
   "janitor",
@@ -241,18 +318,17 @@ install.packages(c(
 ))
 ```
 
-## Running the Pipelines
+### Running the Pipelines
 
-### Python Pipeline
+```bash
+# BioModels Pipeline
+python src/Biomodels/biomodels_pipeline.py
 
-```bash id="z3u2n4"
-python biomodels_pipeline.py
-```
+# NCBI Extraction
+python src/NCBI/ncbi_extraction.py
 
-### R Statistical Analysis
-
-```bash id="4r5y9p"
-Rscript stats_biomodels.R
+# Database Creation
+python src/Database/database_creation.py
 ```
 
 ---

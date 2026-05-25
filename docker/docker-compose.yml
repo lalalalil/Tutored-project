@@ -4,13 +4,21 @@ services:
     container_name: infectio-pipeline
     working_dir: /app
     volumes:
-      # Mount your local ptut directory to /app
-      - .:/app
-      # Mount Desktop for output
-      - ~/Desktop:/home/user/Desktop
+      # Mount project root for source code and data
+      - ..:/app
+      # Mount user home for Desktop access
+      - ~/:/home/user
+      # Mount outputs to Desktop
+      - ~/Desktop/infectio_outputs:/app/outputs
     environment:
       - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+      # Email for NCBI/Entrez API (optional, set if needed)
+      - ENTREZ_EMAIL=sebbahaya03@gmail.com
     stdin_open: true
     tty: true
-    # Override with: docker-compose run infectio python ncbi_extraction.py
     command: python -i
+    # Uncomment and modify to run specific scripts:
+    # command: python src/Biomodels/biomodels_pipeline.py
+    # command: python src/NCBI/ncbi_extraction.py
+    # command: python src/Database/database_creation.py
